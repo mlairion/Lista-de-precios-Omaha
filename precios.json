@@ -40,7 +40,7 @@
     {
       "id": "WD40100V",
       "cat": "Compresores",
-      "nombre": "Compresor Bi-Cil\\u00edndrico",
+      "nombre": "Compresor Bi-Cilíndrico",
       "desc": "100 lts | 4.0 HP",
       "precio": 0,
       "pvp": 0,
@@ -52,7 +52,7 @@
     {
       "id": "WD40100VK",
       "cat": "Compresores",
-      "nombre": "Compresor Bi-Cil\\u00edndrico",
+      "nombre": "Compresor Bi-Cilíndrico",
       "desc": "100 lts | 4.0 HP | Kit 3 piezas",
       "precio": 0,
       "pvp": 0,
@@ -100,7 +100,7 @@
     {
       "id": "EWS150-50",
       "cat": "Compresores",
-      "nombre": "Compresor Odontol\\u00f3gico",
+      "nombre": "Compresor Odontológico",
       "desc": "50 lts | 1.5 HP",
       "precio": 0,
       "pvp": 0,
@@ -111,7 +111,7 @@
     },
     {
       "id": "CE-650",
-      "cat": "Herramientas El\\u00e9ctricas",
+      "cat": "Herramientas Eléctricas",
       "nombre": "Cepillo Rebajador",
       "desc": "650 W | 0-82 mm | 0-2 mm",
       "precio": 0,
@@ -123,7 +123,7 @@
     },
     {
       "id": "CE-900",
-      "cat": "Herramientas El\\u00e9ctricas",
+      "cat": "Herramientas Eléctricas",
       "nombre": "Cepillo Rebajador",
       "desc": "900 W | 0-82 mm | 0-3 mm",
       "precio": 0,
@@ -135,7 +135,7 @@
     },
     {
       "id": "LB5-900",
-      "cat": "Herramientas El\\u00e9ctricas",
+      "cat": "Herramientas Eléctricas",
       "nombre": "Lijadora de Banda Manual",
       "desc": "900 W | 533x76 mm",
       "precio": 0,
@@ -147,7 +147,7 @@
     },
     {
       "id": "LOR-180",
-      "cat": "Herramientas El\\u00e9ctricas",
+      "cat": "Herramientas Eléctricas",
       "nombre": "Lijadora Orbital de Banda",
       "desc": "180 W | 90x187 mm",
       "precio": 0,
@@ -159,7 +159,7 @@
     },
     {
       "id": "LOC-230",
-      "cat": "Herramientas El\\u00e9ctricas",
+      "cat": "Herramientas Eléctricas",
       "nombre": "Lijadora Orbital",
       "desc": "230 W | 115x110 mm",
       "precio": 0,
@@ -171,9 +171,9 @@
     },
     {
       "id": "PK-1800",
-      "cat": "Herramientas El\\u00e9ctricas",
+      "cat": "Herramientas Eléctricas",
       "nombre": "Pistola de Calor",
-      "desc": "1800 W | 380\\u00b0-500\\u00b0",
+      "desc": "1800 W | 380°-500°",
       "precio": 0,
       "pvp": 0,
       "premium": 0,
@@ -183,7 +183,7 @@
     },
     {
       "id": "LP-1500",
-      "cat": "Herramientas El\\u00e9ctricas",
+      "cat": "Herramientas Eléctricas",
       "nombre": "Lustrali. Pulidora",
       "desc": "1500 W | 180 mm",
       "precio": 0,
@@ -220,7 +220,7 @@
     {
       "id": "EP-2500",
       "cat": "Generadores",
-      "nombre": "Generador El\\u00e9ctrico",
+      "nombre": "Generador Eléctrico",
       "desc": "6.5 HP | 17 lts | 19 hs",
       "precio": 0,
       "pvp": 0,
@@ -232,7 +232,7 @@
     {
       "id": "EP-3500",
       "cat": "Generadores",
-      "nombre": "Generador El\\u00e9ctrico",
+      "nombre": "Generador Eléctrico",
       "desc": "7.0 HP | 17 lts | 12 hs",
       "precio": 0,
       "pvp": 0,
