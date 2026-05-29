@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
+<!-- saved from url=(0043)file:///Users/mlairion/Downloads/index.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lista de Precios 2026 — Omaha High Performance Tools</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./index_files/css2" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -48,6 +48,18 @@ header{background:var(--black);border-bottom:3px solid var(--red);position:stick
 
 /* SIDEBAR */
 .sidebar{width:var(--sidebar-w);flex-shrink:0;background:var(--white);border-right:1px solid var(--gray-300);padding:20px 0 40px;position:sticky;top:calc(var(--header-h) + var(--bar-h));height:calc(100vh - var(--header-h) - var(--bar-h));overflow-y:auto;transition:transform .25s ease}
+.download-btn{
+  display:flex;align-items:center;gap:8px;
+  width:calc(100% - 36px);margin:0 18px 16px;
+  padding:9px 14px;
+  background:var(--red);border:none;border-radius:0;
+  cursor:pointer;
+  font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;
+  color:var(--white);text-transform:uppercase;letter-spacing:.06em;
+  transition:background .12s;
+}
+.download-btn:hover{background:var(--red-dark)}
+.download-btn svg{flex-shrink:0}
 .sb-label{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#bbb;padding:0 18px;margin-bottom:8px}
 .cat-btn{display:flex;align-items:center;justify-content:space-between;width:100%;padding:9px 18px;background:none;border:none;border-left:3px solid transparent;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:400;color:var(--gray-700);text-align:left;transition:all .12s;gap:8px}
 .cat-btn:hover{background:var(--gray-100);color:var(--black)}
@@ -416,13 +428,52 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
 @media(max-width:480px){
   .hdr-contact{display:none}
 }
+
+/* ── LIGHTBOX ─────────────────────────────────────── */
+.lightbox-overlay{
+  display:none;position:fixed;inset:0;
+  background:rgba(0,0,0,.85);z-index:1000;
+  align-items:center;justify-content:center;
+  cursor:zoom-out;
+}
+.lightbox-overlay.open{display:flex}
+.lightbox-img{
+  max-width:90vw;max-height:90vh;
+  object-fit:contain;
+  border-radius:0;
+  box-shadow:0 8px 40px rgba(0,0,0,.6);
+  cursor:default;
+}
+.lightbox-close{
+  position:fixed;top:20px;right:24px;
+  color:#fff;font-size:28px;font-weight:300;
+  cursor:pointer;line-height:1;
+  background:none;border:none;padding:4px 8px;
+  opacity:.8;transition:opacity .15s;
+}
+.lightbox-close:hover{opacity:1}
+
+/* imagen clickeable */
+.pc img{cursor:zoom-in}
+.mob-card-header img{cursor:zoom-in}
+
+/* ── IMAGEN MOBILE — ocupa todo el alto ─────────── */
+@media(max-width:900px){
+  .mob-card-header{align-items:stretch}
+  .mob-card-header img{
+    width:130px;height:130px;
+    object-fit:contain;
+    background:#fff;
+  }
+}
 </style>
+<script src="./index_files/xlsx.full.min.js"></script>
 </head>
 <body>
 
 <header>
   <div class="hdr">
-    <div class="logo-wrap"><svg id="omaha-logo" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 315.9 114.2">
+    <div class="logo-wrap" onclick="window.scrollTo({top:0,behavior:&#39;smooth&#39;})" style="cursor:pointer"><svg id="omaha-logo" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 315.9 114.2">
   
   <defs>
     <style>
@@ -435,64 +486,64 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
       }
     </style>
   </defs>
-  <rect class="st1" x="-335.9" width="315.9" height="114.2"/>
+  <rect class="st1" x="-335.9" width="315.9" height="114.2"></rect>
   <g>
     <g>
-      <path class="st0" d="M-253.8,93.5h-2.9l.8-3.7h-2.8l-.8,3.7h-2.8l2.1-9.1h2.8l-.7,3.2h2.8l.7-3.2h2.9l-2.1,9.1Z"/>
-      <path class="st0" d="M-249.6,93.5h-2.8l2.1-9.1h2.8l-2.1,9.1Z"/>
-      <path class="st0" d="M-239,93.5h-2.7l.2-.7c-.2.2-.4.3-.6.5-.4.2-1,.4-1.6.4-2.1,0-3.6-1.6-3.6-4.1s.5-2.7,1.3-3.7c1-1.2,2.3-1.7,4-1.7s2.2.3,2.9.8c.6.4,1,.9,1.3,1.7l-2.5.8c-.2-.7-.9-1.2-1.7-1.2-1.4,0-2.5,1.3-2.5,3.2s.7,2.3,1.8,2.3,1.3-.4,1.6-1.1v-.2c0,0-1.6,0-1.6,0l.5-2.1h4.4l-1.1,5.1Z"/>
-      <path class="st0" d="M-229.2,93.5h-2.9l.8-3.7h-2.8l-.8,3.7h-2.8l2.1-9.1h2.8l-.7,3.2h2.8l.7-3.2h2.9l-2.1,9.1Z"/>
-      <path class="st0" d="M-215.1,89.5c-.4.5-1,.8-1.7.9-.3,0-.7.1-1,.1s-.3,0-.8,0h-1.3l-.7,3h-2.8l2.1-9.1h3.9c1,0,1.6.1,2.1.5.7.5,1.1,1.2,1.1,2.2s-.3,1.7-.9,2.3ZM-218.5,86.4h-.6l-.5,2.3h.7c.8,0,1.1,0,1.3-.3.3-.2.4-.6.4-.9,0-.7-.5-1-1.3-1Z"/>
-      <path class="st0" d="M-205.8,86.5h-4.1l-.3,1.4h3.9l-.5,2h-3.9l-.4,1.7h4.7l-.4,2h-7.6l2.1-9.1h6.9l-.4,2Z"/>
-      <path class="st0" d="M-196.6,88.9c-.4.5-.7.7-1.6,1l1.6,3.6h-3.1l-1.2-3.3h-1l-.7,3.3h-2.8l2.1-9.1h3.6c1,0,1.4,0,1.8.1,1.2.2,1.9,1.2,1.9,2.5s-.2,1.4-.6,1.8ZM-200.1,86.4h-.9l-.5,2.1h1.1c.5,0,.9,0,1.1-.2.3-.2.6-.5.6-1,0-.6-.4-.9-1.3-.9Z"/>
-      <path class="st0" d="M-187.4,86.5h-4l-.4,1.6h3.9l-.5,2h-3.9l-.8,3.5h-2.8l2.1-9.1h6.8l-.4,2Z"/>
-      <path class="st0" d="M-178.3,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM-181.6,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"/>
-      <path class="st0" d="M-168.1,88.9c-.4.5-.7.7-1.6,1l1.6,3.6h-3.1l-1.2-3.3h-1l-.7,3.3h-2.8l2.1-9.1h3.6c1,0,1.4,0,1.8.1,1.2.2,1.9,1.2,1.9,2.5s-.2,1.4-.6,1.8ZM-171.5,86.4h-.9l-.5,2.1h1.1c.5,0,.9,0,1.1-.2.3-.2.6-.5.6-1,0-.6-.4-.9-1.3-.9Z"/>
-      <path class="st0" d="M-156.7,93.5h-2.7l1.5-6.3-3,6.3h-2.2v-6.2c-.1,0-1.5,6.2-1.5,6.2h-2.7l2.1-9.1h4v5.8s2.6-5.8,2.6-5.8h4l-2,9.1Z"/>
-      <path class="st0" d="M-149.2,93.5v-1.3h-2.7l-.8,1.3h-3.3l5.5-9.1h3.2l1,9.1h-2.9ZM-149.3,87.1l-1.6,3.1h1.7v-3.1Z"/>
-      <path class="st0" d="M-137.3,93.5h-2.9l-1.4-4.8-1.1,4.8h-2.7l2.1-9.1h2.9l1.4,4.6,1-4.6h2.7l-2.1,9.1Z"/>
-      <path class="st0" d="M-128.4,87.5c-.2-.7-.7-1.1-1.5-1.1-1.4,0-2.4,1.3-2.4,3.2s.6,2.1,1.7,2.1,1.4-.5,1.9-1.6l2.2,1.1c-.3.5-.3.6-.6.9-.9,1.2-2.1,1.7-3.7,1.7s-2-.3-2.8-.8c-1.1-.8-1.6-1.9-1.6-3.4s.3-2.3,1-3.3c1-1.4,2.4-2.1,4.1-2.1s3.7,1,4.1,2.6l-2.5.6Z"/>
-      <path class="st0" d="M-117.4,86.5h-4.1l-.3,1.4h3.9l-.4,2h-3.9l-.4,1.7h4.7l-.4,2h-7.6l2.1-9.1h6.9l-.4,2Z"/>
-      <path class="st0" d="M-103.9,86.5h-2.2l-1.6,7.1h-2.9l1.6-7.1h-2.4l.5-2h7.5l-.5,2Z"/>
-      <path class="st0" d="M-95.5,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM-98.7,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"/>
-      <path class="st0" d="M-84.8,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4.1-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM-88,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"/>
-      <path class="st0" d="M-77.3,93.5h-6.1l2.1-9.1h2.9l-1.6,7.1h3.2l-.5,2Z"/>
-      <path class="st0" d="M-69,87.5c-.2-.3-.2-.3-.3-.5-.4-.5-1-.8-1.7-.8s-1.1.2-1.1.6.2.5.9.7c.6.2.9.3,1,.3.8.3,1.4.5,1.7.8.6.4,1,1.1,1,1.9,0,1.9-1.7,3.2-4.3,3.2s-3-.4-3.8-1.3c-.2-.2-.3-.4-.6-.8l2.2-1.5c.1.3.2.4.3.6.4.6,1.2.9,2,.9s1.1-.3,1.1-.8-.1-.4-.3-.5c-.2-.1-.6-.3-1.4-.5-1-.3-1.3-.4-1.7-.7-.7-.5-1-1.1-1-1.9,0-1.9,1.6-3,4-3s3.1.6,4,1.9l-2.1,1.4Z"/>
+      <path class="st0" d="M-253.8,93.5h-2.9l.8-3.7h-2.8l-.8,3.7h-2.8l2.1-9.1h2.8l-.7,3.2h2.8l.7-3.2h2.9l-2.1,9.1Z"></path>
+      <path class="st0" d="M-249.6,93.5h-2.8l2.1-9.1h2.8l-2.1,9.1Z"></path>
+      <path class="st0" d="M-239,93.5h-2.7l.2-.7c-.2.2-.4.3-.6.5-.4.2-1,.4-1.6.4-2.1,0-3.6-1.6-3.6-4.1s.5-2.7,1.3-3.7c1-1.2,2.3-1.7,4-1.7s2.2.3,2.9.8c.6.4,1,.9,1.3,1.7l-2.5.8c-.2-.7-.9-1.2-1.7-1.2-1.4,0-2.5,1.3-2.5,3.2s.7,2.3,1.8,2.3,1.3-.4,1.6-1.1v-.2c0,0-1.6,0-1.6,0l.5-2.1h4.4l-1.1,5.1Z"></path>
+      <path class="st0" d="M-229.2,93.5h-2.9l.8-3.7h-2.8l-.8,3.7h-2.8l2.1-9.1h2.8l-.7,3.2h2.8l.7-3.2h2.9l-2.1,9.1Z"></path>
+      <path class="st0" d="M-215.1,89.5c-.4.5-1,.8-1.7.9-.3,0-.7.1-1,.1s-.3,0-.8,0h-1.3l-.7,3h-2.8l2.1-9.1h3.9c1,0,1.6.1,2.1.5.7.5,1.1,1.2,1.1,2.2s-.3,1.7-.9,2.3ZM-218.5,86.4h-.6l-.5,2.3h.7c.8,0,1.1,0,1.3-.3.3-.2.4-.6.4-.9,0-.7-.5-1-1.3-1Z"></path>
+      <path class="st0" d="M-205.8,86.5h-4.1l-.3,1.4h3.9l-.5,2h-3.9l-.4,1.7h4.7l-.4,2h-7.6l2.1-9.1h6.9l-.4,2Z"></path>
+      <path class="st0" d="M-196.6,88.9c-.4.5-.7.7-1.6,1l1.6,3.6h-3.1l-1.2-3.3h-1l-.7,3.3h-2.8l2.1-9.1h3.6c1,0,1.4,0,1.8.1,1.2.2,1.9,1.2,1.9,2.5s-.2,1.4-.6,1.8ZM-200.1,86.4h-.9l-.5,2.1h1.1c.5,0,.9,0,1.1-.2.3-.2.6-.5.6-1,0-.6-.4-.9-1.3-.9Z"></path>
+      <path class="st0" d="M-187.4,86.5h-4l-.4,1.6h3.9l-.5,2h-3.9l-.8,3.5h-2.8l2.1-9.1h6.8l-.4,2Z"></path>
+      <path class="st0" d="M-178.3,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM-181.6,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"></path>
+      <path class="st0" d="M-168.1,88.9c-.4.5-.7.7-1.6,1l1.6,3.6h-3.1l-1.2-3.3h-1l-.7,3.3h-2.8l2.1-9.1h3.6c1,0,1.4,0,1.8.1,1.2.2,1.9,1.2,1.9,2.5s-.2,1.4-.6,1.8ZM-171.5,86.4h-.9l-.5,2.1h1.1c.5,0,.9,0,1.1-.2.3-.2.6-.5.6-1,0-.6-.4-.9-1.3-.9Z"></path>
+      <path class="st0" d="M-156.7,93.5h-2.7l1.5-6.3-3,6.3h-2.2v-6.2c-.1,0-1.5,6.2-1.5,6.2h-2.7l2.1-9.1h4v5.8s2.6-5.8,2.6-5.8h4l-2,9.1Z"></path>
+      <path class="st0" d="M-149.2,93.5v-1.3h-2.7l-.8,1.3h-3.3l5.5-9.1h3.2l1,9.1h-2.9ZM-149.3,87.1l-1.6,3.1h1.7v-3.1Z"></path>
+      <path class="st0" d="M-137.3,93.5h-2.9l-1.4-4.8-1.1,4.8h-2.7l2.1-9.1h2.9l1.4,4.6,1-4.6h2.7l-2.1,9.1Z"></path>
+      <path class="st0" d="M-128.4,87.5c-.2-.7-.7-1.1-1.5-1.1-1.4,0-2.4,1.3-2.4,3.2s.6,2.1,1.7,2.1,1.4-.5,1.9-1.6l2.2,1.1c-.3.5-.3.6-.6.9-.9,1.2-2.1,1.7-3.7,1.7s-2-.3-2.8-.8c-1.1-.8-1.6-1.9-1.6-3.4s.3-2.3,1-3.3c1-1.4,2.4-2.1,4.1-2.1s3.7,1,4.1,2.6l-2.5.6Z"></path>
+      <path class="st0" d="M-117.4,86.5h-4.1l-.3,1.4h3.9l-.4,2h-3.9l-.4,1.7h4.7l-.4,2h-7.6l2.1-9.1h6.9l-.4,2Z"></path>
+      <path class="st0" d="M-103.9,86.5h-2.2l-1.6,7.1h-2.9l1.6-7.1h-2.4l.5-2h7.5l-.5,2Z"></path>
+      <path class="st0" d="M-95.5,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM-98.7,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"></path>
+      <path class="st0" d="M-84.8,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4.1-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM-88,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"></path>
+      <path class="st0" d="M-77.3,93.5h-6.1l2.1-9.1h2.9l-1.6,7.1h3.2l-.5,2Z"></path>
+      <path class="st0" d="M-69,87.5c-.2-.3-.2-.3-.3-.5-.4-.5-1-.8-1.7-.8s-1.1.2-1.1.6.2.5.9.7c.6.2.9.3,1,.3.8.3,1.4.5,1.7.8.6.4,1,1.1,1,1.9,0,1.9-1.7,3.2-4.3,3.2s-3-.4-3.8-1.3c-.2-.2-.3-.4-.6-.8l2.2-1.5c.1.3.2.4.3.6.4.6,1.2.9,2,.9s1.1-.3,1.1-.8-.1-.4-.3-.5c-.2-.1-.6-.3-1.4-.5-1-.3-1.3-.4-1.7-.7-.7-.5-1-1.1-1-1.9,0-1.9,1.6-3,4-3s3.1.6,4,1.9l-2.1,1.4Z"></path>
     </g>
-    <path class="st0" d="M-249.9,25.8l-16.9,62.7c-.4,1.4-1.5,2.6-3.2,3.6-1.8,1-3.7,1.5-5.8,1.5h-23.1c-2.1,0-3.7-.5-4.7-1.6-1-1.1-1.5-2.2-1.6-3.5l16.9-62.7c.4-1.4,1.5-2.6,3.2-3.6,1.8-1,3.7-1.5,5.8-1.5h23.1c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M-273.7,28.4l-15.5,57.6h7.7l15.5-57.6h-7.7Z"/>
-    <path class="st0" d="M-206.4,28.4l-14.2,52.9h-15.4l14.2-52.9h-7.7l-14.2,52.9h-15.4l15.6-58-1.8-2.6h56.4c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1l-14.9,55.5h-15.4l14.2-52.9h-7.7Z"/>
-    <path class="st0" d="M-139,25.8l-14.9,55.5h-15.4l6-22.1-16.8,5.1h7.7l-4.6,17h-15.4l15.6-58-1.8-2.6h33.3c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M-155.1,28.4h-7.7l-6.9,25.6,8.4-2.6,6.2-23.1Z"/>
-    <polygon class="st0" points="-126 54 -133.4 81.3 -148.8 81.3 -133.2 23.3 -135 20.7 -117.1 20.7 -124 46.3 -107.2 41.2 -114.9 41.2 -109.4 20.7 -94 20.7 -110.3 81.3 -125.7 81.3 -117.7 51.5 -126 54"/>
-    <path class="st0" d="M-51.8,25.8l-14.9,55.5h-15.4l6-22.1-8.4,2.6-5.3,19.6h-15.4l15.6-58-1.8-2.6h33.3c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M-67.9,28.4h-7.7l-6.9,25.6,8.4-2.6,6.2-23.1Z"/>
+    <path class="st0" d="M-249.9,25.8l-16.9,62.7c-.4,1.4-1.5,2.6-3.2,3.6-1.8,1-3.7,1.5-5.8,1.5h-23.1c-2.1,0-3.7-.5-4.7-1.6-1-1.1-1.5-2.2-1.6-3.5l16.9-62.7c.4-1.4,1.5-2.6,3.2-3.6,1.8-1,3.7-1.5,5.8-1.5h23.1c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M-273.7,28.4l-15.5,57.6h7.7l15.5-57.6h-7.7Z"></path>
+    <path class="st0" d="M-206.4,28.4l-14.2,52.9h-15.4l14.2-52.9h-7.7l-14.2,52.9h-15.4l15.6-58-1.8-2.6h56.4c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1l-14.9,55.5h-15.4l14.2-52.9h-7.7Z"></path>
+    <path class="st0" d="M-139,25.8l-14.9,55.5h-15.4l6-22.1-16.8,5.1h7.7l-4.6,17h-15.4l15.6-58-1.8-2.6h33.3c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M-155.1,28.4h-7.7l-6.9,25.6,8.4-2.6,6.2-23.1Z"></path>
+    <polygon class="st0" points="-126 54 -133.4 81.3 -148.8 81.3 -133.2 23.3 -135 20.7 -117.1 20.7 -124 46.3 -107.2 41.2 -114.9 41.2 -109.4 20.7 -94 20.7 -110.3 81.3 -125.7 81.3 -117.7 51.5 -126 54"></polygon>
+    <path class="st0" d="M-51.8,25.8l-14.9,55.5h-15.4l6-22.1-8.4,2.6-5.3,19.6h-15.4l15.6-58-1.8-2.6h33.3c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M-67.9,28.4h-7.7l-6.9,25.6,8.4-2.6,6.2-23.1Z"></path>
   </g>
   <g>
     <g>
-      <path class="st1" d="M82.1,93.5h-2.9l.8-3.7h-2.8l-.8,3.7h-2.8l2.1-9.1h2.8l-.7,3.2h2.8l.7-3.2h2.9l-2.1,9.1Z"/>
-      <path class="st1" d="M86.3,93.5h-2.8l2.1-9.1h2.8l-2.1,9.1Z"/>
-      <path class="st1" d="M96.9,93.5h-2.7l.2-.7c-.2.2-.4.3-.6.5-.4.2-1,.4-1.6.4-2.1,0-3.6-1.6-3.6-4.1s.5-2.7,1.3-3.7c1-1.2,2.3-1.7,4-1.7s2.2.3,2.9.8c.6.4,1,.9,1.3,1.7l-2.5.8c-.2-.7-.9-1.2-1.7-1.2-1.4,0-2.5,1.3-2.5,3.2s.7,2.3,1.8,2.3,1.3-.4,1.6-1.1v-.2c0,0-1.6,0-1.6,0l.5-2.1h4.4l-1.1,5.1Z"/>
-      <path class="st1" d="M106.8,93.5h-2.9l.8-3.7h-2.8l-.8,3.7h-2.8l2.1-9.1h2.8l-.7,3.2h2.8l.7-3.2h2.9l-2.1,9.1Z"/>
-      <path class="st1" d="M120.8,89.5c-.4.5-1,.8-1.7.9-.3,0-.7.1-1,.1s-.3,0-.8,0h-1.3l-.7,3h-2.8l2.1-9.1h3.9c1,0,1.6.1,2.1.5.7.5,1.1,1.2,1.1,2.2s-.3,1.7-.9,2.3ZM117.4,86.4h-.6l-.5,2.3h.7c.8,0,1.1,0,1.3-.3.3-.2.4-.6.4-.9,0-.7-.5-1-1.3-1Z"/>
-      <path class="st1" d="M130.1,86.5h-4.1l-.3,1.4h3.9l-.4,2h-3.9l-.4,1.7h4.7l-.4,2h-7.6l2.1-9.1h6.9l-.4,2Z"/>
-      <path class="st1" d="M139.3,88.9c-.4.5-.7.7-1.6,1l1.6,3.6h-3.1l-1.2-3.3h-1l-.7,3.3h-2.8l2.1-9.1h3.6c1,0,1.4,0,1.8.1,1.2.2,1.9,1.2,1.9,2.5s-.2,1.4-.6,1.8ZM135.8,86.4h-.9l-.5,2.1h1.1c.5,0,.9,0,1.1-.2.3-.2.6-.5.6-1,0-.6-.4-.9-1.3-.9Z"/>
-      <path class="st1" d="M148.5,86.5h-4l-.4,1.6h3.9l-.4,2h-3.9l-.8,3.5h-2.8l2.1-9.1h6.8l-.4,2Z"/>
-      <path class="st1" d="M157.6,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4.1-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM154.3,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"/>
-      <path class="st1" d="M167.8,88.9c-.4.5-.7.7-1.6,1l1.6,3.6h-3.1l-1.2-3.3h-1l-.7,3.3h-2.8l2.1-9.1h3.6c1,0,1.4,0,1.8.1,1.2.2,1.9,1.2,1.9,2.5s-.2,1.4-.6,1.8ZM164.4,86.4h-.9l-.5,2.1h1.1c.5,0,.9,0,1.1-.2.3-.2.6-.5.6-1,0-.6-.4-.9-1.3-.9Z"/>
-      <path class="st1" d="M179.2,93.5h-2.7l1.5-6.3-3,6.3h-2.2v-6.2c-.1,0-1.5,6.2-1.5,6.2h-2.7l2.1-9.1h4v5.8s2.6-5.8,2.6-5.8h4l-2,9.1Z"/>
-      <path class="st1" d="M186.7,93.5v-1.3h-2.7l-.8,1.3h-3.3l5.5-9.1h3.2l1,9.1h-2.9ZM186.6,87.1l-1.6,3.1h1.7v-3.1Z"/>
-      <path class="st1" d="M198.6,93.5h-2.9l-1.4-4.8-1.1,4.8h-2.7l2.1-9.1h2.9l1.4,4.6,1-4.6h2.7l-2.1,9.1Z"/>
-      <path class="st1" d="M207.5,87.5c-.2-.7-.7-1.1-1.5-1.1-1.4,0-2.4,1.3-2.4,3.2s.6,2.1,1.7,2.1,1.4-.5,1.9-1.6l2.2,1.1c-.3.5-.3.6-.6.9-.9,1.2-2.1,1.7-3.7,1.7s-2-.3-2.8-.8c-1.1-.8-1.6-1.9-1.6-3.4s.3-2.3,1-3.3c1-1.4,2.4-2.1,4.1-2.1s3.7,1,4.1,2.6l-2.5.6Z"/>
-      <path class="st1" d="M218.5,86.5h-4.1l-.3,1.4h3.9l-.4,2h-3.9l-.4,1.7h4.7l-.4,2h-7.6l2.1-9.1h6.9l-.4,2Z"/>
-      <path class="st1" d="M232,86.5h-2.2l-1.6,7.1h-2.9l1.6-7.1h-2.4l.5-2h7.5l-.5,2Z"/>
-      <path class="st1" d="M240.4,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM237.2,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"/>
-      <path class="st1" d="M251.2,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4.1-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM247.9,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"/>
-      <path class="st1" d="M258.6,93.5h-6.1l2.1-9.1h2.9l-1.6,7.1h3.2l-.5,2Z"/>
-      <path class="st1" d="M266.9,87.5c-.2-.3-.2-.3-.3-.5-.4-.5-1-.8-1.7-.8s-1.1.2-1.1.6.2.5.9.7c.6.2.9.3,1,.3.8.3,1.4.5,1.7.8.6.4,1,1.1,1,1.9,0,1.9-1.7,3.2-4.3,3.2s-3-.4-3.8-1.3c-.2-.2-.3-.4-.6-.8l2.2-1.5c.1.3.2.4.3.6.4.6,1.2.9,2,.9s1.1-.3,1.1-.8-.1-.4-.3-.5c-.2-.1-.6-.3-1.4-.5-1-.3-1.3-.4-1.7-.7-.7-.5-1-1.1-1-1.9,0-1.9,1.6-3,4-3s3.1.6,4,1.9l-2.1,1.4Z"/>
+      <path class="st1" d="M82.1,93.5h-2.9l.8-3.7h-2.8l-.8,3.7h-2.8l2.1-9.1h2.8l-.7,3.2h2.8l.7-3.2h2.9l-2.1,9.1Z"></path>
+      <path class="st1" d="M86.3,93.5h-2.8l2.1-9.1h2.8l-2.1,9.1Z"></path>
+      <path class="st1" d="M96.9,93.5h-2.7l.2-.7c-.2.2-.4.3-.6.5-.4.2-1,.4-1.6.4-2.1,0-3.6-1.6-3.6-4.1s.5-2.7,1.3-3.7c1-1.2,2.3-1.7,4-1.7s2.2.3,2.9.8c.6.4,1,.9,1.3,1.7l-2.5.8c-.2-.7-.9-1.2-1.7-1.2-1.4,0-2.5,1.3-2.5,3.2s.7,2.3,1.8,2.3,1.3-.4,1.6-1.1v-.2c0,0-1.6,0-1.6,0l.5-2.1h4.4l-1.1,5.1Z"></path>
+      <path class="st1" d="M106.8,93.5h-2.9l.8-3.7h-2.8l-.8,3.7h-2.8l2.1-9.1h2.8l-.7,3.2h2.8l.7-3.2h2.9l-2.1,9.1Z"></path>
+      <path class="st1" d="M120.8,89.5c-.4.5-1,.8-1.7.9-.3,0-.7.1-1,.1s-.3,0-.8,0h-1.3l-.7,3h-2.8l2.1-9.1h3.9c1,0,1.6.1,2.1.5.7.5,1.1,1.2,1.1,2.2s-.3,1.7-.9,2.3ZM117.4,86.4h-.6l-.5,2.3h.7c.8,0,1.1,0,1.3-.3.3-.2.4-.6.4-.9,0-.7-.5-1-1.3-1Z"></path>
+      <path class="st1" d="M130.1,86.5h-4.1l-.3,1.4h3.9l-.4,2h-3.9l-.4,1.7h4.7l-.4,2h-7.6l2.1-9.1h6.9l-.4,2Z"></path>
+      <path class="st1" d="M139.3,88.9c-.4.5-.7.7-1.6,1l1.6,3.6h-3.1l-1.2-3.3h-1l-.7,3.3h-2.8l2.1-9.1h3.6c1,0,1.4,0,1.8.1,1.2.2,1.9,1.2,1.9,2.5s-.2,1.4-.6,1.8ZM135.8,86.4h-.9l-.5,2.1h1.1c.5,0,.9,0,1.1-.2.3-.2.6-.5.6-1,0-.6-.4-.9-1.3-.9Z"></path>
+      <path class="st1" d="M148.5,86.5h-4l-.4,1.6h3.9l-.4,2h-3.9l-.8,3.5h-2.8l2.1-9.1h6.8l-.4,2Z"></path>
+      <path class="st1" d="M157.6,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4.1-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM154.3,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"></path>
+      <path class="st1" d="M167.8,88.9c-.4.5-.7.7-1.6,1l1.6,3.6h-3.1l-1.2-3.3h-1l-.7,3.3h-2.8l2.1-9.1h3.6c1,0,1.4,0,1.8.1,1.2.2,1.9,1.2,1.9,2.5s-.2,1.4-.6,1.8ZM164.4,86.4h-.9l-.5,2.1h1.1c.5,0,.9,0,1.1-.2.3-.2.6-.5.6-1,0-.6-.4-.9-1.3-.9Z"></path>
+      <path class="st1" d="M179.2,93.5h-2.7l1.5-6.3-3,6.3h-2.2v-6.2c-.1,0-1.5,6.2-1.5,6.2h-2.7l2.1-9.1h4v5.8s2.6-5.8,2.6-5.8h4l-2,9.1Z"></path>
+      <path class="st1" d="M186.7,93.5v-1.3h-2.7l-.8,1.3h-3.3l5.5-9.1h3.2l1,9.1h-2.9ZM186.6,87.1l-1.6,3.1h1.7v-3.1Z"></path>
+      <path class="st1" d="M198.6,93.5h-2.9l-1.4-4.8-1.1,4.8h-2.7l2.1-9.1h2.9l1.4,4.6,1-4.6h2.7l-2.1,9.1Z"></path>
+      <path class="st1" d="M207.5,87.5c-.2-.7-.7-1.1-1.5-1.1-1.4,0-2.4,1.3-2.4,3.2s.6,2.1,1.7,2.1,1.4-.5,1.9-1.6l2.2,1.1c-.3.5-.3.6-.6.9-.9,1.2-2.1,1.7-3.7,1.7s-2-.3-2.8-.8c-1.1-.8-1.6-1.9-1.6-3.4s.3-2.3,1-3.3c1-1.4,2.4-2.1,4.1-2.1s3.7,1,4.1,2.6l-2.5.6Z"></path>
+      <path class="st1" d="M218.5,86.5h-4.1l-.3,1.4h3.9l-.4,2h-3.9l-.4,1.7h4.7l-.4,2h-7.6l2.1-9.1h6.9l-.4,2Z"></path>
+      <path class="st1" d="M232,86.5h-2.2l-1.6,7.1h-2.9l1.6-7.1h-2.4l.5-2h7.5l-.5,2Z"></path>
+      <path class="st1" d="M240.4,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM237.2,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"></path>
+      <path class="st1" d="M251.2,91.9c-.4.5-.8.8-1.2,1.1-.8.5-1.9.8-3,.8-2.7,0-4.3-1.5-4.3-4s.6-2.9,1.5-3.9c1-1.1,2.4-1.7,4.1-1.7,2.6,0,4.3,1.5,4.3,3.8h0c0,1.5-.5,2.9-1.3,3.9ZM247.9,86.4c-.6,0-.9.1-1.3.5-.6.6-1,1.8-1,2.9s.6,1.9,1.6,1.9,2.4-1.5,2.4-3.5-.6-1.8-1.7-1.8Z"></path>
+      <path class="st1" d="M258.6,93.5h-6.1l2.1-9.1h2.9l-1.6,7.1h3.2l-.5,2Z"></path>
+      <path class="st1" d="M266.9,87.5c-.2-.3-.2-.3-.3-.5-.4-.5-1-.8-1.7-.8s-1.1.2-1.1.6.2.5.9.7c.6.2.9.3,1,.3.8.3,1.4.5,1.7.8.6.4,1,1.1,1,1.9,0,1.9-1.7,3.2-4.3,3.2s-3-.4-3.8-1.3c-.2-.2-.3-.4-.6-.8l2.2-1.5c.1.3.2.4.3.6.4.6,1.2.9,2,.9s1.1-.3,1.1-.8-.1-.4-.3-.5c-.2-.1-.6-.3-1.4-.5-1-.3-1.3-.4-1.7-.7-.7-.5-1-1.1-1-1.9,0-1.9,1.6-3,4-3s3.1.6,4,1.9l-2.1,1.4Z"></path>
     </g>
-    <path class="st1" d="M86,25.8l-16.8,62.7c-.4,1.4-1.5,2.6-3.2,3.6-1.8,1-3.7,1.5-5.8,1.5h-23.1c-2.1,0-3.7-.5-4.7-1.6-1-1.1-1.5-2.2-1.6-3.5l16.8-62.7c.4-1.4,1.5-2.6,3.2-3.6,1.8-1,3.7-1.5,5.8-1.5h23.1c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M62.2,28.4l-15.5,57.6h7.7l15.5-57.6h-7.7Z"/>
-    <path class="st1" d="M129.5,28.4l-14.2,52.9h-15.4l14.2-52.9h-7.7l-14.2,52.9h-15.4l15.6-58-1.8-2.6h56.4c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1l-14.9,55.5h-15.4l14.2-52.9h-7.7Z"/>
-    <path class="st1" d="M196.9,25.8l-14.9,55.5h-15.4l6-22.1-16.8,5.1h7.7l-4.6,17h-15.4l15.6-58-1.8-2.6h33.3c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M180.8,28.4h-7.7l-6.9,25.6,8.4-2.6,6.2-23.1Z"/>
-    <polygon class="st1" points="209.9 54 202.5 81.3 187.1 81.3 202.7 23.3 200.9 20.7 218.8 20.7 211.9 46.3 228.7 41.2 221 41.2 226.5 20.7 241.9 20.7 225.6 81.3 210.2 81.3 218.3 51.5 209.9 54"/>
-    <path class="st1" d="M284.1,25.8l-14.9,55.5h-15.4l6-22.1-8.4,2.6-5.3,19.6h-15.4l15.6-58-1.8-2.6h33.3c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M268,28.4h-7.7l-6.9,25.6,8.4-2.6,6.2-23.1Z"/>
+    <path class="st1" d="M86,25.8l-16.8,62.7c-.4,1.4-1.5,2.6-3.2,3.6-1.8,1-3.7,1.5-5.8,1.5h-23.1c-2.1,0-3.7-.5-4.7-1.6-1-1.1-1.5-2.2-1.6-3.5l16.8-62.7c.4-1.4,1.5-2.6,3.2-3.6,1.8-1,3.7-1.5,5.8-1.5h23.1c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M62.2,28.4l-15.5,57.6h7.7l15.5-57.6h-7.7Z"></path>
+    <path class="st1" d="M129.5,28.4l-14.2,52.9h-15.4l14.2-52.9h-7.7l-14.2,52.9h-15.4l15.6-58-1.8-2.6h56.4c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1l-14.9,55.5h-15.4l14.2-52.9h-7.7Z"></path>
+    <path class="st1" d="M196.9,25.8l-14.9,55.5h-15.4l6-22.1-16.8,5.1h7.7l-4.6,17h-15.4l15.6-58-1.8-2.6h33.3c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M180.8,28.4h-7.7l-6.9,25.6,8.4-2.6,6.2-23.1Z"></path>
+    <polygon class="st1" points="209.9 54 202.5 81.3 187.1 81.3 202.7 23.3 200.9 20.7 218.8 20.7 211.9 46.3 228.7 41.2 221 41.2 226.5 20.7 241.9 20.7 225.6 81.3 210.2 81.3 218.3 51.5 209.9 54"></polygon>
+    <path class="st1" d="M284.1,25.8l-14.9,55.5h-15.4l6-22.1-8.4,2.6-5.3,19.6h-15.4l15.6-58-1.8-2.6h33.3c2.1,0,3.8.5,5,1.5,1,.8,1.4,1.7,1.4,2.7s0,.6-.2,1M268,28.4h-7.7l-6.9,25.6,8.4-2.6,6.2-23.1Z"></path>
   </g>
 </svg></div>
     <div class="hdr-center">Lista de Precios <strong>2026</strong></div>
@@ -511,14 +562,14 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
     </div>
     <button class="mob-chevron-btn" id="chevronBtn" onclick="toggleExpandAll()" aria-label="Expandir todo">
       <span id="iconExpandir"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.57 74.57" width="32" height="32">
-  <circle fill="#565555" cx="37.29" cy="37.29" r="37.29"/>
-  <path fill="#fff" d="M21.55,45.58v-23.16c0-.48.39-.87.87-.87h23.16c.77,0,1.16.93.61,1.48l-23.16,23.16c-.55.55-1.48.16-1.48-.61Z"/>
-  <path fill="#fff" d="M53.02,28.95v23.22c0,.47-.38.85-.85.85h-23.22c-.76,0-1.13-.91-.6-1.45l23.22-23.22c.53-.53,1.45-.16,1.45.6Z"/>
+  <circle fill="#565555" cx="37.29" cy="37.29" r="37.29"></circle>
+  <path fill="#fff" d="M21.55,45.58v-23.16c0-.48.39-.87.87-.87h23.16c.77,0,1.16.93.61,1.48l-23.16,23.16c-.55.55-1.48.16-1.48-.61Z"></path>
+  <path fill="#fff" d="M53.02,28.95v23.22c0,.47-.38.85-.85.85h-23.22c-.76,0-1.13-.91-.6-1.45l23.22-23.22c.53-.53,1.45-.16,1.45.6Z"></path>
 </svg></span>
       <span id="iconContraer" style="display:none"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.57 74.57" width="32" height="32">
-  <circle fill="#565555" cx="37.29" cy="37.29" r="37.29"/>
-  <path fill="#fff" d="M36.6,13.14v20.97c0,1.37-1.11,2.49-2.49,2.49H13.14c-.75,0-1.13-.91-.6-1.44l22.61-22.61c.53-.53,1.44-.16,1.44.6Z"/>
-  <path fill="#fff" d="M37.98,61.44v-20.97c0-1.37,1.11-2.49,2.49-2.49h20.97c.75,0,1.13.91.6,1.44l-22.61,22.61c-.53.53-1.44.16-1.44-.6Z"/>
+  <circle fill="#565555" cx="37.29" cy="37.29" r="37.29"></circle>
+  <path fill="#fff" d="M36.6,13.14v20.97c0,1.37-1.11,2.49-2.49,2.49H13.14c-.75,0-1.13-.91-.6-1.44l22.61-22.61c.53-.53,1.44-.16,1.44.6Z"></path>
+  <path fill="#fff" d="M37.98,61.44v-20.97c0-1.37,1.11-2.49,2.49-2.49h20.97c.75,0,1.13.91.6,1.44l-22.61,22.61c-.53.53-1.44.16-1.44-.6Z"></path>
 </svg></span>
     </button>
   </div>
@@ -528,26 +579,31 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
 
 <div class="layout">
   <aside class="sidebar" id="sidebar">
+    <button class="download-btn" onclick="descargarExcel()">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+        <path d="M7 1v8M7 9l-3-3M7 9l3-3M1 11h12" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      Descargar lista
+    </button>
     <div class="sb-label">Categorías</div>
-    <button class="cat-btn active" data-cat="all" onclick="filterCat('all',this)">
+    <button class="cat-btn active" data-cat="all" onclick="filterCat(&#39;all&#39;,this)">
       Todos los productos
       <span class="cat-n" id="n-all">0</span>
     </button>
     <div class="sb-div"></div>
-    <div id="catBtns"></div>
+    <div id="catBtns"><button class="cat-btn" data-cat="Compresores">Compresores <span class="cat-n" id="n-Compresores">0</span></button><button class="cat-btn" data-cat="Herramientas Eléctricas">Herramientas Eléctricas <span class="cat-n" id="n-HerramientasElctricas">0</span></button><button class="cat-btn" data-cat="Hidrolavadoras">Hidrolavadoras <span class="cat-n" id="n-Hidrolavadoras">0</span></button><button class="cat-btn" data-cat="Generadores">Generadores <span class="cat-n" id="n-Generadores">0</span></button></div>
   </aside>
-  <main class="main" id="mainContent"></main>
+  <main class="main" id="mainContent"><div class="empty">Sin resultados para "<strong></strong>"</div></main>
 </div>
 
 <footer>
   <div class="ftr">
-    <div class="ftr-name">Omaha Tools 2026</div>
+    <div class="ftr-name"><a href="https://www.omahatools.com.ar/" target="_blank" style="color:var(--white);text-decoration:none">www.omahatools.com.ar</a></div>
     <div class="ftr-contact">(011) 4773-6149 &nbsp;|&nbsp; Av. Santa Fe 4481, C.A.B.A</div>
   </div>
 </footer>
 
 <script>
-// Datos cargados desde precios.json
 let PRODUCTS = [];
 let UPDATE_DATE = "";
 
@@ -636,7 +692,7 @@ function render(){
     byCat[cat].forEach(p=>{
       html+=`<tr>
         <td class="td-prod"><div class="pc">
-          <img src="${p.img}" alt="${p.nombre}" loading="lazy">
+          <img src="${p.img}" alt="${p.nombre}" loading="lazy" onclick="openLightbox(this.src, this.alt)">
           <div class="pc-meta">
             <span class="pc-code">${p.id}</span>
             <div class="pc-name">${p.nombre}</div>
@@ -662,7 +718,7 @@ function render(){
     byCat[cat].forEach(p=>{
       cards+=`<div class="mob-card">
         <div class="mob-card-header" onclick="this.closest('.mob-card').classList.toggle('open')">
-          <img src="${p.img}" alt="${p.nombre}" loading="lazy">
+          <img src="${p.img}" alt="${p.nombre}" loading="lazy" onclick="openLightbox(this.src, this.alt)">
           <div class="mob-card-info">
             <span class="mob-card-code">${p.id}</span>
             <div class="mob-card-name">${p.nombre}</div>
@@ -697,6 +753,79 @@ function closeSidebar(){
   document.getElementById("sidebar").classList.remove("open");
   document.getElementById("overlay").classList.remove("open");
 }
+function openLightbox(src, alt){
+  document.getElementById('lightboxImg').src = src;
+  document.getElementById('lightboxImg').alt = alt;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox(){
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function(e){
+  if(e.key === 'Escape') closeLightbox();
+});
+
+function descargarExcel(){
+  if(!PRODUCTS || PRODUCTS.length === 0){ alert('Cargando datos...'); return; }
+
+  const wb = XLSX.utils.book_new();
+  const fecha = UPDATE_DATE || new Date().toLocaleDateString('es-AR');
+
+  // Agrupar por categoría
+  const cats = [...new Set(PRODUCTS.map(p=>p.cat))];
+
+  // Construir filas
+  const rows = [];
+
+  // Fila 1 — fecha (col F, índice 5)
+  const filaFecha = ['','','','','',fecha];
+  rows.push(filaFecha);
+
+  // Fila 2 — headers
+  rows.push(['Código','Descripción','Precio','IVA','PVP','Premium']);
+
+  // Productos agrupados por categoría
+  cats.forEach(cat => {
+    const prods = PRODUCTS.filter(p=>p.cat===cat);
+    prods.forEach(p => {
+      rows.push([
+        p.id,
+        p.nombre + ' ' + p.desc,
+        p.precio,
+        p.iva,
+        p.pvp,
+        p.premium
+      ]);
+    });
+  });
+
+  const ws = XLSX.utils.aoa_to_sheet(rows);
+
+  // Anchos de columna
+  ws['!cols'] = [
+    {wch:16},  // A Código
+    {wch:55},  // B Descripción
+    {wch:14},  // C Precio
+    {wch:10},  // D IVA
+    {wch:16},  // E PVP
+    {wch:14},  // F Premium
+  ];
+
+  // Altura fila 1 (logo placeholder)
+  ws['!rows'] = [{hpt:62},{hpt:16}];
+
+  XLSX.utils.book_append_sheet(wb, ws, 'Hoja1');
+
+  // Nombre del archivo con fecha
+  const hoy = new Date();
+  const dd = String(hoy.getDate()).padStart(2,'0');
+  const mm = String(hoy.getMonth()+1).padStart(2,'0');
+  const yyyy = hoy.getFullYear();
+  XLSX.writeFile(wb, `Lista_precios_Omaha_${dd}-${mm}-${yyyy}.xlsx`);
+}
+
 function toggleExpandAll(){
   const all=document.querySelectorAll('.mob-card');
   const iconExp=document.getElementById('iconExpandir');
@@ -731,5 +860,10 @@ function applyResponsiveMode(){
 applyResponsiveMode();
 window.addEventListener('resize', applyResponsiveMode);
 </script>
-</body>
-</html>
+
+<div class="lightbox-overlay" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img class="lightbox-img" id="lightboxImg" src="file:///Users/mlairion/Downloads/index.html" alt="" onclick="event.stopPropagation()">
+</div>
+
+</body></html>
