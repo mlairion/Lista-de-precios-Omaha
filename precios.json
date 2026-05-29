@@ -23,7 +23,7 @@
       "premium": 472787.0,
       "iva": "10,5%",
       "bulto": "1 u",
-      "img": "imgs/WD-2550-B.jpg"
+      "img": "imgs/WD-2550B.jpg"
     },
     {
       "id": "WD-2550 BK",
@@ -35,7 +35,7 @@
       "premium": 495579.0,
       "iva": "10,5%",
       "bulto": "1 u",
-      "img": "imgs/WD-2550-BK.jpg"
+      "img": "imgs/WD-2550BK.jpg"
     },
     {
       "id": "WD-40100V",
@@ -218,7 +218,7 @@
       "img": "imgs/HLP-1600.jpg"
     },
     {
-      "id": "EP-2500",
+      "id": "EP2500",
       "cat": "Generadores",
       "nombre": "Generador Eléctrico",
       "desc": "6.5 HP | 17 lts | 19 hs",
@@ -227,7 +227,7 @@
       "premium": 0.0,
       "iva": "10,5%",
       "bulto": "1 u",
-      "img": "imgs/EP-2500.jpg"
+      "img": "imgs/EP2500.jpg"
     },
     {
       "id": "EP3500",
