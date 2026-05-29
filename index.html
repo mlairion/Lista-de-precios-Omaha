@@ -630,6 +630,7 @@ function buildSidebar(){
   document.getElementById("n-all").textContent = PRODUCTS.length;
   document.getElementById("headerDate").textContent = UPDATE_DATE;
   const wrap = document.getElementById("catBtns");
+  wrap.innerHTML = "";
   CATS.forEach(cat=>{
     const n = PRODUCTS.filter(p=>p.cat===cat).length;
     const btn = document.createElement("button");
