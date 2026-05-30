@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)file:///Users/mlairion/Downloads/index.html -->
+<!-- saved from url=(0045)file:///Users/mlairion/Downloads/index_2.html -->
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lista de Precios 2026 — Omaha High Performance Tools</title>
 <link rel="preconnect" href="https://fonts.googleapis.com/">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-<link href="./index_files/css2" rel="stylesheet">
+<link href="file:///Users/mlairion/Downloads/index_files/css2" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -49,17 +49,17 @@ header{background:var(--black);border-bottom:3px solid var(--red);position:stick
 /* SIDEBAR */
 .sidebar{width:var(--sidebar-w);flex-shrink:0;background:var(--white);border-right:1px solid var(--gray-300);padding:20px 0 40px;position:sticky;top:calc(var(--header-h) + var(--bar-h));height:calc(100vh - var(--header-h) - var(--bar-h));overflow-y:auto;transition:transform .25s ease}
 .download-btn{
-  display:flex;align-items:center;gap:8px;
-  width:calc(100% - 36px);margin:0 18px 16px;
-  padding:9px 14px;
-  background:var(--red);border:none;border-radius:0;
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  width:calc(100% - 36px);margin:16px 18px 8px;
+  padding:10px 14px;
+  background:transparent;border:1px solid var(--gray-300);border-radius:0;
   cursor:pointer;
-  font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;
-  color:var(--white);text-transform:uppercase;letter-spacing:.06em;
-  transition:background .12s;
+  font-family:'DM Sans',sans-serif;font-size:11px;font-weight:600;
+  color:var(--gray-700);text-transform:uppercase;letter-spacing:.08em;
+  transition:all .12s;
 }
-.download-btn:hover{background:var(--red-dark)}
-.download-btn svg{flex-shrink:0}
+.download-btn:hover{border-color:#217346;color:#217346}
+.download-btn img{flex-shrink:0;width:22px;height:22px}
 .sb-label{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#bbb;padding:0 18px;margin-bottom:8px}
 .cat-btn{display:flex;align-items:center;justify-content:space-between;width:100%;padding:9px 18px;background:none;border:none;border-left:3px solid transparent;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:400;color:var(--gray-700);text-align:left;transition:all .12s;gap:8px}
 .cat-btn:hover{background:var(--gray-100);color:var(--black)}
@@ -467,7 +467,7 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
   }
 }
 </style>
-<script src="./index_files/xlsx.full.min.js"></script>
+<script src="file:///Users/mlairion/Downloads/Lista%20de%20Precios%202026%20%E2%80%94%20Omaha%20High%20Performance%20Tools_files/xlsx.full.min.js"></script>
 </head>
 <body>
 
@@ -579,12 +579,6 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
 
 <div class="layout">
   <aside class="sidebar" id="sidebar">
-    <button class="download-btn" onclick="descargarExcel()">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-        <path d="M7 1v8M7 9l-3-3M7 9l3-3M1 11h12" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-      </svg>
-      Descargar lista
-    </button>
     <div class="sb-label">Categorías</div>
     <button class="cat-btn active" data-cat="all" onclick="filterCat(&#39;all&#39;,this)">
       Todos los productos
@@ -592,6 +586,11 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
     </button>
     <div class="sb-div"></div>
     <div id="catBtns"><button class="cat-btn" data-cat="Compresores">Compresores <span class="cat-n" id="n-Compresores">0</span></button><button class="cat-btn" data-cat="Herramientas Eléctricas">Herramientas Eléctricas <span class="cat-n" id="n-HerramientasElctricas">0</span></button><button class="cat-btn" data-cat="Hidrolavadoras">Hidrolavadoras <span class="cat-n" id="n-Hidrolavadoras">0</span></button><button class="cat-btn" data-cat="Generadores">Generadores <span class="cat-n" id="n-Generadores">0</span></button></div>
+    <div class="sb-div"></div>
+    <button class="download-btn" onclick="descargarExcel()">
+      <img src="file:///Users/mlairion/Downloads/excel.png" alt="Excel">
+      Descargar lista
+    </button>
   </aside>
   <main class="main" id="mainContent"><div class="empty">Sin resultados para "<strong></strong>"</div></main>
 </div>
@@ -773,58 +772,125 @@ function descargarExcel(){
 
   const wb = XLSX.utils.book_new();
   const fecha = UPDATE_DATE || new Date().toLocaleDateString('es-AR');
+  const año = new Date().getFullYear();
 
-  // Agrupar por categoría
-  const cats = [...new Set(PRODUCTS.map(p=>p.cat))];
-
-  // Construir filas
+  // ── Fila 1: header negro ──
+  // A1-E1: título | F1-G1: fecha
   const rows = [];
+  rows.push([`LISTA DE PRECIOS ${año}`, '', '', '', '', fecha, '']);
 
-  // Fila 1 — fecha (col F, índice 5)
-  const filaFecha = ['','','','','',fecha];
-  rows.push(filaFecha);
+  // ── Fila 2: headers de columna ──
+  rows.push(['Código', 'Descripción', 'Precio Lista', 'IVA', 'PVP', 'Premium', 'Pack']);
 
-  // Fila 2 — headers
-  rows.push(['Código','Descripción','Precio','IVA','PVP','Premium']);
-
-  // Productos agrupados por categoría
-  cats.forEach(cat => {
-    const prods = PRODUCTS.filter(p=>p.cat===cat);
-    prods.forEach(p => {
-      rows.push([
-        p.id,
-        p.nombre + ' ' + p.desc,
-        p.precio,
-        p.iva,
-        p.pvp,
-        p.premium
-      ]);
-    });
+  // ── Productos, lista corrida sin categorías ──
+  PRODUCTS.forEach(p => {
+    rows.push([
+      p.id,
+      p.nombre + (p.desc ? ' ' + p.desc : ''),
+      p.precio || 0,
+      p.iva || '',
+      p.pvp || '—',
+      p.premium || '—',
+      p.bulto || ''
+    ]);
   });
 
   const ws = XLSX.utils.aoa_to_sheet(rows);
 
-  // Anchos de columna
-  ws['!cols'] = [
-    {wch:16},  // A Código
-    {wch:55},  // B Descripción
-    {wch:14},  // C Precio
-    {wch:10},  // D IVA
-    {wch:16},  // E PVP
-    {wch:14},  // F Premium
+  // Merge A1:E1 (título)
+  ws['!merges'] = [
+    {s:{r:0,c:0}, e:{r:0,c:4}},
   ];
 
-  // Altura fila 1 (logo placeholder)
-  ws['!rows'] = [{hpt:62},{hpt:16}];
+  // Anchos
+  ws['!cols'] = [
+    {wch:22}, // A Código
+    {wch:48}, // B Descripción
+    {wch:16}, // C Precio Lista
+    {wch:10}, // D IVA
+    {wch:16}, // E PVP
+    {wch:16}, // F Premium
+    {wch:10}, // G Pack
+  ];
 
-  XLSX.utils.book_append_sheet(wb, ws, 'Hoja1');
+  // Alturas: fila 1 header alto, fila 2 headers, resto productos
+  const rowHeights = [{hpt:54}, {hpt:18}];
+  PRODUCTS.forEach(() => rowHeights.push({hpt:18}));
+  ws['!rows'] = rowHeights;
 
-  // Nombre del archivo con fecha
+  // ── Estilos ──
+  const nRows = rows.length;
+  for(let r=0; r<nRows; r++){
+    for(let c=0; c<7; c++){
+      const addr = XLSX.utils.encode_cell({r,c});
+      if(!ws[addr]) ws[addr] = {v:'', t:'s'};
+      if(!ws[addr].s) ws[addr].s = {};
+
+      // Fila 1 — header negro
+      if(r===0){
+        ws[addr].s.fill = {fgColor:{rgb:'0F0F0F'}};
+        ws[addr].s.font = {name:'Arial', sz:16, bold:true, color:{rgb:'FFFFFF'}};
+        ws[addr].s.alignment = {horizontal:'center', vertical:'center'};
+        // F1: fecha — gris, centrada
+        if(c===5){
+          ws[addr].s.font = {name:'Arial', sz:11, bold:false, color:{rgb:'888888'}};
+          ws[addr].s.alignment = {horizontal:'center', vertical:'center'};
+        }
+        // G1: fondo negro, vacía
+        if(c===6){
+          ws[addr].s.font = {name:'Arial', sz:10, color:{rgb:'0F0F0F'}};
+        }
+      }
+      // Fila 2 — headers de columna
+      else if(r===1){
+        ws[addr].s.font = {name:'Arial', sz:9, bold:true, color:{rgb:'666666'}};
+        ws[addr].s.fill = {fgColor:{rgb:'1A1A1A'}};
+        ws[addr].s.alignment = {horizontal: c<=1 ? 'left':'center', vertical:'center'};
+        ws[addr].s.border = {bottom:{style:'medium', color:{rgb:'D81E1E'}}};
+      }
+      // Filas de productos
+      else {
+        const isAlt = (r % 2 === 0);
+        ws[addr].s.fill = {fgColor:{rgb: isAlt ? 'FAFAF8' : 'FFFFFF'}};
+        ws[addr].s.font = {name:'Arial', sz:11};
+        ws[addr].s.alignment = {vertical:'center'};
+        ws[addr].s.border = {bottom:{style:'thin', color:{rgb:'EBEBEB'}}};
+
+        if(c===0){ // Código — rojo
+          ws[addr].s.font = {name:'Arial', sz:11, color:{rgb:'D81E1E'}};
+          ws[addr].s.alignment = {horizontal:'left', vertical:'center'};
+        } else if(c===1){ // Descripción
+          ws[addr].s.alignment = {horizontal:'left', vertical:'center'};
+        } else if(c===2){ // Precio lista — negrita
+          ws[addr].s.font = {name:'Arial', sz:11, bold:true};
+          ws[addr].s.alignment = {horizontal:'center', vertical:'center'};
+          ws[addr].s.numFmt = '$ #,##0.00';
+        } else if(c===3){ // IVA — gris
+          ws[addr].s.font = {name:'Arial', sz:11, color:{rgb:'666666'}};
+          ws[addr].s.alignment = {horizontal:'center', vertical:'center'};
+        } else if(c===4){ // PVP — gris
+          ws[addr].s.font = {name:'Arial', sz:11, color:{rgb:'666666'}};
+          ws[addr].s.alignment = {horizontal:'center', vertical:'center'};
+          if(typeof ws[addr].v === 'number') ws[addr].s.numFmt = '$ #,##0.00';
+        } else if(c===5){ // Premium — dorado negrita
+          ws[addr].s.font = {name:'Arial', sz:11, bold:true, color:{rgb:'B8842A'}};
+          ws[addr].s.alignment = {horizontal:'center', vertical:'center'};
+          if(typeof ws[addr].v === 'number') ws[addr].s.numFmt = '$ #,##0.00';
+        } else if(c===6){ // Pack — gris
+          ws[addr].s.font = {name:'Arial', sz:11, color:{rgb:'666666'}};
+          ws[addr].s.alignment = {horizontal:'center', vertical:'center'};
+        }
+      }
+    }
+  }
+
+  XLSX.utils.book_append_sheet(wb, ws, 'Lista de Precios');
+
   const hoy = new Date();
   const dd = String(hoy.getDate()).padStart(2,'0');
-  const mm = String(hoy.getMonth()+1).padStart(2,'0');
+  const mm2 = String(hoy.getMonth()+1).padStart(2,'0');
   const yyyy = hoy.getFullYear();
-  XLSX.writeFile(wb, `Lista_precios_Omaha_${dd}-${mm}-${yyyy}.xlsx`);
+  XLSX.writeFile(wb, `Lista_precios_Omaha_${dd}-${mm2}-${yyyy}.xlsx`);
 }
 
 function toggleExpandAll(){
@@ -864,7 +930,7 @@ window.addEventListener('resize', applyResponsiveMode);
 
 <div class="lightbox-overlay" id="lightbox" onclick="closeLightbox()">
   <button class="lightbox-close" onclick="closeLightbox()">✕</button>
-  <img class="lightbox-img" id="lightboxImg" src="file:///Users/mlairion/Downloads/index.html" alt="" onclick="event.stopPropagation()">
+  <img class="lightbox-img" id="lightboxImg" src="file:///Users/mlairion/Downloads/Lista%20de%20Precios%202026%20%E2%80%94%20Omaha%20High%20Performance%20Tools_files/index.html" alt="" onclick="event.stopPropagation()">
 </div>
 
 </body></html>
