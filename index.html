@@ -613,12 +613,13 @@ async function cargarPrecios() {
     const data = await res.json();
     PRODUCTS = data.productos;
     UPDATE_DATE = data.fecha_actualizacion;
+    CATS = [...new Set(PRODUCTS.map(p=>p.cat))];
   } catch(e) {
     console.error('Error cargando precios.json:', e);
   }
 }
 
-const CATS = ["Compresores","Herramientas Eléctricas","Hidrolavadoras","Generadores"];
+let CATS = [];
 let activeCat = "all";
 let searchTerm = "";
 
