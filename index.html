@@ -48,18 +48,7 @@ header{background:var(--black);border-bottom:3px solid var(--red);position:stick
 
 /* SIDEBAR */
 .sidebar{width:var(--sidebar-w);flex-shrink:0;background:var(--white);border-right:1px solid var(--gray-300);padding:20px 0 40px;position:sticky;top:calc(var(--header-h) + var(--bar-h));height:calc(100vh - var(--header-h) - var(--bar-h));overflow-y:auto;transition:transform .25s ease}
-.download-btn{
-  display:flex;align-items:center;justify-content:center;gap:10px;
-  width:calc(100% - 36px);margin:16px 18px 8px;
-  padding:10px 14px;
-  background:transparent;border:1px solid var(--gray-300);border-radius:0;
-  cursor:pointer;
-  font-family:'DM Sans',sans-serif;font-size:11px;font-weight:600;
-  color:var(--gray-700);text-transform:uppercase;letter-spacing:.08em;
-  transition:all .12s;
-}
-.download-btn:hover{border-color:#217346;color:#217346}
-.download-btn img{flex-shrink:0;width:22px;height:22px}
+.download-btn{display:none}
 .sb-label{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#bbb;padding:0 18px;margin-bottom:8px}
 .cat-btn{display:flex;align-items:center;justify-content:space-between;width:100%;padding:9px 18px;background:none;border:none;border-left:3px solid transparent;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:400;color:var(--gray-700);text-align:left;transition:all .12s;gap:8px}
 .cat-btn:hover{background:var(--gray-100);color:var(--black)}
@@ -587,11 +576,7 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
     </button>
     <div class="sb-div"></div>
     <div id="catBtns"><button class="cat-btn" data-cat="Compresores">Compresores <span class="cat-n" id="n-Compresores">0</span></button><button class="cat-btn" data-cat="Herramientas Eléctricas">Herramientas Eléctricas <span class="cat-n" id="n-HerramientasElctricas">0</span></button><button class="cat-btn" data-cat="Hidrolavadoras">Hidrolavadoras <span class="cat-n" id="n-Hidrolavadoras">0</span></button><button class="cat-btn" data-cat="Generadores">Generadores <span class="cat-n" id="n-Generadores">0</span></button></div>
-    <div class="sb-div"></div>
-    <button class="download-btn" onclick="descargarExcel()">
-      <img src="excel.png" alt="Excel">
-      Descargar lista
-    </button>
+
   </aside>
   <main class="main" id="mainContent"><div class="empty">Sin resultados para "<strong></strong>"</div></main>
 </div>
@@ -955,4 +940,59 @@ window.addEventListener('resize', applyResponsiveMode);
   <img class="lightbox-img" id="lightboxImg" src="./Lista de Precios 2026 — Omaha High Performance Tools_files/index.html" alt="" onclick="event.stopPropagation()">
 </div>
 
+
+<!-- Botón flotante descargar Excel -->
+<button class="fab-excel" onclick="descargarExcel()" aria-label="Descargar lista Excel">
+  <img src="excel.png" alt="Excel">
+  <span class="fab-tooltip">Descargar lista</span>
+</button>
+
+<style>
+.fab-excel{
+  position:fixed;
+  bottom:28px;right:28px;
+  width:56px;height:56px;
+  border-radius:50%;
+  background:#217346;
+  border:none;
+  cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 16px rgba(0,0,0,.28);
+  transition:transform .15s, box-shadow .15s, background .15s;
+  z-index:1000;
+}
+.fab-excel:hover{
+  background:#1a5c38;
+  transform:scale(1.08);
+  box-shadow:0 6px 24px rgba(0,0,0,.36);
+}
+.fab-excel img{
+  width:28px;height:28px;
+  pointer-events:none;
+}
+.fab-tooltip{
+  position:absolute;
+  right:64px;
+  background:var(--black);
+  color:#fff;
+  font-family:'DM Sans',sans-serif;
+  font-size:11px;font-weight:600;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+  padding:6px 10px;
+  white-space:nowrap;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .15s;
+}
+.fab-tooltip::after{
+  content:'';
+  position:absolute;
+  right:-6px;top:50%;transform:translateY(-50%);
+  border:6px solid transparent;
+  border-left-color:var(--black);
+  border-right:none;
+}
+.fab-excel:hover .fab-tooltip{opacity:1;}
+</style>
 </body></html>
