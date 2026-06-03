@@ -143,15 +143,12 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
 /* chevron button in searchbar */
 .mob-chevron-btn{
   display:none;
-  background:none;border:none;cursor:pointer;
-  padding:0;width:32px;height:32px;
-  align-items:center;justify-content:center;
+  background:none;border:1px solid #333;border-radius:0;color:var(--white);
+  padding:4px 10px;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:500;
+  cursor:pointer;align-items:center;white-space:nowrap;transition:border-color .15s;
   flex-shrink:0;
 }
-.mob-chevron-btn svg{
-  width:28px;height:28px;
-  transition:transform .25s ease;
-}
+.mob-chevron-btn:hover{border-color:var(--red);color:var(--red)}
 
 .mob-card{background:var(--white);border:1px solid var(--gray-300);margin-bottom:8px;overflow:hidden}
 .mob-card-header{display:flex;align-items:center;gap:12px;padding:12px;cursor:pointer;user-select:none}
@@ -373,15 +370,12 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
 /* chevron button in searchbar */
 .mob-chevron-btn{
   display:none;
-  background:none;border:none;cursor:pointer;
-  padding:0;width:32px;height:32px;
-  align-items:center;justify-content:center;
+  background:none;border:1px solid #333;border-radius:0;color:var(--white);
+  padding:4px 10px;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:500;
+  cursor:pointer;align-items:center;white-space:nowrap;transition:border-color .15s;
   flex-shrink:0;
 }
-.mob-chevron-btn svg{
-  width:28px;height:28px;
-  transition:transform .25s ease;
-}
+.mob-chevron-btn:hover{border-color:var(--red);color:var(--red)}
 
 .mob-card{background:var(--white);border:1px solid var(--gray-300);margin-bottom:8px;overflow:hidden}
 .mob-card-header{display:flex;align-items:center;gap:12px;padding:12px;cursor:pointer;user-select:none}
@@ -553,18 +547,7 @@ footer{background:var(--black);border-top:3px solid var(--red);padding:16px 24px
       <span class="sb-icon">⌕</span>
       <input type="text" id="searchInput" placeholder="Buscar código o producto..." autocomplete="off">
     </div>
-    <button class="mob-chevron-btn" id="chevronBtn" onclick="toggleExpandAll()" aria-label="Expandir todo">
-      <span id="iconExpandir"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.57 74.57" width="32" height="32">
-  <circle fill="#565555" cx="37.29" cy="37.29" r="37.29"></circle>
-  <path fill="#fff" d="M21.55,45.58v-23.16c0-.48.39-.87.87-.87h23.16c.77,0,1.16.93.61,1.48l-23.16,23.16c-.55.55-1.48.16-1.48-.61Z"></path>
-  <path fill="#fff" d="M53.02,28.95v23.22c0,.47-.38.85-.85.85h-23.22c-.76,0-1.13-.91-.6-1.45l23.22-23.22c.53-.53,1.45-.16,1.45.6Z"></path>
-</svg></span>
-      <span id="iconContraer" style="display:none"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.57 74.57" width="32" height="32">
-  <circle fill="#565555" cx="37.29" cy="37.29" r="37.29"></circle>
-  <path fill="#fff" d="M36.6,13.14v20.97c0,1.37-1.11,2.49-2.49,2.49H13.14c-.75,0-1.13-.91-.6-1.44l22.61-22.61c.53-.53,1.44-.16,1.44.6Z"></path>
-  <path fill="#fff" d="M37.98,61.44v-20.97c0-1.37,1.11-2.49,2.49-2.49h20.97c.75,0,1.13.91.6,1.44l-22.61,22.61c-.53.53-1.44.16-1.44-.6Z"></path>
-</svg></span>
-    </button>
+    <button class="mob-chevron-btn" id="chevronBtn" onclick="toggleExpandAll()" aria-label="Mostrar todo">Mostrar todo</button>
   </div>
 </div>
 
@@ -905,17 +888,14 @@ function descargarExcel(){
 
 function toggleExpandAll(){
   const all=document.querySelectorAll('.mob-card');
-  const iconExp=document.getElementById('iconExpandir');
-  const iconCon=document.getElementById('iconContraer');
+  const btn=document.getElementById('chevronBtn');
   const anyOpen=document.querySelector('.mob-card.open');
   if(anyOpen){
     all.forEach(c=>c.classList.remove('open'));
-    if(iconExp) iconExp.style.display='inline';
-    if(iconCon) iconCon.style.display='none';
+    if(btn) btn.textContent='Mostrar todo';
   } else {
     all.forEach(c=>c.classList.add('open'));
-    if(iconExp) iconExp.style.display='none';
-    if(iconCon) iconCon.style.display='inline';
+    if(btn) btn.textContent='Ocultar todo';
   }
 }
 
