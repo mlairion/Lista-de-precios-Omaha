@@ -812,7 +812,7 @@ function descargarExcel(){
 
     // A: Código
     const cA = row.getCell(1);
-    cA.value = p.id;
+    cA.value = p.cod_prod || p.id;
     cA.font = {name:'Arial', size:11, color:{argb:'FFD81E1E'}};
     cA.fill = {type:'pattern', pattern:'solid', fgColor:{argb:bg}};
     cA.alignment = {horizontal:'left', vertical:'middle'};

@@ -1,8 +1,9 @@
 {
-      "fecha_actualizacion": "07/06/2026",
+      "fecha_actualizacion": "08/06/2026",
       "productos": [
             {
                   "id": "ME-24",
+                  "cod_prod": "339.ME-24",
                   "cat": "Accesorios para Soldar",
                   "nombre": "ESCUADRA MAGNÉTICA",
                   "desc": "2\" | Resiste 4 kg | 4 unidades",
@@ -15,6 +16,7 @@
             },
             {
                   "id": "ME-3",
+                  "cod_prod": "339.ME-3",
                   "cat": "Accesorios para Soldar",
                   "nombre": "ESCUADRA MAGNÉTICA",
                   "desc": "3\" | Resiste 11 kg",
@@ -27,6 +29,7 @@
             },
             {
                   "id": "ME-4",
+                  "cod_prod": "339.ME-4",
                   "cat": "Accesorios para Soldar",
                   "nombre": "ESCUADRA MAGNÉTICA",
                   "desc": "4\" | Resiste 22 kg",
@@ -39,6 +42,7 @@
             },
             {
                   "id": "ME-5",
+                  "cod_prod": "339.ME-5",
                   "cat": "Accesorios para Soldar",
                   "nombre": "ESCUADRA MAGNÉTICA",
                   "desc": "5\" | Resiste 34 kg",
@@ -51,6 +55,7 @@
             },
             {
                   "id": "SC810",
+                  "cod_prod": "118.SC810",
                   "cat": "Accesorios para Soldar",
                   "nombre": "GUANTES SOLDADOR",
                   "desc": "Cocidos c/Kevlar | Puño Largo",
@@ -63,6 +68,7 @@
             },
             {
                   "id": "SC865",
+                  "cod_prod": "118.SC865",
                   "cat": "Accesorios para Soldar",
                   "nombre": "DELANTAL SOLDADOR",
                   "desc": "Aplomado | 45x60",
@@ -75,6 +81,7 @@
             },
             {
                   "id": "WH-101",
+                  "cod_prod": "459.WH-101",
                   "cat": "Accesorios para Soldar",
                   "nombre": "CARETA FOTOSENSIBLE",
                   "desc": "1/5000 seg | DIN 10",
@@ -87,6 +94,7 @@
             },
             {
                   "id": "WH-201H",
+                  "cod_prod": "459.WH-201H",
                   "cat": "Accesorios para Soldar",
                   "nombre": "CARETA FOTOSENSIBLE",
                   "desc": "1/5000 seg | DIN 9-13 | Regulador",
@@ -99,6 +107,7 @@
             },
             {
                   "id": "WH-220",
+                  "cod_prod": "459.WH-220",
                   "cat": "Accesorios para Soldar",
                   "nombre": "CARETA FOTOSENSIBLE FRANJAS",
                   "desc": "1/5000 seg | DIN 10",
@@ -111,6 +120,7 @@
             },
             {
                   "id": "WH-299HA",
+                  "cod_prod": "459.WH-299HA",
                   "cat": "Accesorios para Soldar",
                   "nombre": "CARETA FOTOSENSIBLE PANAL",
                   "desc": "1/25000 seg | DIN 9-13 | Regulador",
@@ -123,6 +133,7 @@
             },
             {
                   "id": "WP-17V",
+                  "cod_prod": "339.WP-17V",
                   "cat": "Accesorios para Soldar",
                   "nombre": "TORCHA TIG PARA SOLDAR",
                   "desc": "nan",
@@ -135,6 +146,7 @@
             },
             {
                   "id": "CCHEX-1",
+                  "cod_prod": "391.CCHEX-1",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "CINCEL CORTAHIERRO PLANO",
                   "desc": "Encastre HEX | 30x410 mm",
@@ -147,6 +159,7 @@
             },
             {
                   "id": "CCMAX-1",
+                  "cod_prod": "471.CCMAX-1",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "CINCEL CORTAHIERRO PLANO",
                   "desc": "SDS MAX | 18x400x25 mm",
@@ -159,6 +172,7 @@
             },
             {
                   "id": "CCPLUS-1",
+                  "cod_prod": "471.CCPLUS-1",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "CINCEL CORTAHIERRO PLANO",
                   "desc": "SDS Plus | 14x250x20 mm",
@@ -171,6 +185,7 @@
             },
             {
                   "id": "CPHEX-1",
+                  "cod_prod": "391.CPHEX-1",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "CINCEL CORTAHIERRO PUNTA",
                   "desc": "Encastre HEX | 30x410 mm",
@@ -183,6 +198,7 @@
             },
             {
                   "id": "CPMAX-1",
+                  "cod_prod": "471.CPMAX-1",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "CINCEL CORTAHIERRO PUNTA",
                   "desc": "SDS MAX | 18x400 mm",
@@ -195,6 +211,7 @@
             },
             {
                   "id": "CPPLUS-1",
+                  "cod_prod": "471.CPPLUS-1",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "CINCEL CORTAHIERRO PUNTA",
                   "desc": "SDS Plus | 14x250 mm",
@@ -207,6 +224,7 @@
             },
             {
                   "id": "MC-KIT1",
+                  "cod_prod": "471.MC-KIT1",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "KIT DE 4 ACCESORIOS",
                   "desc": "Para multicortadora",
@@ -219,6 +237,7 @@
             },
             {
                   "id": "MC-KIT2",
+                  "cod_prod": "471.MC-KIT2",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "KIT DE 17 ACCESORIOS",
                   "desc": "Para multicortadora",
@@ -231,6 +250,7 @@
             },
             {
                   "id": "S-CD-65-300",
+                  "cod_prod": "471.S-CD-65-300",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "SET MECHA COPA WIDIA",
                   "desc": "Adaptador SDS Plus | 300x65mm",
@@ -243,6 +263,7 @@
             },
             {
                   "id": "SMK-130",
+                  "cod_prod": "471.SMK-130",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "SET DE BROCAS Y PUNTAS",
                   "desc": "130 Piezas | Con Maletín",
@@ -255,6 +276,7 @@
             },
             {
                   "id": "SMK-301",
+                  "cod_prod": "471.SMK-301",
                   "cat": "Accesorios y Cinceles",
                   "nombre": "SET DE BROCAS Y PUNTAS",
                   "desc": "301 Piezas | Con Maletín",
@@ -267,6 +289,7 @@
             },
             {
                   "id": "2T1",
+                  "cod_prod": "377.2T1",
                   "cat": "Aceites",
                   "nombre": "ACEITE SUPER 2T",
                   "desc": "P/Motor de 2 Tiempos | 1000 cm3",
@@ -279,6 +302,7 @@
             },
             {
                   "id": "2T250",
+                  "cod_prod": "377.2T250",
                   "cat": "Aceites",
                   "nombre": "ACEITE SUPER 2T",
                   "desc": "P/Motor de 2 Tiempos | 250 cm3",
@@ -291,6 +315,7 @@
             },
             {
                   "id": "C2401",
+                  "cod_prod": "377.C2401",
                   "cat": "Aceites",
                   "nombre": "ACEITE RUTIA C2 40",
                   "desc": "Para Motor 4 Tiempos | 1000 cm3",
@@ -303,6 +328,7 @@
             },
             {
                   "id": "C2404",
+                  "cod_prod": "377.C2404",
                   "cat": "Aceites",
                   "nombre": "ACEITE RUTIA C2 40",
                   "desc": "Para Motor 4 Tiempos | 4000 cm3",
@@ -315,6 +341,7 @@
             },
             {
                   "id": "CAD1",
+                  "cod_prod": "377.CAD1",
                   "cat": "Aceites",
                   "nombre": "ACEITE CADESINT 10",
                   "desc": "Para Cadena | 1000 cm3",
@@ -327,6 +354,7 @@
             },
             {
                   "id": "CAD250",
+                  "cod_prod": "377.CAD250",
                   "cat": "Aceites",
                   "nombre": "ACEITE CADESINT 10",
                   "desc": "Para Cadena | 250 cm3",
@@ -339,6 +367,7 @@
             },
             {
                   "id": "COMP1",
+                  "cod_prod": "377.COMP1",
                   "cat": "Aceites",
                   "nombre": "ACEITE COMPRESOR 100",
                   "desc": "Para Compresor | 1000 Cm3",
@@ -351,6 +380,7 @@
             },
             {
                   "id": "COMP250",
+                  "cod_prod": "377.COMP250",
                   "cat": "Aceites",
                   "nombre": "ACEITE COMPRESOR 100",
                   "desc": "Para Compresor | 250 Cm3",
@@ -363,6 +393,7 @@
             },
             {
                   "id": "IN10",
+                  "cod_prod": "377.IN10",
                   "cat": "Aceites",
                   "nombre": "GRASA INFUSIBLE",
                   "desc": "Para Caja de Engranaje | 1000 grs",
@@ -375,6 +406,7 @@
             },
             {
                   "id": "NEU250",
+                  "cod_prod": "065.NEU250",
                   "cat": "Aceites",
                   "nombre": "ACEITE TRASMISIÓN NEUMÁTICA",
                   "desc": "P/Herramientas neumáticas | 250 Cm3",
@@ -387,6 +419,7 @@
             },
             {
                   "id": "TN1",
+                  "cod_prod": "065.TN1",
                   "cat": "Aceites",
                   "nombre": "ACEITE TRASMISIÓN NEUMÁTICA",
                   "desc": "P/Herramientas neumáticas | 1000 Cm3",
@@ -399,6 +432,7 @@
             },
             {
                   "id": "AB3756",
+                  "cod_prod": "281.AB3756",
                   "cat": "Amoladoras de Banco",
                   "nombre": "AMOLADORA DE BANCO",
                   "desc": "375 W | 150 W",
@@ -411,6 +445,7 @@
             },
             {
                   "id": "AB5508",
+                  "cod_prod": "281.AB5508",
                   "cat": "Amoladoras de Banco",
                   "nombre": "AMOLADORA DE BANCO",
                   "desc": "550 W | 200 mm",
@@ -423,6 +458,7 @@
             },
             {
                   "id": "MD-150-50",
+                  "cod_prod": "281.MD-150-50",
                   "cat": "Amoladoras de Banco",
                   "nombre": "AMOLADORA DE BANCO C/LIJADORA",
                   "desc": "Multifunción | 250 W",
@@ -435,6 +471,7 @@
             },
             {
                   "id": "MD-75MH",
+                  "cod_prod": "281.MD-75MH",
                   "cat": "Amoladoras de Banco",
                   "nombre": "AMOLADORA DE BANCO",
                   "desc": "Multifunción | 300 W",
@@ -447,6 +484,7 @@
             },
             {
                   "id": "AJ-1200",
+                  "cod_prod": "625.AJ-1200",
                   "cat": "Arrancadores",
                   "nombre": "ARRANCADOR BATERÍA Y CARGADOR USB 12,000 mAh",
                   "desc": "14.8V",
@@ -459,6 +497,7 @@
             },
             {
                   "id": "AJ-300",
+                  "cod_prod": "625.AJ-300",
                   "cat": "Arrancadores",
                   "nombre": "ARRANCADOR BATERÍA Y CARGADOR USB 6000 mAh",
                   "desc": "Arrancador de coche: 12V",
@@ -471,6 +510,7 @@
             },
             {
                   "id": "CB-15",
+                  "cod_prod": "625.CB-15",
                   "cat": "Arrancadores",
                   "nombre": "CARGADOR MANTENEDOR DE BATERÍA",
                   "desc": "12V | 350 W",
@@ -483,6 +523,7 @@
             },
             {
                   "id": "CB-4",
+                  "cod_prod": "625.CB-4",
                   "cat": "Arrancadores",
                   "nombre": "CARGADOR MANTENEDOR DE BATERÍA",
                   "desc": "60 W | 6 V / 12 V | 3,5 A (6 V) / 1 A (12 V)",
@@ -495,6 +536,7 @@
             },
             {
                   "id": "CT-2000",
+                  "cod_prod": "625.CT-2000",
                   "cat": "Arrancadores",
                   "nombre": "CARGADOR MANTENEDOR DE BATERÍA",
                   "desc": "40 W | 6 V / 12 V | 2.0 A",
@@ -507,6 +549,7 @@
             },
             {
                   "id": "AM-12VK",
+                  "cod_prod": "174.AM-12VK",
                   "cat": "Aspiradoras",
                   "nombre": "ASPIRADORA PARA AUTO",
                   "desc": "80 W | 12V | Filtro HEPA",
@@ -519,6 +562,7 @@
             },
             {
                   "id": "AMBAT-LI",
+                  "cod_prod": "123.AMBAT-LI",
                   "cat": "Aspiradoras",
                   "nombre": "ASPIRADORA WIRELESS USB",
                   "desc": "45-60 W | USB | Filtro HEPA",
@@ -531,6 +575,7 @@
             },
             {
                   "id": "VP-13",
+                  "cod_prod": "123.VP-13",
                   "cat": "Aspiradoras",
                   "nombre": "ASPIRADORA ELÉCTRICA",
                   "desc": "1200 W | 13 Lts | Filtro",
@@ -543,6 +588,7 @@
             },
             {
                   "id": "VP-13A",
+                  "cod_prod": "123.VP-13A",
                   "cat": "Aspiradoras",
                   "nombre": "ASPIRADORA ELÉCTRICA",
                   "desc": "1200 W | 13 Lts | Filtro",
@@ -555,6 +601,7 @@
             },
             {
                   "id": "VP-16",
+                  "cod_prod": "123.VP-16",
                   "cat": "Aspiradoras",
                   "nombre": "ASPIRADORA SOPLADORA",
                   "desc": "1200 W | 60 Lts | Filtro HEPA",
@@ -567,6 +614,7 @@
             },
             {
                   "id": "VP-20",
+                  "cod_prod": "123.VP-20",
                   "cat": "Aspiradoras",
                   "nombre": "ASPIRADORA SOPLADORA",
                   "desc": "2400 W | 75 Lts | Filtro HEPA",
@@ -579,6 +627,7 @@
             },
             {
                   "id": "VP-3",
+                  "cod_prod": "123.VP-3",
                   "cat": "Aspiradoras",
                   "nombre": "ASPIRADORA SOPLADORA",
                   "desc": "1000 W | 12 Lts | Filtro HEPA",
@@ -591,6 +640,7 @@
             },
             {
                   "id": "VP-9",
+                  "cod_prod": "123.VP-9",
                   "cat": "Aspiradoras",
                   "nombre": "ASPIRADORA ELÉCTRICA",
                   "desc": "1000 W | 9 Lts | Filtro",
@@ -603,6 +653,7 @@
             },
             {
                   "id": "BTP-12",
+                  "cod_prod": "602.BTP-12",
                   "cat": "Bolsos y Mochilas",
                   "nombre": "Bolso para herramientas",
                   "desc": "12\" | 5 Bolsillos",
@@ -615,6 +666,7 @@
             },
             {
                   "id": "BTP-16",
+                  "cod_prod": "602.BTP-16",
                   "cat": "Bolsos y Mochilas",
                   "nombre": "Bolso para herramientas",
                   "desc": "16\" | 5 Bolsillos",
@@ -627,6 +679,7 @@
             },
             {
                   "id": "BTP-19",
+                  "cod_prod": "602.BTP-19",
                   "cat": "Bolsos y Mochilas",
                   "nombre": "Bolso para herramientas",
                   "desc": "19\" | 10 Bolsillos",
@@ -639,6 +692,7 @@
             },
             {
                   "id": "MBJ-24",
+                  "cod_prod": "602.MBJ-24",
                   "cat": "Bolsos y Mochilas",
                   "nombre": "Mochila Urbana Azul",
                   "desc": "22 lts | 5 Bolsillos",
@@ -651,6 +705,7 @@
             },
             {
                   "id": "MCL-28",
+                  "cod_prod": "602.MCL-28",
                   "cat": "Bolsos y Mochilas",
                   "nombre": "Mochila Táctica Camuflada",
                   "desc": "20 lts | 5 Bolsillos",
@@ -663,6 +718,7 @@
             },
             {
                   "id": "QB-60",
+                  "cod_prod": "309.QB-601/2HP",
                   "cat": "Bombas",
                   "nombre": "BOMBA PERIFERICA ELEVADORA",
                   "desc": "1/2 HP | Turbina Bronce | 30 Mts",
@@ -675,6 +731,7 @@
             },
             {
                   "id": "WRS-15-90Z",
+                  "cod_prod": "309.WRS-15/90Z",
                   "cat": "Bombas",
                   "nombre": "BOMBA PRESURIZADORA Elevadora",
                   "desc": "2 Baños | 100 watts",
@@ -687,6 +744,7 @@
             },
             {
                   "id": "WRS-20-130Z",
+                  "cod_prod": "309.WRS-20/130Z",
                   "cat": "Bombas",
                   "nombre": "BOMBA PRESURIZADORA Elevadora",
                   "desc": "4 Baños | 248 watts",
@@ -699,6 +757,7 @@
             },
             {
                   "id": "PQW-1100",
+                  "cod_prod": "309.PQW-1100",
                   "cat": "Bombas Sumergibles",
                   "nombre": "BOMBA SUMERGIBLE PLÁSTICO",
                   "desc": "1100 W | Apta para agua sucia",
@@ -711,6 +770,7 @@
             },
             {
                   "id": "PQW-750",
+                  "cod_prod": "309.PQW-750",
                   "cat": "Bombas Sumergibles",
                   "nombre": "BOMBA SUMERGIBLE PLÁSTICO",
                   "desc": "750 W | Apta para agua sucia",
@@ -723,6 +783,7 @@
             },
             {
                   "id": "QPW-1100SS",
+                  "cod_prod": "309.QPW-1100SS",
                   "cat": "Bombas Sumergibles",
                   "nombre": "BOMBA SUMERGIBLE ACERO",
                   "desc": "1100 W | Apta para agua sucia",
@@ -735,6 +796,7 @@
             },
             {
                   "id": "QPW-750SS",
+                  "cod_prod": "309.QPW-750SS",
                   "cat": "Bombas Sumergibles",
                   "nombre": "BOMBA SUMERGIBLE ACERO",
                   "desc": "750 W | Apta para agua sucia",
@@ -747,6 +809,7 @@
             },
             {
                   "id": "BE-3432",
+                  "cod_prod": "471.BE-3432",
                   "cat": "Brocas Escalonadas",
                   "nombre": "SET 3 BROCAS ESCALONADAS AC",
                   "desc": "4-12 | 4-20 | 4-32",
@@ -759,6 +822,7 @@
             },
             {
                   "id": "BE-3439",
+                  "cod_prod": "471.BE-3439",
                   "cat": "Brocas Escalonadas",
                   "nombre": "SET 3 BROCAS ESCALONADAS AC",
                   "desc": "4-12 | 4-20 | 4-39",
@@ -771,6 +835,7 @@
             },
             {
                   "id": "BE-4439",
+                  "cod_prod": "471.BE-4439",
                   "cat": "Brocas Escalonadas",
                   "nombre": "SET 4 BROCAS ESCALONADAS AC",
                   "desc": "4-12 | 4-20 | 4-32 | 4-39",
@@ -783,6 +848,7 @@
             },
             {
                   "id": "CP-125",
+                  "cod_prod": "455.CP-125",
                   "cat": "Cajas de Herramientas",
                   "nombre": "CAJA DE HERRAMIENTAS",
                   "desc": "12.5\" | Plástico",
@@ -795,6 +861,7 @@
             },
             {
                   "id": "CP-16",
+                  "cod_prod": "455.CP-16",
                   "cat": "Cajas de Herramientas",
                   "nombre": "CAJA DE HERRAMIENTAS",
                   "desc": "16\" | Plástico",
@@ -807,6 +874,7 @@
             },
             {
                   "id": "CP-19",
+                  "cod_prod": "455.CP-19",
                   "cat": "Cajas de Herramientas",
                   "nombre": "CAJA DE HERRAMIENTAS",
                   "desc": "19\" | Plástico",
@@ -819,6 +887,7 @@
             },
             {
                   "id": "CPM-20",
+                  "cod_prod": "455.CPM-20",
                   "cat": "Cajas de Herramientas",
                   "nombre": "CAJA DE HERRAMIENTAS",
                   "desc": "20\" | Con Organizador",
@@ -831,6 +900,7 @@
             },
             {
                   "id": "CPO-11",
+                  "cod_prod": "455.CPO-11",
                   "cat": "Cajas de Herramientas",
                   "nombre": "CAJA DE HERRAMIENTAS",
                   "desc": "11\" | C/Bandeja y Organizadores",
@@ -843,6 +913,7 @@
             },
             {
                   "id": "CPO-23",
+                  "cod_prod": "455.CPO-23",
                   "cat": "Cajas de Herramientas",
                   "nombre": "CAJA DE HERRAMIENTAS",
                   "desc": "23\" | C/Bandeja y Organizadores",
@@ -855,6 +926,7 @@
             },
             {
                   "id": "O-12",
+                  "cod_prod": "455.O-12",
                   "cat": "Cajas de Herramientas",
                   "nombre": "CAJÓN ORGANIZADOR",
                   "desc": "33 compartimientos | 12\"",
@@ -867,6 +939,7 @@
             },
             {
                   "id": "OM-12",
+                  "cod_prod": "455.OM-12",
                   "cat": "Cajas de Herramientas",
                   "nombre": "CAJÓN ORGANIZADOR",
                   "desc": "17 compartimientos | 12\"",
@@ -879,6 +952,7 @@
             },
             {
                   "id": "F-15",
+                  "cod_prod": "469.F/15",
                   "cat": "Clavos",
                   "nombre": "CLAVOS CALIBRE 18",
                   "desc": "15 mm | 1000 Unidades",
@@ -891,6 +965,7 @@
             },
             {
                   "id": "F-20",
+                  "cod_prod": "469.F/20",
                   "cat": "Clavos",
                   "nombre": "CLAVOS CALIBRE 18",
                   "desc": "20 mm | 1000 Unidades",
@@ -903,6 +978,7 @@
             },
             {
                   "id": "F-25",
+                  "cod_prod": "469.F/25",
                   "cat": "Clavos",
                   "nombre": "CLAVOS CALIBRE 18",
                   "desc": "25 mm | 1000 Unidades",
@@ -915,6 +991,7 @@
             },
             {
                   "id": "F-30",
+                  "cod_prod": "469.F/30",
                   "cat": "Clavos",
                   "nombre": "CLAVOS CALIBRE 18",
                   "desc": "30 mm | 1000 Unidades",
@@ -927,6 +1004,7 @@
             },
             {
                   "id": "F-35",
+                  "cod_prod": "469.F/35",
                   "cat": "Clavos",
                   "nombre": "CLAVOS CALIBRE 18",
                   "desc": "35 mm | 1000 Unidades",
@@ -939,6 +1017,7 @@
             },
             {
                   "id": "F-40",
+                  "cod_prod": "469.F/40",
                   "cat": "Clavos",
                   "nombre": "CLAVOS CALIBRE 18",
                   "desc": "40 mm | 1000 Unidades",
@@ -951,6 +1030,7 @@
             },
             {
                   "id": "F-45",
+                  "cod_prod": "469.F/45",
                   "cat": "Clavos",
                   "nombre": "CLAVOS CALIBRE 18",
                   "desc": "45 mm | 1000 Unidades",
@@ -963,6 +1043,7 @@
             },
             {
                   "id": "F-50",
+                  "cod_prod": "469.F/50",
                   "cat": "Clavos",
                   "nombre": "CLAVOS CALIBRE 18",
                   "desc": "50 mm | 1000 Unidades",
@@ -975,6 +1056,7 @@
             },
             {
                   "id": "CAP-12K",
+                  "cod_prod": "174.CAP-12K",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR DE AIRE PORTÁTIL",
                   "desc": "12V | 100 W | 150 PSI",
@@ -987,6 +1069,7 @@
             },
             {
                   "id": "EWS150-50",
+                  "cod_prod": "048.EWS150-50",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR ODONTOLÓGICO",
                   "desc": "50 lts | 1.5 HP",
@@ -999,6 +1082,7 @@
             },
             {
                   "id": "IDP-12",
+                  "cod_prod": "174.IDP-12",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR DE AIRE PORTÁTIL",
                   "desc": "12V | 275 W | 150 PSI",
@@ -1011,6 +1095,7 @@
             },
             {
                   "id": "WB-30150",
+                  "cod_prod": "048.WB-30150",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR A CORREA",
                   "desc": "150 lts | 3.0 HP",
@@ -1023,6 +1108,7 @@
             },
             {
                   "id": "WB-55300",
+                  "cod_prod": "041.WB-55300",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR A CORREA",
                   "desc": "300 lts | 5.5 HP",
@@ -1035,6 +1121,7 @@
             },
             {
                   "id": "WB30100",
+                  "cod_prod": "048.WB30100",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR A CORREA",
                   "desc": "100 lts | 3.0 HP",
@@ -1047,6 +1134,7 @@
             },
             {
                   "id": "WD-2025",
+                  "cod_prod": "048.WD-2025",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR DE AIRE",
                   "desc": "25 lts | 2.0 HP",
@@ -1059,6 +1147,7 @@
             },
             {
                   "id": "WD-2550B",
+                  "cod_prod": "048.WD-2550 B",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR DE AIRE",
                   "desc": "50 lts | 2.5 HP",
@@ -1071,6 +1160,7 @@
             },
             {
                   "id": "WD-2550BK",
+                  "cod_prod": "048.WD-2550 BK",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR DE AIRE",
                   "desc": "50 lts | 2.5 HP | Kit 5 piezas",
@@ -1083,6 +1173,7 @@
             },
             {
                   "id": "WD-40100V",
+                  "cod_prod": "048.WD-40100V",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR DE AIRE",
                   "desc": "100 lts | 4.0 HP",
@@ -1095,6 +1186,7 @@
             },
             {
                   "id": "WD-40100VK",
+                  "cod_prod": "048.WD-40100VK",
                   "cat": "Compresores",
                   "nombre": "COMPRESOR DE AIRE",
                   "desc": "100 lts | 4.0 HP | Kit 3 piezas",
@@ -1107,6 +1199,7 @@
             },
             {
                   "id": "AP-PC",
+                  "cod_prod": "382.AP-PC",
                   "cat": "Construcción",
                   "nombre": "PLACA DE GOMA Para PC-65",
                   "desc": "nan",
@@ -1119,6 +1212,7 @@
             },
             {
                   "id": "CA-PC",
+                  "cod_prod": "382.CA-PC",
                   "cat": "Construcción",
                   "nombre": "CARRO DE TRASLADO",
                   "desc": "Para PC-65",
@@ -1131,6 +1225,7 @@
             },
             {
                   "id": "CA-VA",
+                  "cod_prod": "382.CA-VA",
                   "cat": "Construcción",
                   "nombre": "CARRO DE TRASLADO",
                   "desc": "Para VA-55",
@@ -1143,6 +1238,7 @@
             },
             {
                   "id": "CC-65",
+                  "cod_prod": "382.CC-65",
                   "cat": "Construcción",
                   "nombre": "CORTADORA DE CONCRETO",
                   "desc": "Motor Loncin G200F | 6.5 HP | Disco",
@@ -1155,6 +1251,7 @@
             },
             {
                   "id": "HCM-1060",
+                  "cod_prod": "404.HCM-1060",
                   "cat": "Construcción",
                   "nombre": "MEZCLADORA DE HORMIGÓN",
                   "desc": "2200 W | 320 lts",
@@ -1167,6 +1264,7 @@
             },
             {
                   "id": "HCM-450",
+                  "cod_prod": "404.HCM-450",
                   "cat": "Construcción",
                   "nombre": "MEZCLADORA DE HORMIGÓN",
                   "desc": "550 W | 130 lts",
@@ -1179,6 +1277,7 @@
             },
             {
                   "id": "HD350-CC",
+                  "cod_prod": "382.HD350-CC",
                   "cat": "Construcción",
                   "nombre": "DISCO DE CORTE",
                   "desc": "350 mm | Para CC-65",
@@ -1191,6 +1290,7 @@
             },
             {
                   "id": "MX-1400",
+                  "cod_prod": "145.MX-1400",
                   "cat": "Construcción",
                   "nombre": "MEZCLADOR PINTURA/CEMENTO",
                   "desc": "1400W | 300-950 rpm | 120 mm",
@@ -1203,6 +1303,7 @@
             },
             {
                   "id": "PC-55",
+                  "cod_prod": "382.PC-55",
                   "cat": "Construcción",
                   "nombre": "PLACA COMPACTADORA",
                   "desc": "Motor Honda GX160 | 5.5 HP",
@@ -1215,6 +1316,7 @@
             },
             {
                   "id": "PC-65",
+                  "cod_prod": "382.PC-65",
                   "cat": "Construcción",
                   "nombre": "PLACA COMPACTADORA",
                   "desc": "Motor Loncin G200F | 6.5 HP",
@@ -1227,6 +1329,7 @@
             },
             {
                   "id": "VA-40",
+                  "cod_prod": "382.VA-40",
                   "cat": "Construcción",
                   "nombre": "VIBROAPISONADOR",
                   "desc": "Motor Loncin 165F-3H | 4.0 HP",
@@ -1239,6 +1342,7 @@
             },
             {
                   "id": "VA-55",
+                  "cod_prod": "382.VA-55",
                   "cat": "Construcción",
                   "nombre": "VIBROAPISONADOR",
                   "desc": "Motor Honda GX160 | 5.5 HP",
@@ -1251,6 +1355,7 @@
             },
             {
                   "id": "VH-55",
+                  "cod_prod": "382.VH-55",
                   "cat": "Construcción",
                   "nombre": "VIBRADOR DE HORMIGÓN",
                   "desc": "Motor Loncin G160F | 5.5 HP",
@@ -1263,6 +1368,7 @@
             },
             {
                   "id": "VH-M386",
+                  "cod_prod": "382.VH-M386",
                   "cat": "Construcción",
                   "nombre": "MANGUERA CABEZAL",
                   "desc": "38 mm | 6 mts | Para VH-55",
@@ -1275,6 +1381,7 @@
             },
             {
                   "id": "VH-M456",
+                  "cod_prod": "382.VH-M456",
                   "cat": "Construcción",
                   "nombre": "MANGUERA CABEZAL",
                   "desc": "45 mm | 6 mts | Para VH-55",
@@ -1287,6 +1394,7 @@
             },
             {
                   "id": "8102G-2S-48",
+                  "cod_prod": "384.8102G-2S/48",
                   "cat": "Cortadoras de Cerámica",
                   "nombre": "CORTADORA DE PORCELANATOS",
                   "desc": "Industrial | 120 cm | Escuadra",
@@ -1299,6 +1407,7 @@
             },
             {
                   "id": "8103B600",
+                  "cod_prod": "384.8103B600",
                   "cat": "Cortadoras de Cerámica",
                   "nombre": "CORTADORA DE CERÁMICA",
                   "desc": "Industrial | 60 cm | Escuadra",
@@ -1311,6 +1420,7 @@
             },
             {
                   "id": "8103C3800",
+                  "cod_prod": "384.8103C3800",
                   "cat": "Cortadoras de Cerámica",
                   "nombre": "CORTADORA DE PORCELANATOS",
                   "desc": "Industrial | 80 cm | Escuadra",
@@ -1323,6 +1433,7 @@
             },
             {
                   "id": "8105D-3600",
+                  "cod_prod": "384.8105D-3600",
                   "cat": "Cortadoras de Cerámica",
                   "nombre": "CORTADORA DE CERÁMICA",
                   "desc": "Industrial | 60 cm | Escuadra",
@@ -1335,6 +1446,7 @@
             },
             {
                   "id": "8117-22X6X2",
+                  "cod_prod": "384.8117-22X6X2",
                   "cat": "Cortadoras de Cerámica",
                   "nombre": "RODEL P/8103B400/600 x 2U",
                   "desc": "Carburo de tungsteno | 22x6x2 mm",
@@ -1347,6 +1459,7 @@
             },
             {
                   "id": "8117-22X6X2R",
+                  "cod_prod": "384.8117-22X6X2R",
                   "cat": "Cortadoras de Cerámica",
                   "nombre": "RODEL P/8102E-7B C/Ruleman",
                   "desc": "Carburo de tungsteno | 13x7x1 cm",
@@ -1359,6 +1472,7 @@
             },
             {
                   "id": "8117-22X6X6",
+                  "cod_prod": "384.8117-22X6X6",
                   "cat": "Cortadoras de Cerámica",
                   "nombre": "RODEL P/8102G-2S/48",
                   "desc": "Carburo de tungsteno | 22x6x6 mm",
@@ -1371,6 +1485,7 @@
             },
             {
                   "id": "8118-22X6X2BE",
+                  "cod_prod": "384.8118-22X6X2BE",
                   "cat": "Cortadoras de Cerámica",
                   "nombre": "RODEL P/8106C3800",
                   "desc": "Carburo de tungsteno | 22x6x2 mm",
@@ -1383,6 +1498,7 @@
             },
             {
                   "id": "8118-22X6X4.6",
+                  "cod_prod": "384.8118-22X6X4.6",
                   "cat": "Cortadoras de Cerámica",
                   "nombre": "RODEL P/8103C3800",
                   "desc": "Carburo de tungsteno | 22x6x4.6 mm",
@@ -1395,6 +1511,7 @@
             },
             {
                   "id": "DB-2",
+                  "cod_prod": "384.DB-2",
                   "cat": "Cortadoras de Cerámica",
                   "nombre": "CORTADORA DE PORCELANATOS",
                   "desc": "Industrial | 300 cm | Escuadra",
@@ -1407,6 +1524,7 @@
             },
             {
                   "id": "CBT-4",
+                  "cod_prod": "174.CBT-4",
                   "cat": "Criques",
                   "nombre": "CRIQUE HIDRÁULICO BOTELLA",
                   "desc": "4 Toneladas | 12,7 cm",
@@ -1419,6 +1537,7 @@
             },
             {
                   "id": "CBT-6",
+                  "cod_prod": "174.CBT-6",
                   "cat": "Criques",
                   "nombre": "CRIQUE HIDRÁULICO BOTELLA",
                   "desc": "6 Toneladas | 16,5 cm",
@@ -1431,6 +1550,7 @@
             },
             {
                   "id": "CRT-2",
+                  "cod_prod": "174.CRT-2",
                   "cat": "Criques",
                   "nombre": "CRIQUE CARRITO HIDRÁULICO",
                   "desc": "2 Toneladas | 30 cm",
@@ -1443,6 +1563,7 @@
             },
             {
                   "id": "CRT-25E",
+                  "cod_prod": "174.CRT-25E",
                   "cat": "Criques",
                   "nombre": "CRIQUE CARRITO HIDRÁULICO",
                   "desc": "2,5 Toneladas | 35 cm",
@@ -1455,6 +1576,7 @@
             },
             {
                   "id": "CRT-3E",
+                  "cod_prod": "174.CRT-30E",
                   "cat": "Criques",
                   "nombre": "CRIQUE CARRITO HIDRÁULICO",
                   "desc": "3 Toneladas | 50 cm",
@@ -1467,6 +1589,7 @@
             },
             {
                   "id": "CTT-1",
+                  "cod_prod": "174.CTT-1",
                   "cat": "Criques",
                   "nombre": "CRIQUE TIJERA REFORZADO",
                   "desc": "1 Tonelada | 23,6 cm",
@@ -1479,6 +1602,7 @@
             },
             {
                   "id": "DCT-12",
+                  "cod_prod": "174.DCT-12",
                   "cat": "Criques",
                   "nombre": "Dobladora de Caños Hidráulica",
                   "desc": "12 Toneladas | 6 Matrices",
@@ -1491,6 +1615,7 @@
             },
             {
                   "id": "CD-1",
+                  "cod_prod": "471.CD-1",
                   "cat": "Discos de Corte",
                   "nombre": "COPA DISCO DIAMANTADO",
                   "desc": "Doble | 115 X 22.23 mm",
@@ -1503,6 +1628,7 @@
             },
             {
                   "id": "DC-1",
+                  "cod_prod": "471.DC-1",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO DE CORTE ABRASIVO",
                   "desc": "Para Metal | 115 X 1.0 mm",
@@ -1515,6 +1641,7 @@
             },
             {
                   "id": "DC-12",
+                  "cod_prod": "471.DC-12",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO DE CORTE ABRASIVO",
                   "desc": "Para Metal | 115 X 1.2 mm",
@@ -1527,6 +1654,7 @@
             },
             {
                   "id": "DC-16",
+                  "cod_prod": "471.DC-16",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO DE CORTE ABRASIVO",
                   "desc": "Para Metal | 115 X 1.6 mm",
@@ -1539,6 +1667,7 @@
             },
             {
                   "id": "DC-2",
+                  "cod_prod": "471.DC-2",
                   "cat": "Discos de Corte",
                   "nombre": "10 DISCOS DE CORTE ABRASIVOS",
                   "desc": "Para Metal | 115 X 1.0 mm | C/Estuche",
@@ -1551,6 +1680,7 @@
             },
             {
                   "id": "DC-3",
+                  "cod_prod": "471.DC-3",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO DE CORTE ABRASIVO",
                   "desc": "Para Metal | 180 X 1.6 mm",
@@ -1563,6 +1693,7 @@
             },
             {
                   "id": "DC-4",
+                  "cod_prod": "471.DC-4",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO DE CORTE ABRASIVO",
                   "desc": "Para Metal | 230 X 1.6 mm",
@@ -1575,6 +1706,7 @@
             },
             {
                   "id": "DC-5",
+                  "cod_prod": "471.DC-5",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO DE CORTE ABRASIVO",
                   "desc": "Para Metal | 350 X 3.2 mm",
@@ -1587,6 +1719,7 @@
             },
             {
                   "id": "DCX-115",
+                  "cod_prod": "471.DCX-115",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO SEGMENTADO",
                   "desc": "Borde diamantado | 115 mm",
@@ -1599,6 +1732,7 @@
             },
             {
                   "id": "DD-1",
+                  "cod_prod": "471.DD-1",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO DE CORTE DIAMANTADO",
                   "desc": "Turbo | 115x22.23 mm",
@@ -1611,6 +1745,7 @@
             },
             {
                   "id": "DD-123",
+                  "cod_prod": "471.DD-123",
                   "cat": "Discos de Corte",
                   "nombre": "DISCOS DE CORTE DIAMANTADOS",
                   "desc": "Pack 3 unidades | 115x22.23 mm",
@@ -1623,6 +1758,7 @@
             },
             {
                   "id": "DD-2",
+                  "cod_prod": "471.DD-2",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO DE CORTE DIAMANTADO",
                   "desc": "Segmentado | 115x22.23 mm",
@@ -1635,6 +1771,7 @@
             },
             {
                   "id": "DD-3",
+                  "cod_prod": "471.DD-3",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO DE CORTE DIAMANTADO",
                   "desc": "Continuo | 115x22.23 mm",
@@ -1647,6 +1784,7 @@
             },
             {
                   "id": "DFA45100",
+                  "cod_prod": "471.DFA45100",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO FLAP OXIDO DE ALUMINIO",
                   "desc": "115 x 22.2 mm | Grano 100",
@@ -1659,6 +1797,7 @@
             },
             {
                   "id": "DFA45120",
+                  "cod_prod": "471.DFA45120",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO FLAP OXIDO DE ALUMINIO",
                   "desc": "115 x 22.2 mm | Grano 120",
@@ -1671,6 +1810,7 @@
             },
             {
                   "id": "DFA4540",
+                  "cod_prod": "471.DFA4540",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO FLAP OXIDO DE ALUMINIO",
                   "desc": "115 x 22.2 mm | Grano 40",
@@ -1683,6 +1823,7 @@
             },
             {
                   "id": "DFA4560",
+                  "cod_prod": "471.DFA4560",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO FLAP OXIDO DE ALUMINIO",
                   "desc": "115 x 22.2 mm | Grano 60",
@@ -1695,6 +1836,7 @@
             },
             {
                   "id": "DFA4580",
+                  "cod_prod": "471.DFA4580",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO FLAP OXIDO DE ALUMINIO",
                   "desc": "115 x 22.2 mm | Grano 80",
@@ -1707,6 +1849,7 @@
             },
             {
                   "id": "DFZ45100",
+                  "cod_prod": "471.DFZ45100",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO FLAP ZIRCONIO",
                   "desc": "115 x 22.2 mm | Grano 100",
@@ -1719,6 +1862,7 @@
             },
             {
                   "id": "DFZ45120",
+                  "cod_prod": "471.DFZ45120",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO FLAP ZIRCONIO",
                   "desc": "115 x 22.2 mm | Grano 120",
@@ -1731,6 +1875,7 @@
             },
             {
                   "id": "DFZ4540",
+                  "cod_prod": "471.DFZ4540",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO FLAP ZIRCONIO",
                   "desc": "115 x 22.2 mm | Grano 40",
@@ -1743,6 +1888,7 @@
             },
             {
                   "id": "DFZ4560",
+                  "cod_prod": "471.DFZ4560",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO FLAP ZIRCONIO",
                   "desc": "115 x 22.2 mm | Grano 60",
@@ -1755,6 +1901,7 @@
             },
             {
                   "id": "DFZ4580",
+                  "cod_prod": "471.DFZ4580",
                   "cat": "Discos de Corte",
                   "nombre": "DISCO FLAP ZIRCONIO",
                   "desc": "115 x 22.2 mm | Grano 80",
@@ -1767,6 +1914,7 @@
             },
             {
                   "id": "HSA10100",
+                  "cod_prod": "471.HSA10100",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/ALUMINIO",
                   "desc": "254 mm | 30/25,4 mm | 100 Dientes",
@@ -1779,6 +1927,7 @@
             },
             {
                   "id": "HSA780",
+                  "cod_prod": "471.HSA780",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/ALUMINIO",
                   "desc": "184 mm | 20 mm | 80 Dientes",
@@ -1791,6 +1940,7 @@
             },
             {
                   "id": "HSA840",
+                  "cod_prod": "471.HSA840",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/ALUMINIO",
                   "desc": "200 mm | 25,4 mm | 40 Dientes",
@@ -1803,6 +1953,7 @@
             },
             {
                   "id": "HSA860",
+                  "cod_prod": "471.HSA860",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/ALUMINIO",
                   "desc": "200 mm | 25,4 mm | 60 Dientes",
@@ -1815,6 +1966,7 @@
             },
             {
                   "id": "HSM10100",
+                  "cod_prod": "471.HSM10100",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "254 mm | 30/25,4 mm | 100 Dientes",
@@ -1827,6 +1979,7 @@
             },
             {
                   "id": "HSM1040",
+                  "cod_prod": "471.HSM1040",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "254 mm | 30/25,4 mm | 40 Dientes",
@@ -1839,6 +1992,7 @@
             },
             {
                   "id": "HSM1060",
+                  "cod_prod": "471.HSM1060",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "254 mm | 30/25,4 mm | 60 Dientes",
@@ -1851,6 +2005,7 @@
             },
             {
                   "id": "HSM12100",
+                  "cod_prod": "471.HSM12100",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "305 mm | 30/25,4 mm | 100 Dientes",
@@ -1863,6 +2018,7 @@
             },
             {
                   "id": "HSM1260",
+                  "cod_prod": "471.HSM1260",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "305 mm | 30/25,4 mm | 60 Dientes",
@@ -1875,6 +2031,7 @@
             },
             {
                   "id": "HSM45",
+                  "cod_prod": "471.HSM45",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "115 mm | 22,23 mm | 45 Dientes",
@@ -1887,6 +2044,7 @@
             },
             {
                   "id": "HSM724",
+                  "cod_prod": "471.HSM724",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "184 mm | 20 mm | 24 Dientes",
@@ -1899,6 +2057,7 @@
             },
             {
                   "id": "HSM724F",
+                  "cod_prod": "471.HSM724F",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA FRAMING",
                   "desc": "184 mm | 20 mm | 24 Dientes",
@@ -1911,6 +2070,7 @@
             },
             {
                   "id": "HSM740",
+                  "cod_prod": "471.HSM740",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "184 mm | 16 mm | 40 Dientes",
@@ -1923,6 +2083,7 @@
             },
             {
                   "id": "HSM760",
+                  "cod_prod": "471.HSM760",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "184 mm | 16 mm | 60 Dientes",
@@ -1935,6 +2096,7 @@
             },
             {
                   "id": "HSM840",
+                  "cod_prod": "471.HSM840",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "200 mm | 25,4 mm | 40 Dientes",
@@ -1947,6 +2109,7 @@
             },
             {
                   "id": "HSM860",
+                  "cod_prod": "471.HSM860",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "200 mm | 25,4 mm | 60 Dientes",
@@ -1959,6 +2122,7 @@
             },
             {
                   "id": "HSM880",
+                  "cod_prod": "471.HSM880",
                   "cat": "Discos de Corte",
                   "nombre": "HOJA DE SIERRA P/MADERA",
                   "desc": "200 mm | 25,4 mm | 80 Dientes",
@@ -1971,6 +2135,7 @@
             },
             {
                   "id": "777-A",
+                  "cod_prod": "174.777-A",
                   "cat": "Equipos para Pintar",
                   "nombre": "MINI COMPRESOR DE AIRE",
                   "desc": "Kit Pistola + Manguera | 0.23 HP",
@@ -1983,6 +2148,7 @@
             },
             {
                   "id": "PP-101",
+                  "cod_prod": "045.PP-101",
                   "cat": "Equipos para Pintar",
                   "nombre": "EQUIPO ELÉCTRICO P/PINTAR",
                   "desc": "650 W | 2.5 mm",
@@ -1995,6 +2161,7 @@
             },
             {
                   "id": "PP-110",
+                  "cod_prod": "602.PP-110",
                   "cat": "Equipos para Pintar",
                   "nombre": "EQUIPO ELÉCTRICO P/PINTAR",
                   "desc": "450 W | 2.5 mm",
@@ -2007,6 +2174,7 @@
             },
             {
                   "id": "PP-117",
+                  "cod_prod": "602.PP-117",
                   "cat": "Equipos para Pintar",
                   "nombre": "Equipo Eléctrico Para Pintar",
                   "desc": "750 W | 1200 ml | 4 Boquillas",
@@ -2019,6 +2187,7 @@
             },
             {
                   "id": "PP-201",
+                  "cod_prod": "045.PP-201",
                   "cat": "Equipos para Pintar",
                   "nombre": "EQUIPO ELÉCTRICO P/PINTAR",
                   "desc": "650 W | 2.5 mm | Pistola de aluminio",
@@ -2031,6 +2200,7 @@
             },
             {
                   "id": "EA3",
+                  "cod_prod": "034.EA3",
                   "cat": "Escaleras",
                   "nombre": "ESCALERA ARTICULADA",
                   "desc": "Acero y aluminio | 3,7 mts | 4x3",
@@ -2043,6 +2213,7 @@
             },
             {
                   "id": "EA4",
+                  "cod_prod": "034.EA4",
                   "cat": "Escaleras",
                   "nombre": "ESCALERA ARTICULADA",
                   "desc": "Acero y aluminio | 4,7 mts | 4x4",
@@ -2055,6 +2226,7 @@
             },
             {
                   "id": "ET-5",
+                  "cod_prod": "034.ET-5",
                   "cat": "Escaleras",
                   "nombre": "ESCALERA TELESCÓPICA",
                   "desc": "Acero | 2,3 mts | 150 kg",
@@ -2067,6 +2239,7 @@
             },
             {
                   "id": "ET-7",
+                  "cod_prod": "034.ET-7",
                   "cat": "Escaleras",
                   "nombre": "ESCALERA TELESCÓPICA",
                   "desc": "Acero | 2,8 mts | 150 kg",
@@ -2079,6 +2252,7 @@
             },
             {
                   "id": "ET-9",
+                  "cod_prod": "034.ET-9",
                   "cat": "Escaleras",
                   "nombre": "ESCALERA TELESCÓPICA",
                   "desc": "Acero | 3,8 mts | 150 kg",
@@ -2091,6 +2265,7 @@
             },
             {
                   "id": "SFR-12",
+                  "cod_prod": "391.SFR-12",
                   "cat": "Fresas",
                   "nombre": "SETS DE FRESAS",
                   "desc": "12 Piezas | Caja de madera",
@@ -2103,6 +2278,7 @@
             },
             {
                   "id": "SFR-24",
+                  "cod_prod": "391.SFR-24",
                   "cat": "Fresas",
                   "nombre": "SETS DE FRESAS",
                   "desc": "24 Piezas | Caja de madera",
@@ -2115,6 +2291,7 @@
             },
             {
                   "id": "SFR-35",
+                  "cod_prod": "391.SFR-35",
                   "cat": "Fresas",
                   "nombre": "SETS DE FRESAS",
                   "desc": "35 Piezas | Caja de madera",
@@ -2127,6 +2304,7 @@
             },
             {
                   "id": "SFR-6",
+                  "cod_prod": "391.SFR-6",
                   "cat": "Fresas",
                   "nombre": "SETS DE FRESAS",
                   "desc": "6 Piezas | Caja de madera",
@@ -2139,6 +2317,7 @@
             },
             {
                   "id": "EP-7000",
+                  "cod_prod": "175.EP-7000",
                   "cat": "Generadores",
                   "nombre": "GENERADOR ELÉCTRICO",
                   "desc": "16 HP | 24 lts | 20 hs",
@@ -2151,6 +2330,7 @@
             },
             {
                   "id": "EP2500",
+                  "cod_prod": "175.EP2500",
                   "cat": "Generadores",
                   "nombre": "GENERADOR ELÉCTRICO",
                   "desc": "6.5 HP | 17 lts | 19 hs",
@@ -2163,6 +2343,7 @@
             },
             {
                   "id": "EP3500",
+                  "cod_prod": "175.EP3500",
                   "cat": "Generadores",
                   "nombre": "GENERADOR ELÉCTRICO",
                   "desc": "7.0 HP | 17 lts | 12 hs",
@@ -2175,6 +2356,7 @@
             },
             {
                   "id": "ABAT-20K",
+                  "cod_prod": "440.ABAT-20K",
                   "cat": "Herramientas a Batería",
                   "nombre": "KIT TALADRO + AMOLADORA",
                   "desc": "20V | 2 baterías + Maletín",
@@ -2187,6 +2369,7 @@
             },
             {
                   "id": "ATBAT-48K",
+                  "cod_prod": "440.ATBAT-48K",
                   "cat": "Herramientas a Batería",
                   "nombre": "ATORNILLADOR INALÁMBRICO Kit 48 piezas",
                   "desc": "¼” | USB-C",
@@ -2199,6 +2382,7 @@
             },
             {
                   "id": "LLB-20K",
+                  "cod_prod": "145.LLB-20K",
                   "cat": "Herramientas a Batería",
                   "nombre": "LLAVE DE IMPACTO",
                   "desc": "20V | 1/2”",
@@ -2211,6 +2395,7 @@
             },
             {
                   "id": "RMBAT-20K",
+                  "cod_prod": "440.RMBAT-20K",
                   "cat": "Herramientas a Batería",
                   "nombre": "ROTOMARTILLO SDS PLUS 24MM",
                   "desc": "20V | 0-800 gpm | Baterías + Maletín",
@@ -2223,6 +2408,7 @@
             },
             {
                   "id": "TBAT-12",
+                  "cod_prod": "440.TBAT-12",
                   "cat": "Herramientas a Batería",
                   "nombre": "TALADRO PERCUTOR A BATERÍA",
                   "desc": "12V | 10 mm | 2 baterías + Maletín",
@@ -2235,6 +2421,7 @@
             },
             {
                   "id": "TBAT-12M",
+                  "cod_prod": "440.TBAT-12M",
                   "cat": "Herramientas a Batería",
                   "nombre": "TALADRO PERCUTOR A BATERÍA",
                   "desc": "12V | 10 mm | Batería",
@@ -2247,6 +2434,7 @@
             },
             {
                   "id": "TBAT-20",
+                  "cod_prod": "440.TBAT-20",
                   "cat": "Herramientas a Batería",
                   "nombre": "TALADRO BRUSHLESS BATERÍA",
                   "desc": "20V | 10 mm | 2 baterías + Maletín",
@@ -2259,6 +2447,7 @@
             },
             {
                   "id": "TBAT-20MK",
+                  "cod_prod": "440.TBAT-20MK",
                   "cat": "Herramientas a Batería",
                   "nombre": "TALADRO BRUSHLESS BATERÍA",
                   "desc": "20V | 10 mm | 2 baterías + Maletín",
@@ -2271,6 +2460,7 @@
             },
             {
                   "id": "CPB-1500",
+                  "cod_prod": "539.CPB-1500",
                   "cat": "Herramientas de Carpintería",
                   "nombre": "CEPILLADORA GARLOPA DE BANCO",
                   "desc": "1500 W | 8500/min | 20,4 cm",
@@ -2283,6 +2473,7 @@
             },
             {
                   "id": "MWM-10A",
+                  "cod_prod": "281.MWM-10A",
                   "cat": "Herramientas de Carpintería",
                   "nombre": "MAQUINA COMBINADA",
                   "desc": "6 Funciones | Mesa Extensible | 3.0 HP",
@@ -2295,6 +2486,7 @@
             },
             {
                   "id": "MWM-8A",
+                  "cod_prod": "281.MWM-8A",
                   "cat": "Herramientas de Carpintería",
                   "nombre": "MAQUINA COMBINADA",
                   "desc": "5 Funciones | Mesa Extensible | 2.0 HP",
@@ -2307,6 +2499,7 @@
             },
             {
                   "id": "SFF-350",
+                  "cod_prod": "281.SFF-350",
                   "cat": "Herramientas de Carpintería",
                   "nombre": "SIERRA SINFÍN",
                   "desc": "80 mm | 350 W",
@@ -2319,6 +2512,7 @@
             },
             {
                   "id": "SI-10",
+                  "cod_prod": "281.SI-10",
                   "cat": "Herramientas de Carpintería",
                   "nombre": "SIERRA INGLETADORA",
                   "desc": "255 mm | 1650 W",
@@ -2331,6 +2525,7 @@
             },
             {
                   "id": "SI-10T",
+                  "cod_prod": "281.SI-10T",
                   "cat": "Herramientas de Carpintería",
                   "nombre": "INGLETADORA TELESCÓPICA",
                   "desc": "255 mm | 1800 W | Guía Laser",
@@ -2343,6 +2538,7 @@
             },
             {
                   "id": "SI-12T",
+                  "cod_prod": "281.SI-12T",
                   "cat": "Herramientas de Carpintería",
                   "nombre": "INGLETADORA TELESCÓPICA",
                   "desc": "305 mm | 2100 W | Guía Laser",
@@ -2355,6 +2551,7 @@
             },
             {
                   "id": "SI-8",
+                  "cod_prod": "281.SI-8",
                   "cat": "Herramientas de Carpintería",
                   "nombre": "SIERRA INGLETADORA",
                   "desc": "210 mm | 1250 W",
@@ -2367,6 +2564,7 @@
             },
             {
                   "id": "SM-255",
+                  "cod_prod": "106.SM-255",
                   "cat": "Herramientas de Carpintería",
                   "nombre": "SIERRA CIRCULAR DE MESA",
                   "desc": "250 mm | 1800 W",
@@ -2379,6 +2577,7 @@
             },
             {
                   "id": "TMM5501000",
+                  "cod_prod": "281.TMM5501000",
                   "cat": "Herramientas de Carpintería",
                   "nombre": "TORNO COPIADOR P/MADERA",
                   "desc": "1000 mm | 3/4 HP",
@@ -2391,6 +2590,7 @@
             },
             {
                   "id": "AB25013",
+                  "cod_prod": "281.AB25013",
                   "cat": "Herramientas de Taller",
                   "nombre": "TALADRO DE BANCO",
                   "desc": "13 mm | 1/3 HP",
@@ -2403,6 +2603,7 @@
             },
             {
                   "id": "AB25013K",
+                  "cod_prod": "281.AB25013K",
                   "cat": "Herramientas de Taller",
                   "nombre": "TALADRO DE BANCO",
                   "desc": "13 mm | 1/3 HP | Morsa",
@@ -2415,6 +2616,7 @@
             },
             {
                   "id": "AB35013",
+                  "cod_prod": "281.AB35013",
                   "cat": "Herramientas de Taller",
                   "nombre": "TALADRO DE BANCO",
                   "desc": "13 mm | 1/2 HP",
@@ -2427,6 +2629,7 @@
             },
             {
                   "id": "AB550161",
+                  "cod_prod": "281.AB550161",
                   "cat": "Herramientas de Taller",
                   "nombre": "TALADRO DE BANCO",
                   "desc": "16 mm | 3/4 HP",
@@ -2439,6 +2642,7 @@
             },
             {
                   "id": "AB550161K",
+                  "cod_prod": "281.AB550161K",
                   "cat": "Herramientas de Taller",
                   "nombre": "TALADRO DE BANCO",
                   "desc": "16 mm | 3/4 HP",
@@ -2451,6 +2655,7 @@
             },
             {
                   "id": "LBD3756",
+                  "cod_prod": "281.LBD3756",
                   "cat": "Herramientas de Taller",
                   "nombre": "LIJADORA DE BANDA Y DISCO",
                   "desc": "915x100 mm | 375 W",
@@ -2463,6 +2668,7 @@
             },
             {
                   "id": "SS200014",
+                  "cod_prod": "281.SS200014",
                   "cat": "Herramientas de Taller",
                   "nombre": "SIERRA SENSITIVA",
                   "desc": "14\" | 2000 W",
@@ -2475,6 +2681,7 @@
             },
             {
                   "id": "TM550300",
+                  "cod_prod": "281.TM550300",
                   "cat": "Herramientas de Taller",
                   "nombre": "TORNO MECANICO PARALELO",
                   "desc": "300 mm | 3/4 HP",
@@ -2487,6 +2694,7 @@
             },
             {
                   "id": "TM550520",
+                  "cod_prod": "281.TM550520",
                   "cat": "Herramientas de Taller",
                   "nombre": "TORNO MECANICO PARALELO",
                   "desc": "520 mm | 3/4 HP",
@@ -2499,6 +2707,7 @@
             },
             {
                   "id": "TM550700",
+                  "cod_prod": "281.TM550700",
                   "cat": "Herramientas de Taller",
                   "nombre": "TORNO MECANICO PARALELO",
                   "desc": "700 mm | 3/4 HP",
@@ -2511,6 +2720,7 @@
             },
             {
                   "id": "AA-1050",
+                  "cod_prod": "145.AA-1050",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "AMOLADORA ANGULAR",
                   "desc": "1050W | 115 mm",
@@ -2523,6 +2733,7 @@
             },
             {
                   "id": "AA-2000",
+                  "cod_prod": "145.AA-2000",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "AMOLADORA ANGULAR",
                   "desc": "2000W | 180 mm",
@@ -2535,6 +2746,7 @@
             },
             {
                   "id": "AA-750",
+                  "cod_prod": "145.AA-750",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "AMOLADORA ANGULAR",
                   "desc": "750W | 115 mm",
@@ -2547,6 +2759,7 @@
             },
             {
                   "id": "AA-950",
+                  "cod_prod": "145.AA-950",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "AMOLADORA ANGULAR",
                   "desc": "950W | 115 mm",
@@ -2559,6 +2772,7 @@
             },
             {
                   "id": "CE-650",
+                  "cod_prod": "511.CE-650",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "CEPILLO REBAJADOR",
                   "desc": "650 W | 0-82 mm | 0-2 mm",
@@ -2571,6 +2785,7 @@
             },
             {
                   "id": "CE-900",
+                  "cod_prod": "511.CE-900",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "CEPILLO REBAJADOR",
                   "desc": "900 W | 0-82 mm | 0-3 mm",
@@ -2583,6 +2798,7 @@
             },
             {
                   "id": "LB5-900",
+                  "cod_prod": "511.LB5-900",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "LIJADORA DE BANDA MANUAL",
                   "desc": "900 W | 533x76 mm",
@@ -2595,6 +2811,7 @@
             },
             {
                   "id": "LOC-230",
+                  "cod_prod": "511.LOC-230",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "LIJADORA ORBITAL",
                   "desc": "230 W | 115x110 mm",
@@ -2607,6 +2824,7 @@
             },
             {
                   "id": "LOR-180",
+                  "cod_prod": "511.LOR-180",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "LIJADORA ORBITAL DE BANDA",
                   "desc": "180 W | 90x187mm",
@@ -2619,6 +2837,7 @@
             },
             {
                   "id": "LP-1500",
+                  "cod_prod": "145.LP-1500",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "LUSTRALIJADORA PULIDORA",
                   "desc": "1500 W | 180 mm",
@@ -2631,6 +2850,7 @@
             },
             {
                   "id": "LRO5-300",
+                  "cod_prod": "511.LRO5-300",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "LIJADORA ROTO-ORBITAL",
                   "desc": "300 W | Ø 125 mm",
@@ -2643,6 +2863,7 @@
             },
             {
                   "id": "LRO5-480",
+                  "cod_prod": "511.LRO5-480",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "LIJADORA ROTO ORBITAL",
                   "desc": "480 W | Ø 125 mm | Doble agarre",
@@ -2655,6 +2876,7 @@
             },
             {
                   "id": "MC-350",
+                  "cod_prod": "511.MC-350",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "MULTI CORTADORA OSCILANTE",
                   "desc": "350 W | Oscilación 3°",
@@ -2667,6 +2889,7 @@
             },
             {
                   "id": "MI-135",
+                  "cod_prod": "145.MI-135",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "MINI TORNO",
                   "desc": "135 W | 3.2 mm | 0-30000 rpm",
@@ -2679,6 +2902,7 @@
             },
             {
                   "id": "PK-1800",
+                  "cod_prod": "145.PK-1800",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "PISTOLA DE CALOR",
                   "desc": "1800 W | 380°-500°",
@@ -2691,6 +2915,7 @@
             },
             {
                   "id": "PK-2000",
+                  "cod_prod": "145.PK-2000",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "PISTOLA DE CALOR",
                   "desc": "2000 W | 350°-600°",
@@ -2703,6 +2928,7 @@
             },
             {
                   "id": "RCE-X2",
+                  "cod_prod": "471.RCE-X2",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "CUCHILLAS DE REPUESTO x 2",
                   "desc": "Para CE-650 y CE-900 | 82 mm",
@@ -2715,6 +2941,7 @@
             },
             {
                   "id": "TA-300",
+                  "cod_prod": "145.TA-300",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "TALADRO ATORNILLADOR",
                   "desc": "300W | 10 mm",
@@ -2727,6 +2954,7 @@
             },
             {
                   "id": "TP-650",
+                  "cod_prod": "145.TP-650",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "TALADRO PERCUTOR",
                   "desc": "650 W | 1,5 a 13 mm",
@@ -2739,6 +2967,7 @@
             },
             {
                   "id": "TP-750",
+                  "cod_prod": "145.TP-750",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "TALADRO PERCUTOR",
                   "desc": "750 W | 1,5 a 13 mm",
@@ -2751,6 +2980,7 @@
             },
             {
                   "id": "TP-900",
+                  "cod_prod": "145.TP-900",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "TALADRO PERCUTOR",
                   "desc": "900 W | 1,5 a 13 mm",
@@ -2763,6 +2993,7 @@
             },
             {
                   "id": "TPK-650",
+                  "cod_prod": "145.TPK-650",
                   "cat": "Herramientas Eléctricas",
                   "nombre": "TALADRO PERCUTOR",
                   "desc": "650 W | 1,5 a 13 mm | Con Kit",
@@ -2775,6 +3006,7 @@
             },
             {
                   "id": "8416",
+                  "cod_prod": "174.8416",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "ENGRAMPADORA NEUMÁTICA",
                   "desc": "8 bar | Calibre 21 | 140 unidades",
@@ -2787,6 +3019,7 @@
             },
             {
                   "id": "AA-2029",
+                  "cod_prod": "048.AA-2029",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "FILTRO REGULADOR Lubricador de aire",
                   "desc": "½\"",
@@ -2799,6 +3032,7 @@
             },
             {
                   "id": "AN-17",
+                  "cod_prod": "026.AN-17",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "ARENADORA NEUMÁTICA",
                   "desc": "17 lts | 60-125 PSI | 6-25 CFM",
@@ -2811,6 +3045,7 @@
             },
             {
                   "id": "AN-70",
+                  "cod_prod": "026.AN-70",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "ARENADORA NEUMÁTICA",
                   "desc": "70 lts | 60-125 PSI | 6-25 CFM",
@@ -2823,6 +3058,7 @@
             },
             {
                   "id": "AQ-1",
+                  "cod_prod": "174.AQ-1",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "ACOPLE RÁPIDO",
                   "desc": "P/ Herramientas Neumáticas | ¼\"",
@@ -2835,6 +3071,7 @@
             },
             {
                   "id": "AQ-1F",
+                  "cod_prod": "174.AQ-1F",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "ACOPLE RÁPIDO",
                   "desc": "P/ Herramientas Neumáticas | ¼\"",
@@ -2847,6 +3084,7 @@
             },
             {
                   "id": "AQ-3",
+                  "cod_prod": "174.AQ-3",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "ACOPLE RÁPIDO",
                   "desc": "P/ Herramientas Neumáticas | Macho",
@@ -2859,6 +3097,7 @@
             },
             {
                   "id": "AQ-3F",
+                  "cod_prod": "174.AQ-3F",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "ACOPLE RÁPIDO",
                   "desc": "P/ Herramientas Neumáticas | Hembra",
@@ -2871,6 +3110,7 @@
             },
             {
                   "id": "C8003",
+                  "cod_prod": "174.C8003",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "CLAVADORA/ENGRAMPADORA",
                   "desc": "8 bar | Calibre 18 | 120 unidades",
@@ -2883,6 +3123,7 @@
             },
             {
                   "id": "C8003K",
+                  "cod_prod": "174.C8003K",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "CLAVADORA/ENGRAMPADORA",
                   "desc": "con 100 clavos y 100 grapas",
@@ -2895,6 +3136,7 @@
             },
             {
                   "id": "K-3A",
+                  "cod_prod": "174.K-3A",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "MINI PISTOLA GRAVEDAD",
                   "desc": "0,5 mm | 3-4 bar | 200 cc",
@@ -2907,6 +3149,7 @@
             },
             {
                   "id": "L-200",
+                  "cod_prod": "174.L-200",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "PISTOLA P/PINTAR SUCCIÓN",
                   "desc": "1.4 mm | 3.5 bar | 1000 cc",
@@ -2919,6 +3162,7 @@
             },
             {
                   "id": "L-2000A5",
+                  "cod_prod": "174.L-2000A5",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "KIT 5 PIEZAS NEUMÁTICAS Pistola Succión",
                   "desc": "5 piezas",
@@ -2931,6 +3175,7 @@
             },
             {
                   "id": "L-2000A6",
+                  "cod_prod": "174.L-2000A6",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "KIT 5 PIEZAS NEUMÁTICAS Pistola Gravedad",
                   "desc": "5 piezas",
@@ -2943,6 +3188,7 @@
             },
             {
                   "id": "L-500",
+                  "cod_prod": "174.L-500",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "PISTOLA P/PINTAR GRAVEDAD",
                   "desc": "1.4 mm | 3.5 bar | 600 cc",
@@ -2955,6 +3201,7 @@
             },
             {
                   "id": "LB-13",
+                  "cod_prod": "174.LB-13",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "PISTOLA PARA ARENAR",
                   "desc": "90 psi | Manguera | Boquilla 4/10 mm",
@@ -2967,6 +3214,7 @@
             },
             {
                   "id": "LC-06",
+                  "cod_prod": "174.LC-06",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "PISTOLA TEXTURADOS/SALPICRE",
                   "desc": "8 bar | 5 lts | 3 Picos",
@@ -2979,6 +3227,7 @@
             },
             {
                   "id": "LD-03",
+                  "cod_prod": "174.LD-03",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "PISTOLA PARA ARENAR",
                   "desc": "90 psi | Manguera | 2 picos",
@@ -2991,6 +3240,7 @@
             },
             {
                   "id": "LG-03",
+                  "cod_prod": "174.LG-03",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "FILTRO DE HUMEDAD Para Compresor",
                   "desc": "¼\"",
@@ -3003,6 +3253,7 @@
             },
             {
                   "id": "LK-04",
+                  "cod_prod": "174.LK-04",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "AERÓGRAFO TIPO LÁPIZ",
                   "desc": "0,3 mm | 3,5 bar | 25 cc",
@@ -3015,6 +3266,7 @@
             },
             {
                   "id": "LK-33",
+                  "cod_prod": "174.LK-33",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "AERÓGRAFO DOBLE FUNCIÓN",
                   "desc": "0,3 mm | 3,5 bar | 20/40 cc",
@@ -3027,6 +3279,7 @@
             },
             {
                   "id": "LX-001",
+                  "cod_prod": "174.LX-001",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "LLAVE DE IMPACTO NEUMÁTICA Boquilla macho ½\"",
                   "desc": "6.2 bar | Con Kit",
@@ -3039,6 +3292,7 @@
             },
             {
                   "id": "LX-003",
+                  "cod_prod": "174.LX-003",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "LLAVE DE CRIQUE NEUMÁTICA",
                   "desc": "Boquilla macho ½\" | 6.2 bar | Con Kit",
@@ -3051,6 +3305,7 @@
             },
             {
                   "id": "LX-2261",
+                  "cod_prod": "174.LX-2261",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "LLAVE DE IMPACTO C/EJE LARGO ½\"",
                   "desc": "Torque 1600 ft-lb | Industrial",
@@ -3063,6 +3318,7 @@
             },
             {
                   "id": "LX-3050",
+                  "cod_prod": "174.LX-3050",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "MARTILLO CINCELADOR 4500 gpm",
                   "desc": "6.3 bar | 4 Cinceles",
@@ -3075,6 +3331,7 @@
             },
             {
                   "id": "LX-4010",
+                  "cod_prod": "174.LX-4010",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "LIJADORA ROTO-ORBITAL 6\"",
                   "desc": "6.2 bar | ¼\" + Acople rápido",
@@ -3087,6 +3344,7 @@
             },
             {
                   "id": "LX-4071",
+                  "cod_prod": "174.LX-4071",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "LIJADORA ORBITAL 6\"",
                   "desc": "6.2 bar | ¼\" + Acople rápido",
@@ -3099,6 +3357,7 @@
             },
             {
                   "id": "LXK-01",
+                  "cod_prod": "174.LXK-01",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "KIT DE HERRAMIENTAS NEUMATICAS",
                   "desc": "62 Piezas | Con maletín",
@@ -3111,6 +3370,7 @@
             },
             {
                   "id": "MG-1",
+                  "cod_prod": "174.MG-1",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "MANGUERA ESPIRALADA",
                   "desc": "Encastre Rápido ¼\" | 7,5 mts",
@@ -3123,6 +3383,7 @@
             },
             {
                   "id": "RN-1",
+                  "cod_prod": "174.RN-1",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "PISTOLA REVOCADORA",
                   "desc": "Para Pared | ½\"",
@@ -3135,6 +3396,7 @@
             },
             {
                   "id": "RN-2",
+                  "cod_prod": "174.RN-2",
                   "cat": "Herramientas Neumáticas",
                   "nombre": "PISTOLA REVOCADORA",
                   "desc": "Para Techo | ½\"",
@@ -3147,6 +3409,7 @@
             },
             {
                   "id": "HLP-1400",
+                  "cod_prod": "480.HLP-1400",
                   "cat": "Hidrolavadoras",
                   "nombre": "HIDROLAVADORA",
                   "desc": "1400 W | 110 Bar | 5,5 L/min",
@@ -3159,6 +3422,7 @@
             },
             {
                   "id": "HLP-1600",
+                  "cod_prod": "480.HLP-1600",
                   "cat": "Hidrolavadoras",
                   "nombre": "HIDROLAVADORA",
                   "desc": "1600 W | 120 Bar | 6 L/min",
@@ -3171,6 +3435,7 @@
             },
             {
                   "id": "IP-7",
+                  "cod_prod": "625.IP-7",
                   "cat": "Infladores",
                   "nombre": "INFLADOR PORTÁTIL INALÁMBRICO DC",
                   "desc": "7.4V | 14.8Wh (2000mAh x 2) | 10.3 BAR",
@@ -3183,6 +3448,7 @@
             },
             {
                   "id": "BES-405",
+                  "cod_prod": "281.BES-405",
                   "cat": "Jardín",
                   "nombre": "MOTOSIERRA ELÉCTRICA",
                   "desc": "2000W | 400mm",
@@ -3195,6 +3461,7 @@
             },
             {
                   "id": "BME-300",
+                  "cod_prod": "624.BME-300",
                   "cat": "Jardín",
                   "nombre": "BORDEADORA ELÉCTRICA",
                   "desc": "300W | 12000 rpm | 230 mm",
@@ -3207,6 +3474,7 @@
             },
             {
                   "id": "BME-550",
+                  "cod_prod": "624.BME-550",
                   "cat": "Jardín",
                   "nombre": "BORDEADORA ELÉCTRICA",
                   "desc": "550W | 11000 rpm | 300 mm",
@@ -3219,6 +3487,7 @@
             },
             {
                   "id": "CCBAT-20",
+                  "cod_prod": "440.CCBAT-20",
                   "cat": "Jardín",
                   "nombre": "CORTACERCO A BATERÍA",
                   "desc": "20V | 58 cm | Batería y cargador",
@@ -3231,6 +3500,7 @@
             },
             {
                   "id": "CCE-1400",
+                  "cod_prod": "624.CCE-1400",
                   "cat": "Jardín",
                   "nombre": "CORTADORA DE CÉSPED ELÉCTRICA",
                   "desc": "1400W | 320 mm | 30 lts",
@@ -3243,6 +3513,7 @@
             },
             {
                   "id": "CCE-1600",
+                  "cod_prod": "624.CCE-1600",
                   "cat": "Jardín",
                   "nombre": "CORTADORA DE CÉSPED ELÉCTRICA",
                   "desc": "1600W | 370 mm | 40 lts",
@@ -3255,6 +3526,7 @@
             },
             {
                   "id": "CDS-40D",
+                  "cod_prod": "471.CDS-40D",
                   "cat": "Jardín",
                   "nombre": "DISCO P/DESMALEZADORA",
                   "desc": "255 mm | 25,4 mm | 40 Dientes",
@@ -3267,6 +3539,7 @@
             },
             {
                   "id": "CDS-52",
+                  "cod_prod": "471.CDS-52",
                   "cat": "Jardín",
                   "nombre": "CARRETEL DE DOBLE SALIDA",
                   "desc": "Con Tanza | Para desmalezadora",
@@ -3279,6 +3552,7 @@
             },
             {
                   "id": "CDS-80D",
+                  "cod_prod": "471.CDS-80D",
                   "cat": "Jardín",
                   "nombre": "DISCO P/DESMALEZADORA",
                   "desc": "255 mm | 25,4 mm | 80 Dientes",
@@ -3291,6 +3565,7 @@
             },
             {
                   "id": "CMN-20325",
+                  "cod_prod": "520.CMN-20325",
                   "cat": "Jardín",
                   "nombre": "CADENA PARA MOTOSIERRA 20\"",
                   "desc": "Paso 0.325 | Calibre 1,5 mm",
@@ -3303,6 +3578,7 @@
             },
             {
                   "id": "DN-52M",
+                  "cod_prod": "023.DN-52M",
                   "cat": "Jardín",
                   "nombre": "DESMALEZADORA 4 EN 1",
                   "desc": "52 cc | 3.0 HP | 2 tiempos",
@@ -3315,6 +3591,7 @@
             },
             {
                   "id": "DN52",
+                  "cod_prod": "023.DN52",
                   "cat": "Jardín",
                   "nombre": "DESMALEZADORA NAFTERA",
                   "desc": "52 cc | 3.0 HP | 2 tiempos",
@@ -3327,6 +3604,7 @@
             },
             {
                   "id": "DN52P",
+                  "cod_prod": "023.DN52P",
                   "cat": "Jardín",
                   "nombre": "DESMALEZADORA NAFTERA",
                   "desc": "52 cc | 3.0 HP | 2 tiempos",
@@ -3339,6 +3617,7 @@
             },
             {
                   "id": "FY-220S",
+                  "cod_prod": "035.FY-220S",
                   "cat": "Jardín",
                   "nombre": "AFILADOR DE CADENA ELÉCTRICO",
                   "desc": "220W | Disco 100x10 mm",
@@ -3351,6 +3630,7 @@
             },
             {
                   "id": "HO-52",
+                  "cod_prod": "169.HO-52",
                   "cat": "Jardín",
                   "nombre": "HOYADORA NAFTERA PRO",
                   "desc": "52 CC | Mecha 200x800 mm",
@@ -3363,6 +3643,7 @@
             },
             {
                   "id": "MS58",
+                  "cod_prod": "169.MS58",
                   "cat": "Jardín",
                   "nombre": "MOTOSIERRA NAFTERA PRO",
                   "desc": "58 CC | Espada 20\"",
@@ -3375,6 +3656,7 @@
             },
             {
                   "id": "MSBAT-20",
+                  "cod_prod": "440.MSBAT-20",
                   "cat": "Jardín",
                   "nombre": "MOTOSIERRA A BATERÍA",
                   "desc": "20V | 12'' | 2 Baterías y cargador",
@@ -3387,6 +3669,7 @@
             },
             {
                   "id": "SE-2400",
+                  "cod_prod": "624.SE-2400",
                   "cat": "Jardín",
                   "nombre": "SOPLADORA/ASPIRADORA ELÉCTRICA",
                   "desc": "2400W | 270 km/h | 35 lts",
@@ -3399,6 +3682,7 @@
             },
             {
                   "id": "SE-650",
+                  "cod_prod": "123.SE-650",
                   "cat": "Jardín",
                   "nombre": "SOPLADORA ELÉCTRICA",
                   "desc": "650 W | 0-4.5m³/min",
@@ -3411,6 +3695,7 @@
             },
             {
                   "id": "SQ-2715",
+                  "cod_prod": "471.SQ-2715",
                   "cat": "Jardín",
                   "nombre": "TANZA CUADRADA UNIVERSAL",
                   "desc": "2.7 mm | 15 mts",
@@ -3423,6 +3708,7 @@
             },
             {
                   "id": "ST-2415",
+                  "cod_prod": "471.ST-2415",
                   "cat": "Jardín",
                   "nombre": "TANZA ESTRELLA UNIVERSAL",
                   "desc": "2.4 mm | 15 mts",
@@ -3435,6 +3721,7 @@
             },
             {
                   "id": "X-GT44-3C",
+                  "cod_prod": "429.X-GT44-3C",
                   "cat": "Jardín",
                   "nombre": "MOTOCULTIVADOR A GASOLINA",
                   "desc": "2.5 HP | 52cc | 2 Tiempos",
@@ -3447,6 +3734,7 @@
             },
             {
                   "id": "GSH-300",
+                  "cod_prod": "471.GSH-300",
                   "cat": "Kits de Herramientas",
                   "nombre": "CARRO DE HERRAMIENTAS",
                   "desc": "300 Piezas | 7 cajones",
@@ -3459,6 +3747,7 @@
             },
             {
                   "id": "JBK-108",
+                  "cod_prod": "443.JBK-108",
                   "cat": "Kits de Herramientas",
                   "nombre": "KIT DE BOCALLAVES",
                   "desc": "108 Piezas | 1/4\" | 1/2\" | Con Maletín",
@@ -3471,6 +3760,7 @@
             },
             {
                   "id": "JBK-46",
+                  "cod_prod": "443.JBK-46",
                   "cat": "Kits de Herramientas",
                   "nombre": "KIT DE BOCALLAVES",
                   "desc": "46 Piezas | 1/4\" | Con Maletín",
@@ -3483,6 +3773,7 @@
             },
             {
                   "id": "JL-19",
+                  "cod_prod": "471.JL-19",
                   "cat": "Kits de Herramientas",
                   "nombre": "KIT 8 LLAVES COMBINADAS",
                   "desc": "5,5 | 6 | 8 | 10 | 12 | 14 | 16 | 19 mm",
@@ -3495,6 +3786,7 @@
             },
             {
                   "id": "SHK-199",
+                  "cod_prod": "471.SHK-199",
                   "cat": "Kits de Herramientas",
                   "nombre": "SET DE HERRAMIENTAS",
                   "desc": "199 Piezas | Con Maletín",
@@ -3507,6 +3799,7 @@
             },
             {
                   "id": "SHK-210",
+                  "cod_prod": "471.SHK-210",
                   "cat": "Kits de Herramientas",
                   "nombre": "SET DE HERRAMIENTAS",
                   "desc": "210 Piezas | Con Maletín",
@@ -3519,6 +3812,7 @@
             },
             {
                   "id": "SHK-216",
+                  "cod_prod": "471.SHK-216",
                   "cat": "Kits de Herramientas",
                   "nombre": "KIT DE HERRAMIENTAS",
                   "desc": "216 Piezas | Con Maletín",
@@ -3531,6 +3825,7 @@
             },
             {
                   "id": "SHK-40",
+                  "cod_prod": "471.SHK-40",
                   "cat": "Kits de Herramientas",
                   "nombre": "KIT DE HERRAMIENTAS",
                   "desc": "40 Piezas | Con Maletín",
@@ -3543,6 +3838,7 @@
             },
             {
                   "id": "SHK-421",
+                  "cod_prod": "471.SHK-421",
                   "cat": "Kits de Herramientas",
                   "nombre": "KIT DE HERRAMIENTAS",
                   "desc": "421 Piezas | Con Maletín",
@@ -3555,6 +3851,7 @@
             },
             {
                   "id": "SHK-70",
+                  "cod_prod": "471.SHK-70",
                   "cat": "Kits de Herramientas",
                   "nombre": "KIT DE HERRAMIENTAS",
                   "desc": "70 Piezas | Con Maletín",
@@ -3567,6 +3864,7 @@
             },
             {
                   "id": "KDS-100",
+                  "cod_prod": "471.KDS-101",
                   "cat": "Kits de Herramientas",
                   "nombre": "SET DE HERRAMIENTAS",
                   "desc": "100 Piezas | Con Organizador",
@@ -3579,6 +3877,7 @@
             },
             {
                   "id": "LRM-1100",
+                  "cod_prod": "471.LRM-1100",
                   "cat": "Lijas",
                   "nombre": "SET DE 100 LIJAS AL AGUA",
                   "desc": "280x230 mm | Grano 100",
@@ -3591,6 +3890,7 @@
             },
             {
                   "id": "LRM-1120",
+                  "cod_prod": "471.LRM-1120",
                   "cat": "Lijas",
                   "nombre": "SET DE 100 LIJAS AL AGUA",
                   "desc": "280x230 mm | Grano 120",
@@ -3603,6 +3903,7 @@
             },
             {
                   "id": "LRM-1150",
+                  "cod_prod": "471.LRM-1150",
                   "cat": "Lijas",
                   "nombre": "SET DE 100 LIJAS AL AGUA",
                   "desc": "280x230 mm | Grano 150",
@@ -3615,6 +3916,7 @@
             },
             {
                   "id": "LRM-1180",
+                  "cod_prod": "471.LRM-1180",
                   "cat": "Lijas",
                   "nombre": "SET DE 100 LIJAS AL AGUA",
                   "desc": "280x230 mm | Grano 180",
@@ -3627,6 +3929,7 @@
             },
             {
                   "id": "LRM-1220",
+                  "cod_prod": "471.LRM-1220",
                   "cat": "Lijas",
                   "nombre": "SET DE 100 LIJAS AL AGUA",
                   "desc": "280x230 mm | Grano 220",
@@ -3639,6 +3942,7 @@
             },
             {
                   "id": "LRM-1240",
+                  "cod_prod": "471.LRM-1240",
                   "cat": "Lijas",
                   "nombre": "SET DE 100 LIJAS AL AGUA",
                   "desc": "280x230 mm | Grano 240",
@@ -3651,6 +3955,7 @@
             },
             {
                   "id": "LRM-1320",
+                  "cod_prod": "471.LRM-1320",
                   "cat": "Lijas",
                   "nombre": "SET DE 100 LIJAS AL AGUA",
                   "desc": "280x230 mm | Grano 320",
@@ -3663,6 +3968,7 @@
             },
             {
                   "id": "LRM-160",
+                  "cod_prod": "471.LRM-160",
                   "cat": "Lijas",
                   "nombre": "SET DE 100 LIJAS AL AGUA",
                   "desc": "280x230 mm | Grano 60",
@@ -3675,6 +3981,7 @@
             },
             {
                   "id": "LRM-180",
+                  "cod_prod": "471.LRM-180",
                   "cat": "Lijas",
                   "nombre": "SET DE 100 LIJAS AL AGUA",
                   "desc": "280x230 mm | Grano 80",
@@ -3687,6 +3994,7 @@
             },
             {
                   "id": "LVR125-1100",
+                  "cod_prod": "471.LVR125-1100",
                   "cat": "Lijas",
                   "nombre": "SET DE 5 LIJAS C/ABROJO",
                   "desc": "125 mm | Grano 100",
@@ -3699,6 +4007,7 @@
             },
             {
                   "id": "LVR125-1120",
+                  "cod_prod": "471.LVR125-1120",
                   "cat": "Lijas",
                   "nombre": "SET DE 5 LIJAS C/ABROJO",
                   "desc": "125 mm | Grano 120",
@@ -3711,6 +4020,7 @@
             },
             {
                   "id": "LVR125-140",
+                  "cod_prod": "471.LVR125-140",
                   "cat": "Lijas",
                   "nombre": "SET DE 5 LIJAS C/ABROJO",
                   "desc": "125 mm | Grano 40",
@@ -3723,6 +4033,7 @@
             },
             {
                   "id": "LVR125-160",
+                  "cod_prod": "471.LVR125-160",
                   "cat": "Lijas",
                   "nombre": "SET DE 5 LIJAS C/ABROJO",
                   "desc": "125 mm | Grano 60",
@@ -3735,6 +4046,7 @@
             },
             {
                   "id": "LVR125-180",
+                  "cod_prod": "471.LVR125-180",
                   "cat": "Lijas",
                   "nombre": "SET DE 5 LIJAS C/ABROJO",
                   "desc": "125 mm | Grano 80",
@@ -3747,6 +4059,7 @@
             },
             {
                   "id": "LB-3120",
+                  "cod_prod": "471.LB-3120",
                   "cat": "Lijas de Banda",
                   "nombre": "SET DE LIJAS DE BANDA",
                   "desc": "3 Unidades | 100x915mm | Grano 120",
@@ -3759,6 +4072,7 @@
             },
             {
                   "id": "LB-3150",
+                  "cod_prod": "471.LB-3150",
                   "cat": "Lijas de Banda",
                   "nombre": "SET DE LIJAS DE BANDA",
                   "desc": "3 Unidades | 100x915mm | Grano 150",
@@ -3771,6 +4085,7 @@
             },
             {
                   "id": "LB-340",
+                  "cod_prod": "471.LB-340",
                   "cat": "Lijas de Banda",
                   "nombre": "SET DE LIJAS DE BANDA",
                   "desc": "3 Unidades | 100x915mm | Grano 40",
@@ -3783,6 +4098,7 @@
             },
             {
                   "id": "LB-360",
+                  "cod_prod": "471.LB-360",
                   "cat": "Lijas de Banda",
                   "nombre": "SET DE LIJAS DE BANDA",
                   "desc": "3 Unidades | 100x915mm | Grano 60",
@@ -3795,6 +4111,7 @@
             },
             {
                   "id": "LB-380",
+                  "cod_prod": "471.LB-380",
                   "cat": "Lijas de Banda",
                   "nombre": "SET DE LIJAS DE BANDA",
                   "desc": "3 Unidades | 100x915mm | Grano 80",
@@ -3807,6 +4124,7 @@
             },
             {
                   "id": "LB-5100",
+                  "cod_prod": "471.LB-5100",
                   "cat": "Lijas de Banda",
                   "nombre": "SET DE LIJAS DE BANDA",
                   "desc": "3 Unidades | 75x533mm | Grano 100",
@@ -3819,6 +4137,7 @@
             },
             {
                   "id": "LB-5120",
+                  "cod_prod": "471.LB-5120",
                   "cat": "Lijas de Banda",
                   "nombre": "SET DE LIJAS DE BANDA",
                   "desc": "3 Unidades | 75x533mm | Grano 120",
@@ -3831,6 +4150,7 @@
             },
             {
                   "id": "LB-540",
+                  "cod_prod": "471.LB-540",
                   "cat": "Lijas de Banda",
                   "nombre": "SET DE LIJAS DE BANDA",
                   "desc": "3 Unidades | 75x533mm | Grano 40",
@@ -3843,6 +4163,7 @@
             },
             {
                   "id": "LB-560",
+                  "cod_prod": "471.LB-560",
                   "cat": "Lijas de Banda",
                   "nombre": "SET DE LIJAS DE BANDA",
                   "desc": "3 Unidades | 75x533mm | Grano 60",
@@ -3855,6 +4176,7 @@
             },
             {
                   "id": "LB-580",
+                  "cod_prod": "471.LB-580",
                   "cat": "Lijas de Banda",
                   "nombre": "SET DE LIJAS DE BANDA",
                   "desc": "3 Unidades | 75x533mm | Grano 80",
@@ -3867,6 +4189,7 @@
             },
             {
                   "id": "LEE-30",
+                  "cod_prod": "622.LEE-30",
                   "cat": "Luces de Emergencia",
                   "nombre": "LUZ DE EMERGENCIA USB C",
                   "desc": "3 W | 30 Leds | 8 hs",
@@ -3879,6 +4202,7 @@
             },
             {
                   "id": "LEE-60",
+                  "cod_prod": "622.LEE-60",
                   "cat": "Luces de Emergencia",
                   "nombre": "LUZ DE EMERGENCIA USB C",
                   "desc": "6 W | 60 Leds | 8 hs",
@@ -3891,6 +4215,7 @@
             },
             {
                   "id": "LEE-90",
+                  "cod_prod": "622.LEE-90",
                   "cat": "Luces de Emergencia",
                   "nombre": "LUZ DE EMERGENCIA USB C",
                   "desc": "9 W | 90 Leds | 8 hs",
@@ -3903,6 +4228,7 @@
             },
             {
                   "id": "BAG-1",
+                  "cod_prod": "602.BAG-1",
                   "cat": "Mochilas y Bolsos",
                   "nombre": "Mochila Urbana Negra",
                   "desc": "30 lts | 30x20x46 cm | 6 Bolsillos",
@@ -3915,6 +4241,7 @@
             },
             {
                   "id": "BAG-3",
+                  "cod_prod": "602.BAG-3",
                   "cat": "Mochilas y Bolsos",
                   "nombre": "Mochila De Viaje Negra",
                   "desc": "34 lts | 42x15x30 cm | 11 Bolsillos",
@@ -3927,6 +4254,7 @@
             },
             {
                   "id": "MBY-3",
+                  "cod_prod": "281.MBY-3",
                   "cat": "Morsas",
                   "nombre": "MORSA DE BANCO",
                   "desc": "Con Yunque | 3\"",
@@ -3939,6 +4267,7 @@
             },
             {
                   "id": "MBY-4",
+                  "cod_prod": "281.MBY-4",
                   "cat": "Morsas",
                   "nombre": "MORSA DE BANCO",
                   "desc": "Con Yunque | 4\"",
@@ -3951,6 +4280,7 @@
             },
             {
                   "id": "MBY-5",
+                  "cod_prod": "281.MBY-5",
                   "cat": "Morsas",
                   "nombre": "MORSA DE BANCO",
                   "desc": "Con Yunque | 5\"",
@@ -3963,6 +4293,7 @@
             },
             {
                   "id": "MPC-4",
+                  "cod_prod": "281.MPC-4",
                   "cat": "Morsas",
                   "nombre": "MORSA PLANA",
                   "desc": "En Cruz | 4\"",
@@ -3975,6 +4306,7 @@
             },
             {
                   "id": "VICE3",
+                  "cod_prod": "281.VICE3",
                   "cat": "Morsas",
                   "nombre": "PRENSA PLANA MORSA",
                   "desc": "Para Taladro de Banco | 3\"",
@@ -3987,6 +4319,7 @@
             },
             {
                   "id": "VICE4",
+                  "cod_prod": "281.VICE4",
                   "cat": "Morsas",
                   "nombre": "PRENSA PLANA MORSA",
                   "desc": "Para Taladro de Banco | 4\"",
@@ -3999,6 +4332,7 @@
             },
             {
                   "id": "MB-52",
+                  "cod_prod": "175.MB-52",
                   "cat": "Motores y Herramientas Nafta",
                   "nombre": "MOTOBOMBA A NAFTA",
                   "desc": "2.5 HP | 52 cc | 3,6 lts",
@@ -4011,6 +4345,7 @@
             },
             {
                   "id": "MB-70",
+                  "cod_prod": "175.MB-70",
                   "cat": "Motores y Herramientas Nafta",
                   "nombre": "MOTOBOMBA A NAFTA",
                   "desc": "7.0 HP | 212 cc | 3,6 lts",
@@ -4023,6 +4358,7 @@
             },
             {
                   "id": "MN13",
+                  "cod_prod": "175.GP390",
                   "cat": "Motores y Herramientas Nafta",
                   "nombre": "MOTOR A GASOLINA MN13",
                   "desc": "13 HP | 389 cc | Arranque manual",
@@ -4035,6 +4371,7 @@
             },
             {
                   "id": "MN65",
+                  "cod_prod": "175.GP200",
                   "cat": "Motores y Herramientas Nafta",
                   "nombre": "MOTOR MN65",
                   "desc": "6.5 HP | 196 cc | Arranque manual",
@@ -4047,6 +4384,7 @@
             },
             {
                   "id": "MNE13",
+                  "cod_prod": "175.GP390ES",
                   "cat": "Motores y Herramientas Nafta",
                   "nombre": "MOTOR A GASOLINA MNE13",
                   "desc": "13 HP | 389 cc | Arranque eléctrico",
@@ -4059,6 +4397,7 @@
             },
             {
                   "id": "MVV65",
+                  "cod_prod": "175.GP200V",
                   "cat": "Motores y Herramientas Nafta",
                   "nombre": "MOTOR VERTICAL MVV65",
                   "desc": "6.5 HP | 196 cc | Arranque manual",
@@ -4071,6 +4410,7 @@
             },
             {
                   "id": "MS-40A",
+                  "cod_prod": "081.MS-40A",
                   "cat": "Niveles y Medidores",
                   "nombre": "MEDIDOR DE DISTANCIA LASER",
                   "desc": "40 mts | Precisión ± 1.5 mm",
@@ -4083,6 +4423,7 @@
             },
             {
                   "id": "MS-60A",
+                  "cod_prod": "081.MS-60A",
                   "cat": "Niveles y Medidores",
                   "nombre": "MEDIDOR DE DISTANCIA LASER",
                   "desc": "60 mts | Precisión ± 1.5 mm",
@@ -4095,6 +4436,7 @@
             },
             {
                   "id": "MS-80A",
+                  "cod_prod": "081.MS-80A",
                   "cat": "Niveles y Medidores",
                   "nombre": "MEDIDOR DE DISTANCIA LASER",
                   "desc": "80 mts | Precisión ± 1.5 mm",
@@ -4107,6 +4449,7 @@
             },
             {
                   "id": "MSR20HMINI",
+                  "cod_prod": "081.MSR20HMINI",
                   "cat": "Niveles y Medidores",
                   "nombre": "NIVEL LASER",
                   "desc": "50 mts | Precisión 4 mm",
@@ -4119,6 +4462,7 @@
             },
             {
                   "id": "MSR20MMINI",
+                  "cod_prod": "081.MSR20MMINI",
                   "cat": "Niveles y Medidores",
                   "nombre": "NIVEL LASER",
                   "desc": "30 mts | Precisión 4 mm",
@@ -4131,6 +4475,7 @@
             },
             {
                   "id": "MSR22",
+                  "cod_prod": "081.MSR22",
                   "cat": "Niveles y Medidores",
                   "nombre": "NIVEL LASER COMBINADO",
                   "desc": "55 mts | 2 líneas",
@@ -4143,6 +4488,7 @@
             },
             {
                   "id": "ECM-10",
+                  "cod_prod": "174.ECM-10",
                   "cat": "Otros",
                   "nombre": "CLAVADORA ENGRAPADORA Clavos",
                   "desc": "Grapas U | Grapas estándar",
@@ -4155,6 +4501,7 @@
             },
             {
                   "id": "TZ-12K",
+                  "cod_prod": "440.TZ-12K",
                   "cat": "Otros",
                   "nombre": "TORQUÍMETRO DE ZAFE",
                   "desc": "1/2” | 43 cm | Maletín",
@@ -4167,6 +4514,7 @@
             },
             {
                   "id": "SED-100K",
+                  "cod_prod": "440.SED-100K",
                   "cat": "Pistolas Soldadoras",
                   "nombre": "PISTOLA SOLDADORA ESTAÑO",
                   "desc": "100 W | 35 mm",
@@ -4179,6 +4527,7 @@
             },
             {
                   "id": "SPD-85K",
+                  "cod_prod": "440.SPD-85K",
                   "cat": "Pistolas Soldadoras",
                   "nombre": "PISTOLA SOLDADORA PLÁSTICO",
                   "desc": "85 W | Kit de Clavos",
@@ -4191,6 +4540,7 @@
             },
             {
                   "id": "PRF-12",
+                  "cod_prod": "471.PRF-12",
                   "cat": "Prensas",
                   "nombre": "PRENSA TIPO \"F\"",
                   "desc": "Liberación rápida | 12\" - 300 mm",
@@ -4203,6 +4553,7 @@
             },
             {
                   "id": "PRF-18",
+                  "cod_prod": "471.PRF-18",
                   "cat": "Prensas",
                   "nombre": "PRENSA TIPO \"F\"",
                   "desc": "Liberación rápida | 18\" - 450 mm",
@@ -4215,6 +4566,7 @@
             },
             {
                   "id": "PRF-24",
+                  "cod_prod": "471.PRF-24",
                   "cat": "Prensas",
                   "nombre": "PRENSA TIPO \"F\"",
                   "desc": "Liberación rápida | 24\" - 600 mm",
@@ -4227,6 +4579,7 @@
             },
             {
                   "id": "PRF-36",
+                  "cod_prod": "471.PRF-36",
                   "cat": "Prensas",
                   "nombre": "PRENSA TIPO \"F\"",
                   "desc": "Liberación rápida | 36\" - 900 mm",
@@ -4239,6 +4592,7 @@
             },
             {
                   "id": "DE-11MAX",
+                  "cod_prod": "440.DE-11MAX",
                   "cat": "Rotomartillos",
                   "nombre": "MARTILLO DEMOLEDOR SDS-MAX",
                   "desc": "2.15 HP | 25 J | Maletín",
@@ -4251,6 +4605,7 @@
             },
             {
                   "id": "DE-16HEX",
+                  "cod_prod": "440.DE-16HEX",
                   "cat": "Rotomartillos",
                   "nombre": "MARTILLO DEMOLEDOR HEX",
                   "desc": "2.3 HP | 60 Joules | Maletín Metálico",
@@ -4263,6 +4618,7 @@
             },
             {
                   "id": "DE-27HEX",
+                  "cod_prod": "440.DE-27",
                   "cat": "Rotomartillos",
                   "nombre": "MARTILLO DEMOLEDOR HEX",
                   "desc": "2.8 HP | 85 J | Maletín Metálico",
@@ -4275,6 +4631,7 @@
             },
             {
                   "id": "DE-6MAX",
+                  "cod_prod": "440.DE-6MAX",
                   "cat": "Rotomartillos",
                   "nombre": "MARTILLO DEMOLEDOR SDS-MAX",
                   "desc": "50 mm | 1,75 HP | 18 J | Maletín",
@@ -4287,6 +4644,7 @@
             },
             {
                   "id": "RM-24PLUS",
+                  "cod_prod": "440.RM-24PLUS",
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO SDS-PLUS",
                   "desc": "800W | 2.5 Joules | Maletín",
@@ -4299,6 +4657,7 @@
             },
             {
                   "id": "RM-26PLUS",
+                  "cod_prod": "440.RM-26PLUS",
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO SDS-PLUS",
                   "desc": "1.4 HP | 3.5 Joules | Maletín",
@@ -4311,6 +4670,7 @@
             },
             {
                   "id": "RM-26PLUSK",
+                  "cod_prod": "440.RM-26PLUSK",
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO  SDS-PLUS",
                   "desc": "Incluye Mandril con Adaptador",
@@ -4323,6 +4683,7 @@
             },
             {
                   "id": "RM-32PLUS",
+                  "cod_prod": "440.RM-32PLUS",
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO SDS-PLUS",
                   "desc": "2.0 HP | 6.0 Joules | Maletín",
@@ -4335,6 +4696,7 @@
             },
             {
                   "id": "RM-32PLUSK",
+                  "cod_prod": "440.RM-32PLUSK",
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO  SDS-PLUS",
                   "desc": "Incluye copa y prolongador",
@@ -4347,6 +4709,7 @@
             },
             {
                   "id": "RM-36PLUS",
+                  "cod_prod": "440.RM-36PLUS",
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO SDS-PLUS",
                   "desc": "2.5 HP | 7.0 Joules | Maletín",
@@ -4359,6 +4722,7 @@
             },
             {
                   "id": "RM-50MAX",
+                  "cod_prod": "440.RM-50MAX",
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO SDS-MAX",
                   "desc": "50 mm | 2.15 HP | 25 J | Maletín",
@@ -4371,6 +4735,7 @@
             },
             {
                   "id": "RM-26PLUSSPECIAL",
+                  "cod_prod": "440.RM-26PLUSSPECIAL",
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO SDS-PLUS",
                   "desc": "Edición especial IronX",
@@ -4383,6 +4748,7 @@
             },
             {
                   "id": "RM-32PLUSSPECIAL",
+                  "cod_prod": "440.RM-32PLUSSPECIAL",
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO SDS-PLUS",
                   "desc": "Edición especial IronX",
@@ -4395,6 +4761,7 @@
             },
             {
                   "id": "SSC-13",
+                  "cod_prod": "391.SSC-13",
                   "cat": "Sierra Copas",
                   "nombre": "SETS DE SIERRA COPA",
                   "desc": "12 Piezas | Maletín plástico",
@@ -4407,6 +4774,7 @@
             },
             {
                   "id": "SSC-5",
+                  "cod_prod": "391.SSC-5",
                   "cat": "Sierra Copas",
                   "nombre": "SETS DE SIERRA COPA",
                   "desc": "5 Piezas | Maletín plástico",
@@ -4419,6 +4787,7 @@
             },
             {
                   "id": "SSC-8",
+                  "cod_prod": "391.SSC-8",
                   "cat": "Sierra Copas",
                   "nombre": "SETS DE SIERRA COPA",
                   "desc": "8 Piezas | Maletín plástico",
@@ -4431,6 +4800,7 @@
             },
             {
                   "id": "CDD-16",
+                  "cod_prod": "471.CDD-16",
                   "cat": "Sierra Copas Diamantadas",
                   "nombre": "SIERRA COPA DIAMANTADA",
                   "desc": "Rosca M14 | Diámetro 16 mm",
@@ -4443,6 +4813,7 @@
             },
             {
                   "id": "CDD-20",
+                  "cod_prod": "471.CDD-20",
                   "cat": "Sierra Copas Diamantadas",
                   "nombre": "SIERRA COPA DIAMANTADA",
                   "desc": "Rosca M14 | Diámetro 20 mm",
@@ -4455,6 +4826,7 @@
             },
             {
                   "id": "CDD-25",
+                  "cod_prod": "471.CDD-25",
                   "cat": "Sierra Copas Diamantadas",
                   "nombre": "SIERRA COPA DIAMANTADA",
                   "desc": "Rosca M14 | Diámetro 25 mm",
@@ -4467,6 +4839,7 @@
             },
             {
                   "id": "CDD-30",
+                  "cod_prod": "471.CDD-30",
                   "cat": "Sierra Copas Diamantadas",
                   "nombre": "SIERRA COPA DIAMANTADA",
                   "desc": "Rosca M14 | Diámetro 30 mm",
@@ -4479,6 +4852,7 @@
             },
             {
                   "id": "CDD-35",
+                  "cod_prod": "471.CDD-35",
                   "cat": "Sierra Copas Diamantadas",
                   "nombre": "SIERRA COPA DIAMANTADA",
                   "desc": "Rosca M14 | Diámetro 35 mm",
@@ -4491,6 +4865,7 @@
             },
             {
                   "id": "CDD-40",
+                  "cod_prod": "471.CDD-40",
                   "cat": "Sierra Copas Diamantadas",
                   "nombre": "SIERRA COPA DIAMANTADA",
                   "desc": "Rosca M14 | Diámetro 40 mm",
@@ -4503,6 +4878,7 @@
             },
             {
                   "id": "CDD-45",
+                  "cod_prod": "471.CDD-45",
                   "cat": "Sierra Copas Diamantadas",
                   "nombre": "SIERRA COPA DIAMANTADA",
                   "desc": "Rosca M14 | Diámetro 45 mm",
@@ -4515,6 +4891,7 @@
             },
             {
                   "id": "CDD-57",
+                  "cod_prod": "471.CDD-57",
                   "cat": "Sierra Copas Diamantadas",
                   "nombre": "SIERRA COPA DIAMANTADA",
                   "desc": "Rosca M14 | Diámetro 57 mm",
@@ -4527,6 +4904,7 @@
             },
             {
                   "id": "FR-1250",
+                  "cod_prod": "511.FR-1250",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "FRESADORA ROUTER",
                   "desc": "1200 W | 50 mm",
@@ -4539,6 +4917,7 @@
             },
             {
                   "id": "FR-530",
+                  "cod_prod": "442.FR-530",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "FRESADORA ROUTER DE MANO",
                   "desc": "530 W | 1/4”",
@@ -4551,6 +4930,7 @@
             },
             {
                   "id": "JS-450",
+                  "cod_prod": "442.JS-450",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "SIERRA CALADORA DE MANO",
                   "desc": "450 W | 0-45°",
@@ -4563,6 +4943,7 @@
             },
             {
                   "id": "JS-650",
+                  "cod_prod": "442.JS-650",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "SIERRA CALADORA DE MANO",
                   "desc": "650 W | 0-45°",
@@ -4575,6 +4956,7 @@
             },
             {
                   "id": "JS-650L",
+                  "cod_prod": "442.JS-650L",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "SIERRA CALADORA DE MANO",
                   "desc": "650 W | 0-45° | Guía Laser",
@@ -4587,6 +4969,7 @@
             },
             {
                   "id": "PR-JBL10",
+                  "cod_prod": "471.PR-JBL10",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "SET DE 10 HOJAS P/CALADORA",
                   "desc": "Para Metal, Aluminio y Madera",
@@ -4599,6 +4982,7 @@
             },
             {
                   "id": "SC-1250",
+                  "cod_prod": "442.SC-1250",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "SIERRA CIRCULAR DE MANO",
                   "desc": "1250 W | 185x20 mm",
@@ -4611,6 +4995,7 @@
             },
             {
                   "id": "SC-1400",
+                  "cod_prod": "442.SC-1400",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "SIERRA CIRCULAR DE MANO",
                   "desc": "1400W | 0-4800r/min | 185mm",
@@ -4623,6 +5008,7 @@
             },
             {
                   "id": "SC-1500",
+                  "cod_prod": "442.SC-1500",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "SIERRA CIRCULAR DE MANO",
                   "desc": "1500 W | 185x20 mm",
@@ -4635,6 +5021,7 @@
             },
             {
                   "id": "SC-1500L",
+                  "cod_prod": "442.SC-1500L",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "SIERRA CIRCULAR DE MANO",
                   "desc": "1500 W | 185x20 mm | Guía Laser",
@@ -4647,6 +5034,7 @@
             },
             {
                   "id": "SCC-1400",
+                  "cod_prod": "442.SCC-1400",
                   "cat": "Sierras, Caladoras y Fresadoras",
                   "nombre": "CORTADORA DE MÁRMOL NEUMÁTICA",
                   "desc": "110 mm | 1400W",
@@ -4659,6 +5047,7 @@
             },
             {
                   "id": "CP-08",
+                  "cod_prod": "477.CP-08",
                   "cat": "Soldadoras",
                   "nombre": "CORTADORA DE PLASMA",
                   "desc": "3,5 kW | 10-30A",
@@ -4671,6 +5060,7 @@
             },
             {
                   "id": "CP-12",
+                  "cod_prod": "477.CP-12",
                   "cat": "Soldadoras",
                   "nombre": "CORTADORA DE PLASMA",
                   "desc": "3,5 kW | 20-40A",
@@ -4683,6 +5073,7 @@
             },
             {
                   "id": "MIGM-140",
+                  "cod_prod": "477.MIGM-140",
                   "cat": "Soldadoras",
                   "nombre": "SOLDADORA INVERTER MIG/MAG",
                   "desc": "3,5 kW | 140A",
@@ -4695,6 +5086,7 @@
             },
             {
                   "id": "SMITH-120",
+                  "cod_prod": "477.SMITH-120",
                   "cat": "Soldadoras",
                   "nombre": "SOLDADORA INVERTER",
                   "desc": "3,8 kW | 120A",
@@ -4707,6 +5099,7 @@
             },
             {
                   "id": "SMITH-160",
+                  "cod_prod": "477.SMITH-160",
                   "cat": "Soldadoras",
                   "nombre": "SOLDADORA INVERTER",
                   "desc": "3,5 kW | 10-140A",
@@ -4719,6 +5112,7 @@
             },
             {
                   "id": "SMITH-200",
+                  "cod_prod": "477.SMITH-200",
                   "cat": "Soldadoras",
                   "nombre": "SOLDADORA INVERTER",
                   "desc": "5 kW | 15-200A",
@@ -4731,6 +5125,7 @@
             },
             {
                   "id": "TF-1000",
+                  "cod_prod": "507.TF-1000",
                   "cat": "Termofusoras",
                   "nombre": "TERMOFUSORA ELÉCTRICA",
                   "desc": "1000 w | 20-63 mm | Maletín",
@@ -4743,6 +5138,7 @@
             },
             {
                   "id": "TF-1500",
+                  "cod_prod": "507.TF-1500",
                   "cat": "Termofusoras",
                   "nombre": "TERMOFUSORA ELÉCTRICA",
                   "desc": "1500 w | 20-63 mm | Maletín",
@@ -4755,6 +5151,7 @@
             },
             {
                   "id": "TF-800",
+                  "cod_prod": "507.TF-800",
                   "cat": "Termofusoras",
                   "nombre": "TERMOFUSORA ELÉCTRICA",
                   "desc": "800 w | 20-32 mm | Maletín",
@@ -4767,6 +5164,7 @@
             },
             {
                   "id": "TIJ-01",
+                  "cod_prod": "507.TIJ-01",
                   "cat": "Termofusoras",
                   "nombre": "TIJERA CORTACAÑO",
                   "desc": "3-32 mm | Mango Giratorio",
