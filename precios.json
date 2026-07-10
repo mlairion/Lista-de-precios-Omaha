@@ -1,5 +1,5 @@
 {
-      "fecha_actualizacion": "26/06/2026",
+      "fecha_actualizacion": "10/07/2026",
       "productos": [
             {
                   "id": "ME-24",
@@ -4778,7 +4778,7 @@
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO SDS-PLUS",
                   "desc": "Edición especial IronX",
-                  "precio": 123740.0,
+                  "precio": 141225.0,
                   "pvp": 0.0,
                   "premium": 0.0,
                   "iva": "10,5%",
@@ -4791,7 +4791,7 @@
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO SDS-PLUS",
                   "desc": "Edición especial IronX",
-                  "precio": 173505.0,
+                  "precio": 195025.0,
                   "pvp": 0.0,
                   "premium": 0.0,
                   "iva": "10,5%",
