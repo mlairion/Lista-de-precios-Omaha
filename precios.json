@@ -691,6 +691,19 @@
                   "img": "imgs/VPH-450.jpg"
             },
             {
+                  "id": "AMBATP-LI",
+                  "cod_prod": "123.AMBATP-LI",
+                  "cat": "Aspiradoras",
+                  "nombre": "ASPIRADORA 2 EN 1 INALÁMBRICA",
+                  "desc": "45-60 W | 0,20 lts | 7,4 V",
+                  "precio": 38000.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "16 u",
+                  "img": "imgs/AMBATP-LI.jpg"
+            },
+            {
                   "id": "BTP-12",
                   "cod_prod": "602.BTP-12",
                   "cat": "Bolsos y Mochilas",
