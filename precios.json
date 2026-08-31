@@ -1,5 +1,5 @@
 {
-      "fecha_actualizacion": "27/07/2026",
+      "fecha_actualizacion": "31/08/2026",
       "productos": [
             {
                   "id": "ME-24",
@@ -696,7 +696,7 @@
                   "cat": "Aspiradoras",
                   "nombre": "ASPIRADORA 2 EN 1 INALÁMBRICA",
                   "desc": "45-60 W | 0,20 lts | 7,4 V",
-                  "precio": 38000.0,
+                  "precio": 60525.0,
                   "pvp": 0.0,
                   "premium": 0.0,
                   "iva": "21%",
@@ -1664,6 +1664,19 @@
                   "iva": "21%",
                   "bulto": "1 u",
                   "img": "imgs/DCT-12.jpg"
+            },
+            {
+                  "id": "KI-14K",
+                  "cod_prod": "471.KI-14K",
+                  "cat": "Destornilladores",
+                  "nombre": "DESTORNILLADOR DE IMPACTO",
+                  "desc": "36 mm | 14 piezas | Maletín",
+                  "precio": 22865.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "nan",
+                  "img": "imgs/KI-14K.jpg"
             },
             {
                   "id": "CD-1",
@@ -5226,6 +5239,32 @@
                   "iva": "21%",
                   "bulto": "-",
                   "img": "imgs/TIJ-01.jpg"
+            },
+            {
+                  "id": "MCK-40",
+                  "cod_prod": "471.MCK-40",
+                  "cat": "Terrajas Machos",
+                  "nombre": "JUEGO DE TERRAJAS MACHOS",
+                  "desc": "40 Piezas | Con Maletín",
+                  "precio": 53800.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "nan",
+                  "img": "imgs/MCK-40.jpg"
+            },
+            {
+                  "id": "MCK-60",
+                  "cod_prod": "471.MCK-60",
+                  "cat": "Terrajas Machos",
+                  "nombre": "JUEGO DE TERRAJAS MACHOS",
+                  "desc": "60 Piezas | Con Maletín",
+                  "precio": 91460.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "nan",
+                  "img": "imgs/MCK-60.jpg"
             }
       ]
 }
