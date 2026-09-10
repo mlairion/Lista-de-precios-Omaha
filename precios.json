@@ -1,5 +1,5 @@
 {
-      "fecha_actualizacion": "31/08/2026",
+      "fecha_actualizacion": "10/09/2026",
       "productos": [
             {
                   "id": "ME-24",
@@ -1675,7 +1675,7 @@
                   "pvp": 0.0,
                   "premium": 0.0,
                   "iva": "21%",
-                  "bulto": "nan",
+                  "bulto": "-",
                   "img": "imgs/KI-14K.jpg"
             },
             {
@@ -3798,6 +3798,19 @@
                   "img": "imgs/X-GT44-3C.jpg"
             },
             {
+                  "id": "MS58H",
+                  "cod_prod": "169.MS58H",
+                  "cat": "Jardín",
+                  "nombre": "MOTOSIERRA NAFTERA PRO",
+                  "desc": "58 CC | Espada 20\"",
+                  "precio": 147950.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "10,5%",
+                  "bulto": "-",
+                  "img": "imgs/MS58H.jpg"
+            },
+            {
                   "id": "GSH-300",
                   "cod_prod": "471.GSH-300",
                   "cat": "Kits de Herramientas",
@@ -5250,7 +5263,7 @@
                   "pvp": 0.0,
                   "premium": 0.0,
                   "iva": "21%",
-                  "bulto": "nan",
+                  "bulto": "-",
                   "img": "imgs/MCK-40.jpg"
             },
             {
@@ -5263,7 +5276,7 @@
                   "pvp": 0.0,
                   "premium": 0.0,
                   "iva": "21%",
-                  "bulto": "nan",
+                  "bulto": "-",
                   "img": "imgs/MCK-60.jpg"
             }
       ]
