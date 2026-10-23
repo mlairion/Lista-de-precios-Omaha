@@ -1,5 +1,5 @@
 {
-      "fecha_actualizacion": "10/09/2026",
+      "fecha_actualizacion": "23/10/2026",
       "productos": [
             {
                   "id": "ME-24",
@@ -286,6 +286,32 @@
                   "iva": "21%",
                   "bulto": "8 u",
                   "img": "imgs/SMK-301.jpg"
+            },
+            {
+                  "id": "CC-HEX17",
+                  "cod_prod": "391.CC-HEX17",
+                  "cat": "Accesorios y Cinceles",
+                  "nombre": "CINCEL CORTAHIERRO PLANO",
+                  "desc": "Encastre HEX | 30x410 mm",
+                  "precio": 5649.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "-",
+                  "img": "imgs/CC-HEX17.jpg"
+            },
+            {
+                  "id": "CP-HEX17",
+                  "cod_prod": "391.CP-HEX17",
+                  "cat": "Accesorios y Cinceles",
+                  "nombre": "CINCEL CORTAHIERRO PUNTA",
+                  "desc": "Encastre HEX | 30x410 mm",
+                  "precio": 5649.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "-",
+                  "img": "imgs/CP-HEX17.jpg"
             },
             {
                   "id": "2T1",
@@ -2420,6 +2446,19 @@
                   "img": "imgs/EP3500.jpg"
             },
             {
+                  "id": "EP-3500ES",
+                  "cod_prod": "175.EP-3500ES",
+                  "cat": "Generadores",
+                  "nombre": "GENERADOR ELÉCTRICO",
+                  "desc": "7.0 HP | 17 lts | 12 hs",
+                  "precio": 538000.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "10,5%",
+                  "bulto": "1 u",
+                  "img": "imgs/EP-3500ES.jpg"
+            },
+            {
                   "id": "ABAT-20K",
                   "cod_prod": "440.ABAT-20K",
                   "cat": "Herramientas a Batería",
@@ -2522,6 +2561,32 @@
                   "iva": "21%",
                   "bulto": "5 u",
                   "img": "imgs/TBAT-20MK.jpg"
+            },
+            {
+                  "id": "LLB-20P",
+                  "cod_prod": "145.LLB-20P",
+                  "cat": "Herramientas a Batería",
+                  "nombre": "LLAVE DE IMPACTO BRUSHLESS MOTOR",
+                  "desc": "20 V | 1/2” | 500 Nm",
+                  "precio": 156020.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "5 u",
+                  "img": "imgs/LLB-20P.jpg"
+            },
+            {
+                  "id": "BAT-2030",
+                  "cod_prod": "145.BAT-2030",
+                  "cat": "Herramientas a Batería",
+                  "nombre": "BATERÍA DE LITIO",
+                  "desc": "20V | 3.0AH | 2.5A",
+                  "precio": 40350.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "40 u",
+                  "img": "imgs/BAT-2030.jpg"
             },
             {
                   "id": "CPB-1500",
@@ -2841,7 +2906,7 @@
                   "cat": "Herramientas Eléctricas",
                   "nombre": "CEPILLO REBAJADOR",
                   "desc": "650 W | 0-82 mm | 0-2 mm",
-                  "precio": 110290.0,
+                  "precio": 91460.0,
                   "pvp": 121017.0,
                   "premium": 157322.0,
                   "iva": "21%",
@@ -3809,6 +3874,19 @@
                   "iva": "10,5%",
                   "bulto": "-",
                   "img": "imgs/MS58H.jpg"
+            },
+            {
+                  "id": "EDBAT-20",
+                  "cod_prod": "023.EDBAT-20",
+                  "cat": "Jardín",
+                  "nombre": "DESMALEZADORA A BATERÍA",
+                  "desc": "20 V | 30 cm | 9500 rpm",
+                  "precio": 64560.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "10,5%",
+                  "bulto": "6 u",
+                  "img": "imgs/EDBAT-20.jpg"
             },
             {
                   "id": "GSH-300",
