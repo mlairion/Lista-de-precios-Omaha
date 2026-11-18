@@ -1,5 +1,5 @@
 {
-      "fecha_actualizacion": "27/10/2026",
+      "fecha_actualizacion": "17/11/2026",
       "productos": [
             {
                   "id": "ME-24",
@@ -143,6 +143,19 @@
                   "iva": "21%",
                   "bulto": "10 u",
                   "img": "imgs/WP-17V.jpg"
+            },
+            {
+                  "id": "AFM-108",
+                  "cod_prod": "478.AFM-108",
+                  "cat": "Accesorios para Soldar",
+                  "nombre": "ALAMBRE TUBULAR FLUX",
+                  "desc": "1 Kg | 0,8 mm",
+                  "precio": 12834.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "20 u",
+                  "img": "imgs/AFM-108.jpg"
             },
             {
                   "id": "CCHEX-1",
@@ -312,6 +325,32 @@
                   "iva": "21%",
                   "bulto": "-",
                   "img": "imgs/CP-HEX17.jpg"
+            },
+            {
+                  "id": "SMSP-11K",
+                  "cod_prod": "391.SMSP-11K",
+                  "cat": "Accesorios y Cinceles",
+                  "nombre": "SET DE MECHAS Y CINCELES SDS PLUS",
+                  "desc": "12 Piezas | Maletín metalico",
+                  "precio": 49910.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "10 u",
+                  "img": "imgs/SMSP-11K.jpg"
+            },
+            {
+                  "id": "SMK-76",
+                  "cod_prod": "471.SMK-76",
+                  "cat": "Accesorios y Cinceles",
+                  "nombre": "SET DE BROCAS Y PUNTAS",
+                  "desc": "76 Piezas | Con Maletín",
+                  "precio": 25668.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "10 u",
+                  "img": "imgs/SMK-76.jpg"
             },
             {
                   "id": "2T1",
@@ -795,6 +834,84 @@
                   "img": "imgs/MCL-28.jpg"
             },
             {
+                  "id": "BAG-1",
+                  "cod_prod": "602.BAG-1",
+                  "cat": "Bolsos y Mochilas",
+                  "nombre": "Mochila Urbana Negra",
+                  "desc": "30 lts | 30x20x46 cm | 6 Bolsillos",
+                  "precio": 19251.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "-",
+                  "img": "imgs/BAG-1.jpg"
+            },
+            {
+                  "id": "BAG-3",
+                  "cod_prod": "602.BAG-3",
+                  "cat": "Bolsos y Mochilas",
+                  "nombre": "Mochila De Viaje Negra",
+                  "desc": "34 lts | 42x15x30 cm | 11 Bolsillos",
+                  "precio": 27094.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "-",
+                  "img": "imgs/BAG-3.jpg"
+            },
+            {
+                  "id": "CPHE-24",
+                  "cod_prod": "676.CPHE-24",
+                  "cat": "Bolsos y Mochilas",
+                  "nombre": "CHALECO PORTA HERRAMIENTAS",
+                  "desc": "50x59,5 cm | 7 bolsillos",
+                  "precio": 58466.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "30 u",
+                  "img": "imgs/CPHE-24.jpg"
+            },
+            {
+                  "id": "MHP-19",
+                  "cod_prod": "676.MHP-19",
+                  "cat": "Bolsos y Mochilas",
+                  "nombre": "MOCHILA PARA HERRAMIENTAS",
+                  "desc": "32x16x41 cm | 5 bolsillos | 21 lts",
+                  "precio": 65596.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "6 u",
+                  "img": "imgs/MHP-19.jpg"
+            },
+            {
+                  "id": "MHP-24",
+                  "cod_prod": "676.MHP-24",
+                  "cat": "Bolsos y Mochilas",
+                  "nombre": "MOCHILA PARA HERRAMIENTAS",
+                  "desc": "31x16,5x42 cm | 6 bolsillos | 21 lts",
+                  "precio": 99820.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "10 u",
+                  "img": "imgs/MHP-24.jpg"
+            },
+            {
+                  "id": "MHP-32",
+                  "cod_prod": "676.MHP-32",
+                  "cat": "Bolsos y Mochilas",
+                  "nombre": "MOCHILA REFORZADA PARA HERRAMIENTAS",
+                  "desc": "36x18x47 cm | 23 bolsillos | 30 lts",
+                  "precio": 94116.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "6 u",
+                  "img": "imgs/MHP-32.jpg"
+            },
+            {
                   "id": "QB-60",
                   "cod_prod": "309.QB-601/2HP",
                   "cat": "Bombas",
@@ -1027,6 +1144,45 @@
                   "iva": "21%",
                   "bulto": "-",
                   "img": "imgs/OM-12.jpg"
+            },
+            {
+                  "id": "CBL-150",
+                  "cod_prod": "457.CBL-150",
+                  "cat": "Carros y Carretillas",
+                  "nombre": "CARRO PLATAFORMA PLEGABLE",
+                  "desc": "137 kg | Extensible 3 posiciones",
+                  "precio": 178250.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "10,5%",
+                  "bulto": "1 u",
+                  "img": "imgs/CBL-150.jpg"
+            },
+            {
+                  "id": "CPT-150",
+                  "cod_prod": "457.CPT-150",
+                  "cat": "Carros y Carretillas",
+                  "nombre": "CARRO CARRETILLA PLATAFORMA PLEGABLE",
+                  "desc": "68 kg (2 ruedas) | 137 kg (4 ruedas)",
+                  "precio": 152582.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "10,5%",
+                  "bulto": "1 u",
+                  "img": "imgs/CPT-150.jpg"
+            },
+            {
+                  "id": "CPT-70",
+                  "cod_prod": "457.CPT-70",
+                  "cat": "Carros y Carretillas",
+                  "nombre": "CARRO CARRETILLA PLATAFORMA PLEGABLE",
+                  "desc": "60 kg | Extensible",
+                  "precio": 77004.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "10,5%",
+                  "bulto": "1 u",
+                  "img": "imgs/CPT-70.jpg"
             },
             {
                   "id": "F-15",
@@ -2186,6 +2342,19 @@
                   "img": "imgs/HSM880.jpg"
             },
             {
+                  "id": "DCV-115",
+                  "cod_prod": "471.DCV-115",
+                  "cat": "Discos de Corte",
+                  "nombre": "DISCO DE CORTE DIAMANTADO PARA VIDRIO",
+                  "desc": "115 mm | 22,23 mm",
+                  "precio": 7130.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "100 u",
+                  "img": "imgs/DCV-115.jpg"
+            },
+            {
                   "id": "777-A",
                   "cod_prod": "174.777-A",
                   "cat": "Equipos para Pintar",
@@ -2808,6 +2977,19 @@
                   "iva": "10,5%",
                   "bulto": "1 u",
                   "img": "imgs/TM550700.jpg"
+            },
+            {
+                  "id": "STB-13",
+                  "cod_prod": "281.STB-13",
+                  "cat": "Herramientas de Taller",
+                  "nombre": "SOPORTE DE BANCO PARA TALADRO",
+                  "desc": "Capacidad 38-43 mm | Profundidad 60 mm",
+                  "precio": 44206.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "10,5%",
+                  "bulto": "8 u",
+                  "img": "imgs/STB-13.jpg"
             },
             {
                   "id": "AA-1050",
@@ -4344,32 +4526,6 @@
                   "img": "imgs/LEE-90.jpg"
             },
             {
-                  "id": "BAG-1",
-                  "cod_prod": "602.BAG-1",
-                  "cat": "Mochilas y Bolsos",
-                  "nombre": "Mochila Urbana Negra",
-                  "desc": "30 lts | 30x20x46 cm | 6 Bolsillos",
-                  "precio": 19251.0,
-                  "pvp": 0.0,
-                  "premium": 0.0,
-                  "iva": "21%",
-                  "bulto": "-",
-                  "img": "imgs/BAG-1.jpg"
-            },
-            {
-                  "id": "BAG-3",
-                  "cod_prod": "602.BAG-3",
-                  "cat": "Mochilas y Bolsos",
-                  "nombre": "Mochila De Viaje Negra",
-                  "desc": "34 lts | 42x15x30 cm | 11 Bolsillos",
-                  "precio": 27094.0,
-                  "pvp": 0.0,
-                  "premium": 0.0,
-                  "iva": "21%",
-                  "bulto": "-",
-                  "img": "imgs/BAG-3.jpg"
-            },
-            {
                   "id": "MBY-3",
                   "cod_prod": "281.MBY-3",
                   "cat": "Morsas",
@@ -4661,7 +4817,7 @@
                   "cat": "Prensas",
                   "nombre": "PRENSA TIPO \"F\"",
                   "desc": "Liberación rápida | 12\" - 300 mm",
-                  "precio": 11408.0,
+                  "precio": 10837.6,
                   "pvp": 11272.0,
                   "premium": 14653.0,
                   "iva": "21%",
@@ -4674,7 +4830,7 @@
                   "cat": "Prensas",
                   "nombre": "PRENSA TIPO \"F\"",
                   "desc": "Liberación rápida | 18\" - 450 mm",
-                  "precio": 11408.0,
+                  "precio": 11764.5,
                   "pvp": 12528.0,
                   "premium": 16287.0,
                   "iva": "21%",
@@ -4726,7 +4882,7 @@
                   "cat": "Rotomartillos",
                   "nombre": "MARTILLO DEMOLEDOR HEX",
                   "desc": "2.3 HP | 60 Joules | Maletín Metálico",
-                  "precio": 406581.12,
+                  "precio": 407836.0,
                   "pvp": 297223.0,
                   "premium": 386390.0,
                   "iva": "10,5%",
@@ -4739,7 +4895,7 @@
                   "cat": "Rotomartillos",
                   "nombre": "MARTILLO DEMOLEDOR HEX",
                   "desc": "2.8 HP | 85 J | Maletín Metálico",
-                  "precio": 862444.8,
+                  "precio": 862730.0,
                   "pvp": 689359.0,
                   "premium": 896167.0,
                   "iva": "10,5%",
@@ -4752,7 +4908,7 @@
                   "cat": "Rotomartillos",
                   "nombre": "MARTILLO DEMOLEDOR SDS-MAX",
                   "desc": "50 mm | 1,75 HP | 18 J | Maletín",
-                  "precio": 207910.8,
+                  "precio": 208196.0,
                   "pvp": 178618.0,
                   "premium": 232203.0,
                   "iva": "10,5%",
@@ -4830,7 +4986,7 @@
                   "cat": "Rotomartillos",
                   "nombre": "ROTOMARTILLO SDS-PLUS",
                   "desc": "2.5 HP | 7.0 Joules | Maletín",
-                  "precio": 206370.72,
+                  "precio": 203918.0,
                   "pvp": 187981.0,
                   "premium": 244375.0,
                   "iva": "10,5%",
@@ -5018,6 +5174,19 @@
                   "iva": "21%",
                   "bulto": "50 u",
                   "img": "imgs/CDD-57.jpg"
+            },
+            {
+                  "id": "SCD-10K",
+                  "cod_prod": "391.SCD-10K",
+                  "cat": "Sierra Copas Diamantadas",
+                  "nombre": "SET DE SIERRAS COPA DIAMANTADAS",
+                  "desc": "8 | 10 | 12 | 16 | 20 | 30 | 38 | 42 | 50 | 60 mm",
+                  "precio": 15686.0,
+                  "pvp": 0.0,
+                  "premium": 0.0,
+                  "iva": "21%",
+                  "bulto": "40 u",
+                  "img": "imgs/SCD-10K.jpg"
             },
             {
                   "id": "FR-1250",
