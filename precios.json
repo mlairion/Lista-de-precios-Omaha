@@ -1,5 +1,5 @@
 {
-      "fecha_actualizacion": "17/11/2026",
+      "fecha_actualizacion": "25/11/2026",
       "productos": [
             {
                   "id": "ME-24",
@@ -865,7 +865,7 @@
                   "cat": "Bolsos y Mochilas",
                   "nombre": "CHALECO PORTA HERRAMIENTAS",
                   "desc": "50x59,5 cm | 7 bolsillos",
-                  "precio": 58466.0,
+                  "precio": 28520.0,
                   "pvp": 0.0,
                   "premium": 0.0,
                   "iva": "21%",
@@ -878,7 +878,7 @@
                   "cat": "Bolsos y Mochilas",
                   "nombre": "MOCHILA PARA HERRAMIENTAS",
                   "desc": "32x16x41 cm | 5 bolsillos | 21 lts",
-                  "precio": 65596.0,
+                  "precio": 49910.0,
                   "pvp": 0.0,
                   "premium": 0.0,
                   "iva": "21%",
@@ -2347,7 +2347,7 @@
                   "cat": "Discos de Corte",
                   "nombre": "DISCO DE CORTE DIAMANTADO PARA VIDRIO",
                   "desc": "115 mm | 22,23 mm",
-                  "precio": 7130.0,
+                  "precio": 25668.0,
                   "pvp": 0.0,
                   "premium": 0.0,
                   "iva": "21%",
